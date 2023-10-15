@@ -1,0 +1,17 @@
+D:\C#\2023-10-02\2023-10-16_1\2023-10-16_1\bin\Debug\net6.0-windows\2023-10-16_1.exe
+D:\C#\2023-10-02\2023-10-16_1\2023-10-16_1\bin\Debug\net6.0-windows\2023-10-16_1.deps.json
+D:\C#\2023-10-02\2023-10-16_1\2023-10-16_1\bin\Debug\net6.0-windows\2023-10-16_1.runtimeconfig.json
+D:\C#\2023-10-02\2023-10-16_1\2023-10-16_1\bin\Debug\net6.0-windows\2023-10-16_1.dll
+D:\C#\2023-10-02\2023-10-16_1\2023-10-16_1\bin\Debug\net6.0-windows\2023-10-16_1.pdb
+D:\C#\2023-10-02\2023-10-16_1\2023-10-16_1\obj\Debug\net6.0-windows\2023-10-16_1.csproj.AssemblyReference.cache
+D:\C#\2023-10-02\2023-10-16_1\2023-10-16_1\obj\Debug\net6.0-windows\_2023_10_16_1.Form1.resources
+D:\C#\2023-10-02\2023-10-16_1\2023-10-16_1\obj\Debug\net6.0-windows\2023-10-16_1.csproj.GenerateResource.cache
+D:\C#\2023-10-02\2023-10-16_1\2023-10-16_1\obj\Debug\net6.0-windows\2023-10-16_1.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\2023-10-02\2023-10-16_1\2023-10-16_1\obj\Debug\net6.0-windows\2023-10-16_1.AssemblyInfoInputs.cache
+D:\C#\2023-10-02\2023-10-16_1\2023-10-16_1\obj\Debug\net6.0-windows\2023-10-16_1.AssemblyInfo.cs
+D:\C#\2023-10-02\2023-10-16_1\2023-10-16_1\obj\Debug\net6.0-windows\2023-10-16_1.csproj.CoreCompileInputs.cache
+D:\C#\2023-10-02\2023-10-16_1\2023-10-16_1\obj\Debug\net6.0-windows\2023-10-16_1.dll
+D:\C#\2023-10-02\2023-10-16_1\2023-10-16_1\obj\Debug\net6.0-windows\refint\2023-10-16_1.dll
+D:\C#\2023-10-02\2023-10-16_1\2023-10-16_1\obj\Debug\net6.0-windows\2023-10-16_1.pdb
+D:\C#\2023-10-02\2023-10-16_1\2023-10-16_1\obj\Debug\net6.0-windows\2023-10-16_1.genruntimeconfig.cache
+D:\C#\2023-10-02\2023-10-16_1\2023-10-16_1\obj\Debug\net6.0-windows\ref\2023-10-16_1.dll
