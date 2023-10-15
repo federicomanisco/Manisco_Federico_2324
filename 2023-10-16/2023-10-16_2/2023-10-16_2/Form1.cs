@@ -98,5 +98,12 @@ namespace _2023_10_16_2 {
             int vincente = vincitore(gioca(), 3);
             calcola_punteggio(vincente);
         }
+
+        private void button1_Click(object sender, EventArgs e) {
+            Umano.Image = null;
+            PC.Image = null;
+            label6.Text = "0";
+            label7.Text = "0";
+        }
     }
 }

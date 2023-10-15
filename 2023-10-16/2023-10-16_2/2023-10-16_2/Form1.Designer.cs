@@ -35,6 +35,7 @@
             label5 = new Label();
             label6 = new Label();
             label7 = new Label();
+            button1 = new Button();
             ((System.ComponentModel.ISupportInitialize)Carta).BeginInit();
             ((System.ComponentModel.ISupportInitialize)Forbici).BeginInit();
             ((System.ComponentModel.ISupportInitialize)Sasso).BeginInit();
@@ -154,11 +155,22 @@
             label7.TabIndex = 11;
             label7.Text = "0";
             // 
+            // button1
+            // 
+            button1.Location = new Point(579, 401);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 12;
+            button1.Text = "Reset";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button1);
             Controls.Add(label7);
             Controls.Add(label6);
             Controls.Add(label5);
@@ -196,5 +208,6 @@
         private Label label5;
         private Label label6;
         private Label label7;
+        private Button button1;
     }
 }
