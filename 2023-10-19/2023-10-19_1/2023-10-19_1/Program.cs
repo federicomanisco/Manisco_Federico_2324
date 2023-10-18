@@ -1,0 +1,27 @@
+﻿using _2023_10_19_1;
+
+Television televisione1 = new Television("Samsung", "Smart", true);
+televisione1.turnOn();
+Console.WriteLine(televisione1.getState());
+televisione1.turnOff();
+Console.WriteLine(televisione1.getState());
+televisione1.turnOn();
+televisione1.raiseVolume();
+Console.WriteLine(televisione1.getVolume());
+televisione1.lowerVolume();
+Console.WriteLine(televisione1.getVolume());
+televisione1.raiseVolume(12);
+Console.WriteLine(televisione1.getVolume());
+televisione1.lowerVolume(12);
+Console.WriteLine(televisione1.getVolume());
+televisione1.increaseChannel();
+Console.WriteLine(televisione1.getChannel());
+televisione1.decreaseChannel();
+Console.WriteLine(televisione1.getChannel());
+Console.WriteLine(televisione1.getInfo());
+Television televisione2 = new Television("HP", "Mauro",  false);
+Console.WriteLine(televisione2.getInfo());
+televisione2.copyInfo(televisione1);
+Console.WriteLine(televisione2.getInfo());
+Television televisione3 = new Television("Acer", "21", true, 169, 0, 100);
+Console.WriteLine(televisione3.getInfo());  
