@@ -1,0 +1,17 @@
+D:\C#\Manisco_Federico_2324\2023-10-25\2023-10-25_1___FootballManager\2023-10-25_1___FootballManager\bin\Debug\net6.0-windows\2023-10-25_1___FootballManager.exe
+D:\C#\Manisco_Federico_2324\2023-10-25\2023-10-25_1___FootballManager\2023-10-25_1___FootballManager\bin\Debug\net6.0-windows\2023-10-25_1___FootballManager.deps.json
+D:\C#\Manisco_Federico_2324\2023-10-25\2023-10-25_1___FootballManager\2023-10-25_1___FootballManager\bin\Debug\net6.0-windows\2023-10-25_1___FootballManager.runtimeconfig.json
+D:\C#\Manisco_Federico_2324\2023-10-25\2023-10-25_1___FootballManager\2023-10-25_1___FootballManager\bin\Debug\net6.0-windows\2023-10-25_1___FootballManager.dll
+D:\C#\Manisco_Federico_2324\2023-10-25\2023-10-25_1___FootballManager\2023-10-25_1___FootballManager\bin\Debug\net6.0-windows\2023-10-25_1___FootballManager.pdb
+D:\C#\Manisco_Federico_2324\2023-10-25\2023-10-25_1___FootballManager\2023-10-25_1___FootballManager\obj\Debug\net6.0-windows\2023-10-25_1___FootballManager.csproj.AssemblyReference.cache
+D:\C#\Manisco_Federico_2324\2023-10-25\2023-10-25_1___FootballManager\2023-10-25_1___FootballManager\obj\Debug\net6.0-windows\_2023_10_25_1___FootballManager.Form1.resources
+D:\C#\Manisco_Federico_2324\2023-10-25\2023-10-25_1___FootballManager\2023-10-25_1___FootballManager\obj\Debug\net6.0-windows\2023-10-25_1___FootballManager.csproj.GenerateResource.cache
+D:\C#\Manisco_Federico_2324\2023-10-25\2023-10-25_1___FootballManager\2023-10-25_1___FootballManager\obj\Debug\net6.0-windows\2023-10-25_1___FootballManager.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\Manisco_Federico_2324\2023-10-25\2023-10-25_1___FootballManager\2023-10-25_1___FootballManager\obj\Debug\net6.0-windows\2023-10-25_1___FootballManager.AssemblyInfoInputs.cache
+D:\C#\Manisco_Federico_2324\2023-10-25\2023-10-25_1___FootballManager\2023-10-25_1___FootballManager\obj\Debug\net6.0-windows\2023-10-25_1___FootballManager.AssemblyInfo.cs
+D:\C#\Manisco_Federico_2324\2023-10-25\2023-10-25_1___FootballManager\2023-10-25_1___FootballManager\obj\Debug\net6.0-windows\2023-10-25_1___FootballManager.csproj.CoreCompileInputs.cache
+D:\C#\Manisco_Federico_2324\2023-10-25\2023-10-25_1___FootballManager\2023-10-25_1___FootballManager\obj\Debug\net6.0-windows\2023-10-25_1___FootballManager.dll
+D:\C#\Manisco_Federico_2324\2023-10-25\2023-10-25_1___FootballManager\2023-10-25_1___FootballManager\obj\Debug\net6.0-windows\refint\2023-10-25_1___FootballManager.dll
+D:\C#\Manisco_Federico_2324\2023-10-25\2023-10-25_1___FootballManager\2023-10-25_1___FootballManager\obj\Debug\net6.0-windows\2023-10-25_1___FootballManager.pdb
+D:\C#\Manisco_Federico_2324\2023-10-25\2023-10-25_1___FootballManager\2023-10-25_1___FootballManager\obj\Debug\net6.0-windows\2023-10-25_1___FootballManager.genruntimeconfig.cache
+D:\C#\Manisco_Federico_2324\2023-10-25\2023-10-25_1___FootballManager\2023-10-25_1___FootballManager\obj\Debug\net6.0-windows\ref\2023-10-25_1___FootballManager.dll
