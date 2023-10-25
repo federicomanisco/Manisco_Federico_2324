@@ -52,6 +52,13 @@ namespace _2023_10_25_1___FootballManager {
             this.dataNascita = dataNascita;
         }
 
+        public int Eta {
+            get {
+                DateTime date = new DateTime(dataNascita.Year, dataNascita.Month, dataNascita.Day);
+                return (DateTime.Now - date).Days;
+            }
+        }
+
         public void allenati(int durata) {
             if (durata > 90) {
                 if (capacitaFisica > 2) {

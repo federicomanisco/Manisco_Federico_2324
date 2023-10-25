@@ -23,170 +23,205 @@
         ///  the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
-            listBox1 = new ListBox();
-            label1 = new Label();
-            allena = new Button();
-            numericUpDown1 = new NumericUpDown();
-            inserisci = new Button();
-            cancella = new Button();
-            label2 = new Label();
-            textBox1 = new TextBox();
-            label3 = new Label();
-            textBox2 = new TextBox();
-            numericUpDown2 = new NumericUpDown();
-            label4 = new Label();
-            monthCalendar1 = new MonthCalendar();
-            label5 = new Label();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown2).BeginInit();
-            SuspendLayout();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.allena = new System.Windows.Forms.Button();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.inserisci = new System.Windows.Forms.Button();
+            this.cancella = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
+            this.label4 = new System.Windows.Forms.Label();
+            this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
+            this.label5 = new System.Windows.Forms.Label();
+            this.calcolaEta = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
+            this.SuspendLayout();
             // 
             // listBox1
             // 
-            listBox1.FormattingEnabled = true;
-            listBox1.ItemHeight = 15;
-            listBox1.Location = new Point(12, 12);
-            listBox1.Name = "listBox1";
-            listBox1.Size = new Size(462, 409);
-            listBox1.TabIndex = 0;
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 20;
+            this.listBox1.Location = new System.Drawing.Point(14, 16);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(527, 544);
+            this.listBox1.TabIndex = 0;
             // 
             // label1
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(12, 426);
-            label1.Name = "label1";
-            label1.Size = new Size(38, 15);
-            label1.TabIndex = 1;
-            label1.Text = "label1";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(14, 568);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(50, 20);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "label1";
             // 
             // allena
             // 
-            allena.Location = new Point(536, 371);
-            allena.Name = "allena";
-            allena.Size = new Size(252, 50);
-            allena.TabIndex = 2;
-            allena.Text = "Allena";
-            allena.UseVisualStyleBackColor = true;
-            allena.Click += allena_Click;
+            this.allena.Location = new System.Drawing.Point(612, 521);
+            this.allena.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.allena.Name = "allena";
+            this.allena.Size = new System.Drawing.Size(288, 67);
+            this.allena.TabIndex = 2;
+            this.allena.Text = "Allena";
+            this.allena.UseVisualStyleBackColor = true;
+            this.allena.Click += new System.EventHandler(this.allena_Click_1);
             // 
             // numericUpDown1
             // 
-            numericUpDown1.Location = new Point(628, 342);
-            numericUpDown1.Name = "numericUpDown1";
-            numericUpDown1.Size = new Size(160, 23);
-            numericUpDown1.TabIndex = 3;
-            numericUpDown1.ValueChanged += numericUpDown1_ValueChanged;
+            this.numericUpDown1.Location = new System.Drawing.Point(717, 486);
+            this.numericUpDown1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.numericUpDown1.Name = "numericUpDown1";
+            this.numericUpDown1.Size = new System.Drawing.Size(183, 27);
+            this.numericUpDown1.TabIndex = 3;
             // 
             // inserisci
             // 
-            inserisci.Location = new Point(536, 12);
-            inserisci.Name = "inserisci";
-            inserisci.Size = new Size(252, 50);
-            inserisci.TabIndex = 4;
-            inserisci.Text = "Inserisci";
-            inserisci.UseVisualStyleBackColor = true;
-            inserisci.Click += inserisci_Click;
+            this.inserisci.Location = new System.Drawing.Point(613, 16);
+            this.inserisci.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.inserisci.Name = "inserisci";
+            this.inserisci.Size = new System.Drawing.Size(288, 67);
+            this.inserisci.TabIndex = 4;
+            this.inserisci.Text = "Inserisci";
+            this.inserisci.UseVisualStyleBackColor = true;
+            this.inserisci.Click += new System.EventHandler(this.inserisci_Click_1);
             // 
             // cancella
             // 
-            cancella.Location = new Point(536, 282);
-            cancella.Name = "cancella";
-            cancella.Size = new Size(252, 54);
-            cancella.TabIndex = 5;
-            cancella.Text = "Cancella";
-            cancella.UseVisualStyleBackColor = true;
-            cancella.Click += cancella_Click;
+            this.cancella.Location = new System.Drawing.Point(614, 406);
+            this.cancella.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.cancella.Name = "cancella";
+            this.cancella.Size = new System.Drawing.Size(288, 72);
+            this.cancella.TabIndex = 5;
+            this.cancella.Text = "Cancella";
+            this.cancella.UseVisualStyleBackColor = true;
+            this.cancella.Click += new System.EventHandler(this.cancella_Click_1);
             // 
             // label2
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(536, 65);
-            label2.Name = "label2";
-            label2.Size = new Size(46, 15);
-            label2.TabIndex = 6;
-            label2.Text = "Nome: ";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(613, 87);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(57, 20);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "Nome: ";
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(588, 65);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(60, 23);
-            textBox1.TabIndex = 7;
+            this.textBox1.Location = new System.Drawing.Point(672, 87);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(68, 27);
+            this.textBox1.TabIndex = 7;
             // 
             // label3
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(654, 68);
-            label3.Name = "label3";
-            label3.Size = new Size(63, 15);
-            label3.TabIndex = 8;
-            label3.Text = "Cognome:";
-            label3.Click += label3_Click;
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(747, 91);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(77, 20);
+            this.label3.TabIndex = 8;
+            this.label3.Text = "Cognome:";
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(723, 65);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(65, 23);
-            textBox2.TabIndex = 9;
+            this.textBox2.Location = new System.Drawing.Point(826, 87);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(74, 27);
+            this.textBox2.TabIndex = 9;
             // 
             // numericUpDown2
             // 
-            numericUpDown2.Location = new Point(588, 94);
-            numericUpDown2.Name = "numericUpDown2";
-            numericUpDown2.Size = new Size(60, 23);
-            numericUpDown2.TabIndex = 10;
+            this.numericUpDown2.Location = new System.Drawing.Point(672, 125);
+            this.numericUpDown2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.numericUpDown2.Name = "numericUpDown2";
+            this.numericUpDown2.Size = new System.Drawing.Size(69, 27);
+            this.numericUpDown2.TabIndex = 10;
             // 
             // label4
             // 
-            label4.AutoSize = true;
-            label4.Location = new Point(536, 96);
-            label4.Name = "label4";
-            label4.Size = new Size(46, 15);
-            label4.TabIndex = 11;
-            label4.Text = "Maglia:";
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(613, 128);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(58, 20);
+            this.label4.TabIndex = 11;
+            this.label4.Text = "Maglia:";
             // 
             // monthCalendar1
             // 
-            monthCalendar1.Location = new Point(545, 120);
-            monthCalendar1.Name = "monthCalendar1";
-            monthCalendar1.TabIndex = 12;
+            this.monthCalendar1.Location = new System.Drawing.Point(623, 160);
+            this.monthCalendar1.Margin = new System.Windows.Forms.Padding(10, 12, 10, 12);
+            this.monthCalendar1.Name = "monthCalendar1";
+            this.monthCalendar1.TabIndex = 12;
             // 
             // label5
             // 
-            label5.AutoSize = true;
-            label5.Location = new Point(654, 96);
-            label5.Name = "label5";
-            label5.Size = new Size(87, 15);
-            label5.TabIndex = 13;
-            label5.Text = "Data di nascita:";
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(747, 128);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(111, 20);
+            this.label5.TabIndex = 13;
+            this.label5.Text = "Data di nascita:";
+            // 
+            // calcolaEta
+            // 
+            this.calcolaEta.Location = new System.Drawing.Point(614, 371);
+            this.calcolaEta.Name = "calcolaEta";
+            this.calcolaEta.Size = new System.Drawing.Size(210, 29);
+            this.calcolaEta.TabIndex = 14;
+            this.calcolaEta.Text = "Mostra minori di:";
+            this.calcolaEta.UseVisualStyleBackColor = true;
+            this.calcolaEta.Click += new System.EventHandler(this.calcolaEta_Click);
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Tutti",
+            "16",
+            "19",
+            "21"});
+            this.comboBox1.Location = new System.Drawing.Point(831, 371);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(69, 28);
+            this.comboBox1.TabIndex = 15;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(label5);
-            Controls.Add(monthCalendar1);
-            Controls.Add(label4);
-            Controls.Add(numericUpDown2);
-            Controls.Add(textBox2);
-            Controls.Add(label3);
-            Controls.Add(textBox1);
-            Controls.Add(label2);
-            Controls.Add(cancella);
-            Controls.Add(inserisci);
-            Controls.Add(numericUpDown1);
-            Controls.Add(allena);
-            Controls.Add(label1);
-            Controls.Add(listBox1);
-            Name = "Form1";
-            Text = "Form1";
-            Load += Form1_Load;
-            ((System.ComponentModel.ISupportInitialize)numericUpDown1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown2).EndInit();
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(914, 600);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.calcolaEta);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.monthCalendar1);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.numericUpDown2);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.cancella);
+            this.Controls.Add(this.inserisci);
+            this.Controls.Add(this.numericUpDown1);
+            this.Controls.Add(this.allena);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.listBox1);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Name = "Form1";
+            this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
@@ -205,5 +240,7 @@
         private Label label4;
         private MonthCalendar monthCalendar1;
         private Label label5;
+        private Button calcolaEta;
+        private ComboBox comboBox1;
     }
 }
