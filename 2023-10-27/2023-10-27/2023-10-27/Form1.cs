@@ -51,7 +51,8 @@ namespace _2023_10_27 {
             else {
                 try {
                     libri[listBox1.SelectedIndex].Genere = textBox3.Text;
-                } catch (Exception ex) {
+                }
+                catch (Exception ex) {
                     MessageBox.Show(ex.Message);
                 }
                 bool raccolta = false;

@@ -141,7 +141,7 @@
             listBox1.ItemHeight = 15;
             listBox1.Location = new Point(281, 37);
             listBox1.Name = "listBox1";
-            listBox1.Size = new Size(519, 409);
+            listBox1.Size = new Size(651, 559);
             listBox1.TabIndex = 11;
             // 
             // modifica
@@ -168,7 +168,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(935, 595);
             Controls.Add(cancella);
             Controls.Add(modifica);
             Controls.Add(listBox1);

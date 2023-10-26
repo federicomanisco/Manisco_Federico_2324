@@ -99,7 +99,7 @@ namespace _2023_10_27 {
         }
 
         public override string ToString() {
-            return $"Titolo: {Titolo}, Autore: {Autore}, Numero Pagine: {NumeroPagine}, Genere: {Genere}, {(Raccolta? "Parte di una raccolta" : "Non parte di una raccolta")}";
+            return $"Titolo: {Titolo}, Autore: {Autore}, Numero Pagine: {NumeroPagine}, Genere: {Genere}, {(Raccolta? "Parte di una raccolta" : "Non parte di una raccolta")}, Prezzo: {calcolaCosto(NumeroPagine)}€.";
         }
     }
 }
