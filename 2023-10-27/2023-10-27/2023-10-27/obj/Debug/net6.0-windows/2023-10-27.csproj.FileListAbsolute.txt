@@ -1,0 +1,17 @@
+D:\C#\Manisco_Federico_2324\2023-10-27\2023-10-27\2023-10-27\bin\Debug\net6.0-windows\2023-10-27.exe
+D:\C#\Manisco_Federico_2324\2023-10-27\2023-10-27\2023-10-27\bin\Debug\net6.0-windows\2023-10-27.deps.json
+D:\C#\Manisco_Federico_2324\2023-10-27\2023-10-27\2023-10-27\bin\Debug\net6.0-windows\2023-10-27.runtimeconfig.json
+D:\C#\Manisco_Federico_2324\2023-10-27\2023-10-27\2023-10-27\bin\Debug\net6.0-windows\2023-10-27.dll
+D:\C#\Manisco_Federico_2324\2023-10-27\2023-10-27\2023-10-27\bin\Debug\net6.0-windows\2023-10-27.pdb
+D:\C#\Manisco_Federico_2324\2023-10-27\2023-10-27\2023-10-27\obj\Debug\net6.0-windows\2023-10-27.csproj.AssemblyReference.cache
+D:\C#\Manisco_Federico_2324\2023-10-27\2023-10-27\2023-10-27\obj\Debug\net6.0-windows\_2023_10_27.Form1.resources
+D:\C#\Manisco_Federico_2324\2023-10-27\2023-10-27\2023-10-27\obj\Debug\net6.0-windows\2023-10-27.csproj.GenerateResource.cache
+D:\C#\Manisco_Federico_2324\2023-10-27\2023-10-27\2023-10-27\obj\Debug\net6.0-windows\2023-10-27.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\Manisco_Federico_2324\2023-10-27\2023-10-27\2023-10-27\obj\Debug\net6.0-windows\2023-10-27.AssemblyInfoInputs.cache
+D:\C#\Manisco_Federico_2324\2023-10-27\2023-10-27\2023-10-27\obj\Debug\net6.0-windows\2023-10-27.AssemblyInfo.cs
+D:\C#\Manisco_Federico_2324\2023-10-27\2023-10-27\2023-10-27\obj\Debug\net6.0-windows\2023-10-27.csproj.CoreCompileInputs.cache
+D:\C#\Manisco_Federico_2324\2023-10-27\2023-10-27\2023-10-27\obj\Debug\net6.0-windows\2023-10-27.dll
+D:\C#\Manisco_Federico_2324\2023-10-27\2023-10-27\2023-10-27\obj\Debug\net6.0-windows\refint\2023-10-27.dll
+D:\C#\Manisco_Federico_2324\2023-10-27\2023-10-27\2023-10-27\obj\Debug\net6.0-windows\2023-10-27.pdb
+D:\C#\Manisco_Federico_2324\2023-10-27\2023-10-27\2023-10-27\obj\Debug\net6.0-windows\2023-10-27.genruntimeconfig.cache
+D:\C#\Manisco_Federico_2324\2023-10-27\2023-10-27\2023-10-27\obj\Debug\net6.0-windows\ref\2023-10-27.dll
