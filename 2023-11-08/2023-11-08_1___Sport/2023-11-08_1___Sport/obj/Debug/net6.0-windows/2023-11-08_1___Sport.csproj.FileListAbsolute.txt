@@ -1,0 +1,17 @@
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico\Manisco_Federico_2324\2023-11-08\2023-11-08_1___Sport\2023-11-08_1___Sport\bin\Debug\net6.0-windows\2023-11-08_1___Sport.exe
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico\Manisco_Federico_2324\2023-11-08\2023-11-08_1___Sport\2023-11-08_1___Sport\bin\Debug\net6.0-windows\2023-11-08_1___Sport.deps.json
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico\Manisco_Federico_2324\2023-11-08\2023-11-08_1___Sport\2023-11-08_1___Sport\bin\Debug\net6.0-windows\2023-11-08_1___Sport.runtimeconfig.json
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico\Manisco_Federico_2324\2023-11-08\2023-11-08_1___Sport\2023-11-08_1___Sport\bin\Debug\net6.0-windows\2023-11-08_1___Sport.dll
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico\Manisco_Federico_2324\2023-11-08\2023-11-08_1___Sport\2023-11-08_1___Sport\bin\Debug\net6.0-windows\2023-11-08_1___Sport.pdb
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico\Manisco_Federico_2324\2023-11-08\2023-11-08_1___Sport\2023-11-08_1___Sport\obj\Debug\net6.0-windows\2023-11-08_1___Sport.csproj.AssemblyReference.cache
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico\Manisco_Federico_2324\2023-11-08\2023-11-08_1___Sport\2023-11-08_1___Sport\obj\Debug\net6.0-windows\_2023_11_08_1___Sport.Form1.resources
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico\Manisco_Federico_2324\2023-11-08\2023-11-08_1___Sport\2023-11-08_1___Sport\obj\Debug\net6.0-windows\2023-11-08_1___Sport.csproj.GenerateResource.cache
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico\Manisco_Federico_2324\2023-11-08\2023-11-08_1___Sport\2023-11-08_1___Sport\obj\Debug\net6.0-windows\2023-11-08_1___Sport.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico\Manisco_Federico_2324\2023-11-08\2023-11-08_1___Sport\2023-11-08_1___Sport\obj\Debug\net6.0-windows\2023-11-08_1___Sport.AssemblyInfoInputs.cache
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico\Manisco_Federico_2324\2023-11-08\2023-11-08_1___Sport\2023-11-08_1___Sport\obj\Debug\net6.0-windows\2023-11-08_1___Sport.AssemblyInfo.cs
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico\Manisco_Federico_2324\2023-11-08\2023-11-08_1___Sport\2023-11-08_1___Sport\obj\Debug\net6.0-windows\2023-11-08_1___Sport.csproj.CoreCompileInputs.cache
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico\Manisco_Federico_2324\2023-11-08\2023-11-08_1___Sport\2023-11-08_1___Sport\obj\Debug\net6.0-windows\2023-11-08_1___Sport.dll
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico\Manisco_Federico_2324\2023-11-08\2023-11-08_1___Sport\2023-11-08_1___Sport\obj\Debug\net6.0-windows\refint\2023-11-08_1___Sport.dll
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico\Manisco_Federico_2324\2023-11-08\2023-11-08_1___Sport\2023-11-08_1___Sport\obj\Debug\net6.0-windows\2023-11-08_1___Sport.pdb
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico\Manisco_Federico_2324\2023-11-08\2023-11-08_1___Sport\2023-11-08_1___Sport\obj\Debug\net6.0-windows\2023-11-08_1___Sport.genruntimeconfig.cache
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico\Manisco_Federico_2324\2023-11-08\2023-11-08_1___Sport\2023-11-08_1___Sport\obj\Debug\net6.0-windows\ref\2023-11-08_1___Sport.dll
