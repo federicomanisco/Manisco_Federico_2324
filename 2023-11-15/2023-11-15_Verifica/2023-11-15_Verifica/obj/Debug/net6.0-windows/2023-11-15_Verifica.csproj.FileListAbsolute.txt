@@ -1,0 +1,17 @@
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico\Verifica_2023-11_15\2023-11-15_Verifica\2023-11-15_Verifica\bin\Debug\net6.0-windows\2023-11-15_Verifica.exe
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico\Verifica_2023-11_15\2023-11-15_Verifica\2023-11-15_Verifica\bin\Debug\net6.0-windows\2023-11-15_Verifica.deps.json
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico\Verifica_2023-11_15\2023-11-15_Verifica\2023-11-15_Verifica\bin\Debug\net6.0-windows\2023-11-15_Verifica.runtimeconfig.json
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico\Verifica_2023-11_15\2023-11-15_Verifica\2023-11-15_Verifica\bin\Debug\net6.0-windows\2023-11-15_Verifica.dll
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico\Verifica_2023-11_15\2023-11-15_Verifica\2023-11-15_Verifica\bin\Debug\net6.0-windows\2023-11-15_Verifica.pdb
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico\Verifica_2023-11_15\2023-11-15_Verifica\2023-11-15_Verifica\obj\Debug\net6.0-windows\2023-11-15_Verifica.csproj.AssemblyReference.cache
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico\Verifica_2023-11_15\2023-11-15_Verifica\2023-11-15_Verifica\obj\Debug\net6.0-windows\_2023_11_15_Verifica.Form1.resources
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico\Verifica_2023-11_15\2023-11-15_Verifica\2023-11-15_Verifica\obj\Debug\net6.0-windows\2023-11-15_Verifica.csproj.GenerateResource.cache
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico\Verifica_2023-11_15\2023-11-15_Verifica\2023-11-15_Verifica\obj\Debug\net6.0-windows\2023-11-15_Verifica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico\Verifica_2023-11_15\2023-11-15_Verifica\2023-11-15_Verifica\obj\Debug\net6.0-windows\2023-11-15_Verifica.AssemblyInfoInputs.cache
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico\Verifica_2023-11_15\2023-11-15_Verifica\2023-11-15_Verifica\obj\Debug\net6.0-windows\2023-11-15_Verifica.AssemblyInfo.cs
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico\Verifica_2023-11_15\2023-11-15_Verifica\2023-11-15_Verifica\obj\Debug\net6.0-windows\2023-11-15_Verifica.csproj.CoreCompileInputs.cache
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico\Verifica_2023-11_15\2023-11-15_Verifica\2023-11-15_Verifica\obj\Debug\net6.0-windows\2023-11-15_Verifica.dll
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico\Verifica_2023-11_15\2023-11-15_Verifica\2023-11-15_Verifica\obj\Debug\net6.0-windows\refint\2023-11-15_Verifica.dll
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico\Verifica_2023-11_15\2023-11-15_Verifica\2023-11-15_Verifica\obj\Debug\net6.0-windows\2023-11-15_Verifica.pdb
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico\Verifica_2023-11_15\2023-11-15_Verifica\2023-11-15_Verifica\obj\Debug\net6.0-windows\2023-11-15_Verifica.genruntimeconfig.cache
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico\Verifica_2023-11_15\2023-11-15_Verifica\2023-11-15_Verifica\obj\Debug\net6.0-windows\ref\2023-11-15_Verifica.dll
