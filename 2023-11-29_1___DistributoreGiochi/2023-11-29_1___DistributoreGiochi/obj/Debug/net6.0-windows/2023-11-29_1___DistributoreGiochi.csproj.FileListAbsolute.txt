@@ -1,0 +1,17 @@
+D:\2023-11-29_1___DistributoreGiochi\2023-11-29_1___DistributoreGiochi\bin\Debug\net6.0-windows\2023-11-29_1___DistributoreGiochi.exe
+D:\2023-11-29_1___DistributoreGiochi\2023-11-29_1___DistributoreGiochi\bin\Debug\net6.0-windows\2023-11-29_1___DistributoreGiochi.deps.json
+D:\2023-11-29_1___DistributoreGiochi\2023-11-29_1___DistributoreGiochi\bin\Debug\net6.0-windows\2023-11-29_1___DistributoreGiochi.runtimeconfig.json
+D:\2023-11-29_1___DistributoreGiochi\2023-11-29_1___DistributoreGiochi\bin\Debug\net6.0-windows\2023-11-29_1___DistributoreGiochi.dll
+D:\2023-11-29_1___DistributoreGiochi\2023-11-29_1___DistributoreGiochi\bin\Debug\net6.0-windows\2023-11-29_1___DistributoreGiochi.pdb
+D:\2023-11-29_1___DistributoreGiochi\2023-11-29_1___DistributoreGiochi\obj\Debug\net6.0-windows\2023-11-29_1___DistributoreGiochi.csproj.AssemblyReference.cache
+D:\2023-11-29_1___DistributoreGiochi\2023-11-29_1___DistributoreGiochi\obj\Debug\net6.0-windows\_2023_11_29_1___DistributoreGiochi.Form1.resources
+D:\2023-11-29_1___DistributoreGiochi\2023-11-29_1___DistributoreGiochi\obj\Debug\net6.0-windows\2023-11-29_1___DistributoreGiochi.csproj.GenerateResource.cache
+D:\2023-11-29_1___DistributoreGiochi\2023-11-29_1___DistributoreGiochi\obj\Debug\net6.0-windows\2023-11-29_1___DistributoreGiochi.GeneratedMSBuildEditorConfig.editorconfig
+D:\2023-11-29_1___DistributoreGiochi\2023-11-29_1___DistributoreGiochi\obj\Debug\net6.0-windows\2023-11-29_1___DistributoreGiochi.AssemblyInfoInputs.cache
+D:\2023-11-29_1___DistributoreGiochi\2023-11-29_1___DistributoreGiochi\obj\Debug\net6.0-windows\2023-11-29_1___DistributoreGiochi.AssemblyInfo.cs
+D:\2023-11-29_1___DistributoreGiochi\2023-11-29_1___DistributoreGiochi\obj\Debug\net6.0-windows\2023-11-29_1___DistributoreGiochi.csproj.CoreCompileInputs.cache
+D:\2023-11-29_1___DistributoreGiochi\2023-11-29_1___DistributoreGiochi\obj\Debug\net6.0-windows\2023-11-29_1___DistributoreGiochi.dll
+D:\2023-11-29_1___DistributoreGiochi\2023-11-29_1___DistributoreGiochi\obj\Debug\net6.0-windows\refint\2023-11-29_1___DistributoreGiochi.dll
+D:\2023-11-29_1___DistributoreGiochi\2023-11-29_1___DistributoreGiochi\obj\Debug\net6.0-windows\2023-11-29_1___DistributoreGiochi.pdb
+D:\2023-11-29_1___DistributoreGiochi\2023-11-29_1___DistributoreGiochi\obj\Debug\net6.0-windows\2023-11-29_1___DistributoreGiochi.genruntimeconfig.cache
+D:\2023-11-29_1___DistributoreGiochi\2023-11-29_1___DistributoreGiochi\obj\Debug\net6.0-windows\ref\2023-11-29_1___DistributoreGiochi.dll
