@@ -1,42 +1,33 @@
 using System.DirectoryServices.ActiveDirectory;
 using System.Globalization;
+using System.Security.Cryptography.Xml;
 using System.Text;
 
 namespace _2023_12_13_1___Cinema {
     public partial class Form1 : Form {
 
         Bitmap image;
-        List<(string, ((int, int), (int, int)))> coordPoltrone;
+        List<Cliente> clienti;
+
+        int xfinal = 0, yfinal = 0, selezionati = 0;
+        void selezionamomentaneo(int x, int y) {
+            Graphics g = Graphics.FromImage(image);
+            g.FillRectangle(Brushes.Yellow, x + 1, y + 1, 29, 29);
+            pictureBox1.Image = image;
+            selezionati++;
+        }
+
+        void deseleziona(int x, int y) {
+            if (selezionati != 0) {
+                Graphics g = Graphics.FromImage(image);
+                g.FillRectangle(Brushes.Green, x + 1, y + 1, 29, 29);
+                pictureBox1.Image = image;
+            } 
+        }
 
         public Form1() {
             InitializeComponent();
-            coordPoltrone = new List<(string, ((int, int), (int, int)))>();
-        }
-
-        public string Poltrona(Point mp) {
-            string colonna = "", fila = "";
-
-            if (mp.X > 60 && mp.X < 90) colonna = "1";
-            if (mp.X > 110 && mp.X < 140) colonna = "2";
-            if (mp.X > 190 && mp.X < 220) colonna = "3";
-            if (mp.X > 270 && mp.X < 300) colonna = "4";
-            if (mp.X > 350 && mp.X < 380) colonna = "5";
-            if (mp.X > 430 && mp.X < 460) colonna = "6";
-            if (mp.X > 510 && mp.X < 540) colonna = "7";
-            if (mp.X > 60 && mp.X < 90) colonna = "8";
-            if (mp.X > 60 && mp.X < 90) colonna = "9";
-            if (mp.X > 60 && mp.X < 90) colonna = "10";
-
-            if (mp.Y > 80 && mp.Y < 110) fila = "A";
-            if (mp.Y > 80 && mp.Y < 110) fila = "A";
-            if (mp.Y > 80 && mp.Y < 110) fila = "A";
-            if (mp.Y > 80 && mp.Y < 110) fila = "A";
-            if (mp.Y > 80 && mp.Y < 110) fila = "A";
-            if (mp.Y > 80 && mp.Y < 110) fila = "A";
-            if (mp.Y > 80 && mp.Y < 110) fila = "A";
-            if (mp.Y > 80 && mp.Y < 110) fila = "A";
-
-            return fila + colonna;
+            clienti = new List<Cliente>();
         }
 
         private void Form1_Load(object sender, EventArgs e) {
@@ -76,12 +67,39 @@ namespace _2023_12_13_1___Cinema {
         }
 
         private void pictureBox1_Click(object sender, EventArgs e) {
-            int mousex, mousey;
+            deseleziona(xfinal, yfinal);
+            int mousex, mousey, i = 0, xfinale = 0, yfinale = 0;
 
             MouseEventArgs mouse = (MouseEventArgs)e;
             label1.Text = mouse.Location.ToString();
+            string fila = "", colonna = "";
+            char lettera = 'A';
             mousex = mouse.Location.X;
             mousey = mouse.Location.Y;
+
+            for (int r = 0; r < 10; r++) {
+                i++;
+                int x = 60 + (r * 50);
+                if (mousex > x && mousex < x + 30) {
+                    colonna = i.ToString();
+                    xfinale = x;
+                    xfinal = x;
+                    for (int c = 0; c < 8; c++) {
+                        int y = 80 + (c * 50);
+                        if (mousey > y && mousey < y + 30) {
+                            fila = lettera.ToString();
+                            yfinale = y;
+                            yfinal = y;
+                        }
+                        lettera++;
+                    }
+                }
+            }
+            if (fila == "" || colonna == "") label1.Text = "Seleziona una poltrona";
+            else {
+                label1.Text = fila + colonna;
+                selezionamomentaneo(xfinale, yfinale);
+            }   
         }
     }
 }
