@@ -9,7 +9,7 @@ namespace _2023_12_13_1___Cinema {
     public class Cliente {
 
         private string nome, cognome;
-        private Poltrona poltrona;
+        private List<string> poltronePrenotate;
         private static List<string> poltroneOccupate = new List<string>();
 
         public string Nome {
@@ -28,19 +28,18 @@ namespace _2023_12_13_1___Cinema {
             }
         }
 
-        public Poltrona Poltrona {
-            get { return poltrona; }
-            set {
-                if (poltroneOccupate.Contains(value.Posizione)) throw new ArgumentException("La poltrona è occupata.");
-                poltrona = value; 
+        public void prenotaPoltrone(List<string> poltrone) {
+            foreach (string poltrona in poltrone) {
+                if (poltronePrenotate.Contains(poltrona) || poltroneOccupate.Contains(poltrona)) {
+                    throw new Exception("Poltrona già prenotata");
+                }
+                poltronePrenotate.Add(poltrona);
             }
         }
 
-        public Cliente(string nome, string cognome, Poltrona poltrona) {
+        public Cliente(string nome, string cognome) {
             Nome = nome;
             Cognome = cognome;
-            Poltrona = poltrona;
-            poltroneOccupate.Add(poltrona.Posizione);
         }
     }
 }
