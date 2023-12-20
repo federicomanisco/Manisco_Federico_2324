@@ -9,8 +9,8 @@ namespace _2023_12_13_1___Cinema {
     public class Cliente {
 
         private string nome, cognome;
-        private List<string> poltronePrenotate;
-        private static List<string> poltroneOccupate = new List<string>();
+        private List<string> poltronePrenotate = new List<string>();
+        public static List<string> poltroneOccupate = new List<string>();
 
         public string Nome {
             get { return nome; }
@@ -29,17 +29,28 @@ namespace _2023_12_13_1___Cinema {
         }
 
         public void prenotaPoltrone(List<string> poltrone) {
-            foreach (string poltrona in poltrone) {
-                if (poltronePrenotate.Contains(poltrona) || poltroneOccupate.Contains(poltrona)) {
-                    throw new Exception("Poltrona già prenotata");
+            if (poltrone.Count != 0) {
+                foreach (string poltrona in poltrone) {
+                    if (poltronePrenotate.Contains(poltrona) || poltroneOccupate.Contains(poltrona)) {
+                        throw new Exception("Poltrona già prenotata");
+                    }
+                    poltronePrenotate.Add(poltrona);
                 }
-                poltronePrenotate.Add(poltrona);
             }
         }
 
-        public Cliente(string nome, string cognome) {
+        public Cliente(string nome, string cognome, List<string> poltronePrenotate) {
             Nome = nome;
             Cognome = cognome;
+            prenotaPoltrone(poltronePrenotate);
+        }
+
+        public override string ToString() {
+            string stringa = $"{nome} {cognome}";
+            foreach (string poltrona in poltronePrenotate) {
+                stringa += $" {poltrona}";
+            }
+            return stringa;
         }
     }
 }

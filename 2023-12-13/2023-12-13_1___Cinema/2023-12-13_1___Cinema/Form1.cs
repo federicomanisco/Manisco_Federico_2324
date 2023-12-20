@@ -1,8 +1,10 @@
 using Microsoft.VisualBasic.Devices;
 using System.DirectoryServices.ActiveDirectory;
 using System.Globalization;
+using System.Net.Security;
 using System.Reflection;
 using System.Runtime.CompilerServices;
+using System.Security.Cryptography;
 using System.Security.Cryptography.Xml;
 using System.Text;
 
@@ -11,21 +13,25 @@ namespace _2023_12_13_1___Cinema {
 
         Bitmap image;
         List<Cliente> clienti;
-        List<string> poltronePrenotate = new List<string>();
-        (int, int, string) coordinatePoltrona;
+        List<(int, int, string)> poltroneSelezionate;
 
-        int xfinal = 0, yfinal = 0, selezionati = 0;
+        int xfinal = 0, yfinal = 0;
         void selezionamomentaneo(int x, int y) {
             Graphics g = Graphics.FromImage(image);
             g.FillRectangle(Brushes.Yellow, x + 1, y + 1, 29, 29);
             pictureBox1.Image = image;
-            selezionati++;
+            
         }
 
-        void deseleziona(int x, int y, string posizione) {
-            if (selezionati != 0 && !poltronePrenotate.Contains(posizione)) {
-                Graphics g = Graphics.FromImage(image);
-                g.FillRectangle(Brushes.Green, x + 1, y + 1, 29, 29);
+        void deseleziona(List<(int, int, string)> poltrone) {
+            if (poltrone.Count != 0) {
+                foreach ((int, int, string) poltrona in poltrone) {
+                    if (!Cliente.poltroneOccupate.Contains(poltrona.Item3)) {
+                        (int, int) coordPoltrona = trovaPoltrona(poltrona.Item3);
+                        Graphics g = Graphics.FromImage(image);
+                        g.FillRectangle(Brushes.Green, coordPoltrona.Item1 + 1, coordPoltrona.Item2 + 1, 29, 29);
+                    }
+                }
                 pictureBox1.Image = image;
             }
         }
@@ -41,7 +47,7 @@ namespace _2023_12_13_1___Cinema {
                     colonna = i.ToString();
                     xfinale = x;
                     xfinal = x;
-                    for (int c = 0; c < 8; c++) {
+                    for (int c = 0; c < 11; c++) {
                         int y = 80 + (c * 50);
                         if (yCoord > y && yCoord < y + 30) {
                             fila = lettera.ToString();
@@ -55,18 +61,34 @@ namespace _2023_12_13_1___Cinema {
             return (xfinale, yfinale, fila + colonna);
         }
 
+        (int, int) trovaPoltrona(string posizione) {
+            char fila = posizione[0];
+            string colonna = posizione.Substring(1);
+            int nFila = fila - 'A', nColonna, xPoltrona, yPoltrona, i = 0, x = 0, y = 0;
+            int.TryParse(colonna.ToString(), out nColonna);
+            x = 60 + ((nColonna - 1) * 50);
+            y = 80 + (nFila * 50);
+            return (x, y);
+        }
+
         void prenota(int x, int y) {
             Graphics g = Graphics.FromImage(image);
             g.FillRectangle(Brushes.Red, x + 1, y + 1, 29, 29);
             pictureBox1.Image = image;
             (int, int, string) poltrona = trovaPoltrona(x, y);
-            poltronePrenotate.Add(poltrona.Item3);
+        }
+
+        void aggiornaElenco() {
+            listBox1.Items.Clear();
+            foreach (Cliente cliente in clienti) {
+                listBox1.Items.Add(cliente);
+            }
         }
 
         public Form1() {
             InitializeComponent();
             clienti = new List<Cliente>();
-            
+            poltroneSelezionate = new List<(int, int, string)>();
         }
 
         private void Form1_Load(object sender, EventArgs e) {
@@ -101,22 +123,8 @@ namespace _2023_12_13_1___Cinema {
             }
         }
 
-        private void button1_Click(object sender, EventArgs e) {
-            Cliente cliente = null;
-
-            try {
-                cliente = new Cliente(textBox1.Text, textBox2.Text);
-                clienti.Add(cliente);
-                prenota(coordinatePoltrona.Item1, coordinatePoltrona.Item2);
-            } catch (Exception ex) {
-                MessageBox.Show(ex.Message);
-            }
-
-
-        }
-
         private void pictureBox1_Click(object sender, EventArgs e) {
-            deseleziona(coordinatePoltrona.Item1, coordinatePoltrona.Item2, coordinatePoltrona.Item3);
+            
             int mousex, mousey, xfinale, yfinale;
 
             MouseEventArgs mouse = (MouseEventArgs)e;
@@ -124,17 +132,47 @@ namespace _2023_12_13_1___Cinema {
             mousey = mouse.Location.Y;
 
             (int, int, string) risultato = trovaPoltrona(mousex, mousey);
-            coordinatePoltrona = (xfinal, yfinal, risultato.Item3);
             xfinale = risultato.Item1;
             yfinale = risultato.Item2;
             string poltrona = risultato.Item3;
+            
 
 
-            if (poltrona.Length != 2) label1.Text = "Seleziona una poltrona";
-            else {
+            if (poltrona.Length != 2 && poltrona.Length != 3) {
+                label1.Text = "Seleziona una poltrona";
+                deseleziona(poltroneSelezionate);
+                poltroneSelezionate.Clear();
+            } else {
                 label1.Text = poltrona;
                 selezionamomentaneo(xfinale, yfinale);
+                poltroneSelezionate.Add(risultato);
             }
+        }
+
+        private void Prenota_Click(object sender, EventArgs e) {
+            Cliente cliente;
+            List<string> poltroneCliente = new List<string>();
+            foreach ((int, int, string) poltrona in poltroneSelezionate) {
+                poltroneCliente.Add(poltrona.Item3);
+            }
+            
+            try {
+                cliente = new Cliente(textBox1.Text, textBox2.Text, poltroneCliente);
+                clienti.Add(cliente);
+            } catch (Exception ex) {
+                MessageBox.Show(ex.Message);
+            }
+            aggiornaElenco();
+            foreach (string poltrona in poltroneCliente) {
+                Cliente.poltroneOccupate.Add(poltrona);
+            }
+
+            foreach (string posizione in Cliente.poltroneOccupate) {
+                (int, int) coordinatePoltrona = trovaPoltrona(posizione);
+                prenota(coordinatePoltrona.Item1, coordinatePoltrona.Item2);
+            }
+
+            poltroneSelezionate.Clear();
         }
     }
 }
