@@ -1,0 +1,17 @@
+C:\Users\FEDERICOMANISCO\source\repos\2024-01-24_1___Ereditarieta\2024-01-24_1___Ereditarieta\bin\Debug\net6.0-windows\2024-01-24_1___Ereditarieta.exe
+C:\Users\FEDERICOMANISCO\source\repos\2024-01-24_1___Ereditarieta\2024-01-24_1___Ereditarieta\bin\Debug\net6.0-windows\2024-01-24_1___Ereditarieta.deps.json
+C:\Users\FEDERICOMANISCO\source\repos\2024-01-24_1___Ereditarieta\2024-01-24_1___Ereditarieta\bin\Debug\net6.0-windows\2024-01-24_1___Ereditarieta.runtimeconfig.json
+C:\Users\FEDERICOMANISCO\source\repos\2024-01-24_1___Ereditarieta\2024-01-24_1___Ereditarieta\bin\Debug\net6.0-windows\2024-01-24_1___Ereditarieta.dll
+C:\Users\FEDERICOMANISCO\source\repos\2024-01-24_1___Ereditarieta\2024-01-24_1___Ereditarieta\bin\Debug\net6.0-windows\2024-01-24_1___Ereditarieta.pdb
+C:\Users\FEDERICOMANISCO\source\repos\2024-01-24_1___Ereditarieta\2024-01-24_1___Ereditarieta\obj\Debug\net6.0-windows\2024-01-24_1___Ereditarieta.csproj.AssemblyReference.cache
+C:\Users\FEDERICOMANISCO\source\repos\2024-01-24_1___Ereditarieta\2024-01-24_1___Ereditarieta\obj\Debug\net6.0-windows\_2024_01_24_1___Ereditarieta.Form1.resources
+C:\Users\FEDERICOMANISCO\source\repos\2024-01-24_1___Ereditarieta\2024-01-24_1___Ereditarieta\obj\Debug\net6.0-windows\2024-01-24_1___Ereditarieta.csproj.GenerateResource.cache
+C:\Users\FEDERICOMANISCO\source\repos\2024-01-24_1___Ereditarieta\2024-01-24_1___Ereditarieta\obj\Debug\net6.0-windows\2024-01-24_1___Ereditarieta.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FEDERICOMANISCO\source\repos\2024-01-24_1___Ereditarieta\2024-01-24_1___Ereditarieta\obj\Debug\net6.0-windows\2024-01-24_1___Ereditarieta.AssemblyInfoInputs.cache
+C:\Users\FEDERICOMANISCO\source\repos\2024-01-24_1___Ereditarieta\2024-01-24_1___Ereditarieta\obj\Debug\net6.0-windows\2024-01-24_1___Ereditarieta.AssemblyInfo.cs
+C:\Users\FEDERICOMANISCO\source\repos\2024-01-24_1___Ereditarieta\2024-01-24_1___Ereditarieta\obj\Debug\net6.0-windows\2024-01-24_1___Ereditarieta.csproj.CoreCompileInputs.cache
+C:\Users\FEDERICOMANISCO\source\repos\2024-01-24_1___Ereditarieta\2024-01-24_1___Ereditarieta\obj\Debug\net6.0-windows\2024-01-24_1___Ereditarieta.dll
+C:\Users\FEDERICOMANISCO\source\repos\2024-01-24_1___Ereditarieta\2024-01-24_1___Ereditarieta\obj\Debug\net6.0-windows\refint\2024-01-24_1___Ereditarieta.dll
+C:\Users\FEDERICOMANISCO\source\repos\2024-01-24_1___Ereditarieta\2024-01-24_1___Ereditarieta\obj\Debug\net6.0-windows\2024-01-24_1___Ereditarieta.pdb
+C:\Users\FEDERICOMANISCO\source\repos\2024-01-24_1___Ereditarieta\2024-01-24_1___Ereditarieta\obj\Debug\net6.0-windows\2024-01-24_1___Ereditarieta.genruntimeconfig.cache
+C:\Users\FEDERICOMANISCO\source\repos\2024-01-24_1___Ereditarieta\2024-01-24_1___Ereditarieta\obj\Debug\net6.0-windows\ref\2024-01-24_1___Ereditarieta.dll

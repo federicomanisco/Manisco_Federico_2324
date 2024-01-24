@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "2024-01-24_1___Ereditarieta/1.0.0": {
+        "runtime": {
+          "2024-01-24_1___Ereditarieta.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "2024-01-24_1___Ereditarieta/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
