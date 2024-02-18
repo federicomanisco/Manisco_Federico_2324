@@ -1,0 +1,15 @@
+D:\C#\Manisco_Federico_2324\2024-02-19\2024_02_19_1___Scacchi\2024_02_19_1___Scacchi\bin\Debug\net6.0\2024_02_19_1___Scacchi.exe
+D:\C#\Manisco_Federico_2324\2024-02-19\2024_02_19_1___Scacchi\2024_02_19_1___Scacchi\bin\Debug\net6.0\2024_02_19_1___Scacchi.deps.json
+D:\C#\Manisco_Federico_2324\2024-02-19\2024_02_19_1___Scacchi\2024_02_19_1___Scacchi\bin\Debug\net6.0\2024_02_19_1___Scacchi.runtimeconfig.json
+D:\C#\Manisco_Federico_2324\2024-02-19\2024_02_19_1___Scacchi\2024_02_19_1___Scacchi\bin\Debug\net6.0\2024_02_19_1___Scacchi.dll
+D:\C#\Manisco_Federico_2324\2024-02-19\2024_02_19_1___Scacchi\2024_02_19_1___Scacchi\bin\Debug\net6.0\2024_02_19_1___Scacchi.pdb
+D:\C#\Manisco_Federico_2324\2024-02-19\2024_02_19_1___Scacchi\2024_02_19_1___Scacchi\obj\Debug\net6.0\2024_02_19_1___Scacchi.csproj.AssemblyReference.cache
+D:\C#\Manisco_Federico_2324\2024-02-19\2024_02_19_1___Scacchi\2024_02_19_1___Scacchi\obj\Debug\net6.0\2024_02_19_1___Scacchi.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\Manisco_Federico_2324\2024-02-19\2024_02_19_1___Scacchi\2024_02_19_1___Scacchi\obj\Debug\net6.0\2024_02_19_1___Scacchi.AssemblyInfoInputs.cache
+D:\C#\Manisco_Federico_2324\2024-02-19\2024_02_19_1___Scacchi\2024_02_19_1___Scacchi\obj\Debug\net6.0\2024_02_19_1___Scacchi.AssemblyInfo.cs
+D:\C#\Manisco_Federico_2324\2024-02-19\2024_02_19_1___Scacchi\2024_02_19_1___Scacchi\obj\Debug\net6.0\2024_02_19_1___Scacchi.csproj.CoreCompileInputs.cache
+D:\C#\Manisco_Federico_2324\2024-02-19\2024_02_19_1___Scacchi\2024_02_19_1___Scacchi\obj\Debug\net6.0\2024_02_19_1___Scacchi.dll
+D:\C#\Manisco_Federico_2324\2024-02-19\2024_02_19_1___Scacchi\2024_02_19_1___Scacchi\obj\Debug\net6.0\refint\2024_02_19_1___Scacchi.dll
+D:\C#\Manisco_Federico_2324\2024-02-19\2024_02_19_1___Scacchi\2024_02_19_1___Scacchi\obj\Debug\net6.0\2024_02_19_1___Scacchi.pdb
+D:\C#\Manisco_Federico_2324\2024-02-19\2024_02_19_1___Scacchi\2024_02_19_1___Scacchi\obj\Debug\net6.0\2024_02_19_1___Scacchi.genruntimeconfig.cache
+D:\C#\Manisco_Federico_2324\2024-02-19\2024_02_19_1___Scacchi\2024_02_19_1___Scacchi\obj\Debug\net6.0\ref\2024_02_19_1___Scacchi.dll
