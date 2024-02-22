@@ -1,10 +1,11 @@
 namespace _2023_10_30_1 {
     public partial class Form1: Form {
+
+        List<BranoMusicale> braniMusicali;
         public Form1() {
             InitializeComponent();
+            braniMusicali = new List<BranoMusicale>();
         }
-
-        List<BranoMusicale> braniMusicali = new List<BranoMusicale>();
 
         private void textBox3_TextChanged(object sender, EventArgs e) {
 

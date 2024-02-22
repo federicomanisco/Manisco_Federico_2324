@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\FEDERICOMANISCO\\Desktop\\Manisco_Federico\\Manisco_Federico_2324\\2023-12-13\\2023-12-13_1___Cinema\\2023-12-13_1___Cinema\\2023-12-13_1___Cinema.csproj": {}
+    "C:\\C#\\Manisco_Federico_2324\\2023-12-13\\2023-12-13_1___Cinema\\2023-12-13_1___Cinema\\2023-12-13_1___Cinema.csproj": {}
   },
   "projects": {
-    "C:\\Users\\FEDERICOMANISCO\\Desktop\\Manisco_Federico\\Manisco_Federico_2324\\2023-12-13\\2023-12-13_1___Cinema\\2023-12-13_1___Cinema\\2023-12-13_1___Cinema.csproj": {
+    "C:\\C#\\Manisco_Federico_2324\\2023-12-13\\2023-12-13_1___Cinema\\2023-12-13_1___Cinema\\2023-12-13_1___Cinema.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FEDERICOMANISCO\\Desktop\\Manisco_Federico\\Manisco_Federico_2324\\2023-12-13\\2023-12-13_1___Cinema\\2023-12-13_1___Cinema\\2023-12-13_1___Cinema.csproj",
+        "projectUniqueName": "C:\\C#\\Manisco_Federico_2324\\2023-12-13\\2023-12-13_1___Cinema\\2023-12-13_1___Cinema\\2023-12-13_1___Cinema.csproj",
         "projectName": "2023-12-13_1___Cinema",
-        "projectPath": "C:\\Users\\FEDERICOMANISCO\\Desktop\\Manisco_Federico\\Manisco_Federico_2324\\2023-12-13\\2023-12-13_1___Cinema\\2023-12-13_1___Cinema\\2023-12-13_1___Cinema.csproj",
-        "packagesPath": "C:\\Users\\FEDERICOMANISCO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FEDERICOMANISCO\\Desktop\\Manisco_Federico\\Manisco_Federico_2324\\2023-12-13\\2023-12-13_1___Cinema\\2023-12-13_1___Cinema\\obj\\",
+        "projectPath": "C:\\C#\\Manisco_Federico_2324\\2023-12-13\\2023-12-13_1___Cinema\\2023-12-13_1___Cinema\\2023-12-13_1___Cinema.csproj",
+        "packagesPath": "C:\\Users\\feder\\.nuget\\packages\\",
+        "outputPath": "C:\\C#\\Manisco_Federico_2324\\2023-12-13\\2023-12-13_1___Cinema\\2023-12-13_1___Cinema\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\FEDERICOMANISCO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\feder\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +58,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
