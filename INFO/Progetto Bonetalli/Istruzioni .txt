@@ -1,0 +1,10 @@
+Istruzioni: 
+- Tabella 10x10
+- Posizione iniziale qualsiasi
+- Numero di partenza = 1
+- Movimento orizzontale o verticale = 2 caselle
+- Movimento diagonale = 1 casella
+- Ordine di movimento qualsiasi
+- Completare il quadrato in modo che in ogni casella ci sia un numero da 1 a 100
+- Il gioco termina quando non ci si può più muovere in una casella libera
+- Trovare il numero di soluzioni possibili da ogni casella di partenza
