@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#\\Manisco_Federico_2324\\INFO\\2024-02-19\\2024_02_19_1___Scacchi\\2024_02_19_1___Scacchi\\2024_02_19_1___Scacchi.csproj": {}
+    "D:\\C#\\Manisco_Federico_2324\\INFO\\2024-02-26\\2024_02_26_1___ScacchiC\\2024_02_26_1___ScacchiC\\2024_02_26_1___ScacchiC.csproj": {}
   },
   "projects": {
-    "D:\\C#\\Manisco_Federico_2324\\INFO\\2024-02-19\\2024_02_19_1___Scacchi\\2024_02_19_1___Scacchi\\2024_02_19_1___Scacchi.csproj": {
+    "D:\\C#\\Manisco_Federico_2324\\INFO\\2024-02-26\\2024_02_26_1___ScacchiC\\2024_02_26_1___ScacchiC\\2024_02_26_1___ScacchiC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\Manisco_Federico_2324\\INFO\\2024-02-19\\2024_02_19_1___Scacchi\\2024_02_19_1___Scacchi\\2024_02_19_1___Scacchi.csproj",
-        "projectName": "2024_02_19_1___Scacchi",
-        "projectPath": "D:\\C#\\Manisco_Federico_2324\\INFO\\2024-02-19\\2024_02_19_1___Scacchi\\2024_02_19_1___Scacchi\\2024_02_19_1___Scacchi.csproj",
+        "projectUniqueName": "D:\\C#\\Manisco_Federico_2324\\INFO\\2024-02-26\\2024_02_26_1___ScacchiC\\2024_02_26_1___ScacchiC\\2024_02_26_1___ScacchiC.csproj",
+        "projectName": "2024_02_26_1___ScacchiC",
+        "projectPath": "D:\\C#\\Manisco_Federico_2324\\INFO\\2024-02-26\\2024_02_26_1___ScacchiC\\2024_02_26_1___ScacchiC\\2024_02_26_1___ScacchiC.csproj",
         "packagesPath": "C:\\Users\\marin\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\Manisco_Federico_2324\\INFO\\2024-02-19\\2024_02_19_1___Scacchi\\2024_02_19_1___Scacchi\\obj\\",
+        "outputPath": "D:\\C#\\Manisco_Federico_2324\\INFO\\2024-02-26\\2024_02_26_1___ScacchiC\\2024_02_26_1___ScacchiC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
