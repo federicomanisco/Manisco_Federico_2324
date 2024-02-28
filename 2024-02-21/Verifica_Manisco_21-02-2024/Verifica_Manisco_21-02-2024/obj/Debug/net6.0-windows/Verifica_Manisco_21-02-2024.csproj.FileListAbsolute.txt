@@ -1,0 +1,17 @@
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico_2324\2024-02-21\Verifica_Manisco_21-02-2024\Verifica_Manisco_21-02-2024\bin\Debug\net6.0-windows\Verifica_Manisco_21-02-2024.exe
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico_2324\2024-02-21\Verifica_Manisco_21-02-2024\Verifica_Manisco_21-02-2024\bin\Debug\net6.0-windows\Verifica_Manisco_21-02-2024.deps.json
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico_2324\2024-02-21\Verifica_Manisco_21-02-2024\Verifica_Manisco_21-02-2024\bin\Debug\net6.0-windows\Verifica_Manisco_21-02-2024.runtimeconfig.json
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico_2324\2024-02-21\Verifica_Manisco_21-02-2024\Verifica_Manisco_21-02-2024\bin\Debug\net6.0-windows\Verifica_Manisco_21-02-2024.dll
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico_2324\2024-02-21\Verifica_Manisco_21-02-2024\Verifica_Manisco_21-02-2024\bin\Debug\net6.0-windows\Verifica_Manisco_21-02-2024.pdb
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico_2324\2024-02-21\Verifica_Manisco_21-02-2024\Verifica_Manisco_21-02-2024\obj\Debug\net6.0-windows\Verifica_Manisco_21-02-2024.csproj.AssemblyReference.cache
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico_2324\2024-02-21\Verifica_Manisco_21-02-2024\Verifica_Manisco_21-02-2024\obj\Debug\net6.0-windows\Verifica_Manisco_21_02_2024.Form1.resources
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico_2324\2024-02-21\Verifica_Manisco_21-02-2024\Verifica_Manisco_21-02-2024\obj\Debug\net6.0-windows\Verifica_Manisco_21-02-2024.csproj.GenerateResource.cache
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico_2324\2024-02-21\Verifica_Manisco_21-02-2024\Verifica_Manisco_21-02-2024\obj\Debug\net6.0-windows\Verifica_Manisco_21-02-2024.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico_2324\2024-02-21\Verifica_Manisco_21-02-2024\Verifica_Manisco_21-02-2024\obj\Debug\net6.0-windows\Verifica_Manisco_21-02-2024.AssemblyInfoInputs.cache
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico_2324\2024-02-21\Verifica_Manisco_21-02-2024\Verifica_Manisco_21-02-2024\obj\Debug\net6.0-windows\Verifica_Manisco_21-02-2024.AssemblyInfo.cs
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico_2324\2024-02-21\Verifica_Manisco_21-02-2024\Verifica_Manisco_21-02-2024\obj\Debug\net6.0-windows\Verifica_Manisco_21-02-2024.csproj.CoreCompileInputs.cache
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico_2324\2024-02-21\Verifica_Manisco_21-02-2024\Verifica_Manisco_21-02-2024\obj\Debug\net6.0-windows\Verifica_Manisco_21-02-2024.dll
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico_2324\2024-02-21\Verifica_Manisco_21-02-2024\Verifica_Manisco_21-02-2024\obj\Debug\net6.0-windows\refint\Verifica_Manisco_21-02-2024.dll
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico_2324\2024-02-21\Verifica_Manisco_21-02-2024\Verifica_Manisco_21-02-2024\obj\Debug\net6.0-windows\Verifica_Manisco_21-02-2024.pdb
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico_2324\2024-02-21\Verifica_Manisco_21-02-2024\Verifica_Manisco_21-02-2024\obj\Debug\net6.0-windows\Verifica_Manisco_21-02-2024.genruntimeconfig.cache
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico_2324\2024-02-21\Verifica_Manisco_21-02-2024\Verifica_Manisco_21-02-2024\obj\Debug\net6.0-windows\ref\Verifica_Manisco_21-02-2024.dll
