@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Progetto_Bonetalli/1.0.0": {
+        "runtime": {
+          "Progetto_Bonetalli.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Progetto_Bonetalli/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
