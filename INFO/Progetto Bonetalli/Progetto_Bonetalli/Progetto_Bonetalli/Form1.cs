@@ -1,18 +1,15 @@
 namespace Progetto_Bonetalli {
     public partial class Form1: Form {
-        private int counter = 0;
         private int SIZE = 10;
         private int[,] board;
         private int currentNumber = 1;
         private int PANELSIZE = 60;
         private Panel[,] panels;
-        private (int, int) startPosition = (0, 0);
-        private (int, int) nextMove;
-        private int fallimenti = 0;
-        int delay = 0;
-        int[,] possibleMoves = { { 0, -3 }, { 2, -2 }, { 3, 0 }, { 2, 2 }, { 0, 3 }, { -2, 2 }, { -3, 0 }, { -2, -2 } };
-        List<(int, int)> moves = new List<(int, int)>();
-        (int, int)[] posizioniProvate = new (int, int)[100];
+        private (int, int) startPosition = (-1, -1);
+        private int delay = 500;
+        private bool isExecuting = false;
+        private int[,] possibleMoves = { { 0, -3 }, { 2, -2 }, { 3, 0 }, { 2, 2 }, { 0, 3 }, { -2, 2 }, { -3, 0 }, { -2, -2 } };
+        private List<(int, int)> moves = new List<(int, int)>();
 
         public Form1() {
             InitializeComponent();
@@ -23,25 +20,6 @@ namespace Progetto_Bonetalli {
         private void Form1_Load(object sender, EventArgs e) {
             generateBoard();
         }
-
-        private void Benchmark() {
-            for (int i = 0; i < SIZE; i++) {
-                for (int j = 0; j < SIZE; j++) {
-                    (int, int) position = (i, j);
-                    posizioniProvate[counter] = position;
-                    counter++;
-                }
-            }
-
-            foreach ((int, int) posizione in posizioniProvate) {
-                startPosition = posizione;
-                SolvePuzzle(posizione.Item1, posizione.Item2, ref delay);
-                ResetBoard();
-            }
-            MessageBox.Show($"Fallimenti: {fallimenti} / {counter}");
-        }
-
-
         private void generateBoard() {
 
             for (int col = 0; col < SIZE; col++) {
@@ -53,7 +31,7 @@ namespace Progetto_Bonetalli {
                     };
 
                     Label l = new Label {
-                        Text = $"{0}",
+                        Text = $"",
                         AutoSize = false,
                         TextAlign = ContentAlignment.MiddleCenter,
                         Dock = DockStyle.Fill,
@@ -70,14 +48,6 @@ namespace Progetto_Bonetalli {
                     board[col, row] = 0;
                 }
             }
-            string text = "";
-            for (int i = 0; i < panels.GetLength(0); i++) {
-                for (int j = 0; j < panels.GetLength(1); j++) {
-                    text += (GetRowColFromLocation(panels[i, j].Location, PANELSIZE, PANELSIZE / 18).ToString() + "\t");
-                }
-                text += "\n";
-            }
-            //MessageBox.Show(text);
         }
 
         private void Label_Click(object sender, EventArgs e) {
@@ -90,9 +60,12 @@ namespace Progetto_Bonetalli {
         }
 
         private void StartButton_Click(object sender, EventArgs e) {
-            delay = trackBar1.Value;
-            SolvePuzzle(startPosition.Item1, startPosition.Item2, ref delay);
-            ResetButton.Enabled = true;
+            if (!isExecuting) {
+                isExecuting = true;
+                delay = trackBar1.Value;
+                SolvePuzzle(startPosition.Item1, startPosition.Item2, ref delay);
+                ResetButton.Enabled = true;
+            }
         }
 
         public static void wait(int milliseconds) {
@@ -139,7 +112,7 @@ namespace Progetto_Bonetalli {
         private bool SolvePuzzle(int x, int y, ref int delay) {
 
             if (currentNumber > (SIZE * SIZE)) {
-                
+
                 return true;
             }
             moves.Clear();
@@ -154,9 +127,8 @@ namespace Progetto_Bonetalli {
                 moveY = y + possibleMoves[moveToMake, 1];
             } catch (Exception e) {
                 if (e.GetType() == typeof(IndexOutOfRangeException)) {
-                    fallimenti++;
-                    listBox1.Items.Add(startPosition);
-                    StartButton.Enabled = false;
+                    MessageBox.Show("Soluzione non trovata.");
+                    ResetBoard();
                     return false;
                 }
             }
@@ -167,6 +139,7 @@ namespace Progetto_Bonetalli {
             wait(delay);
 
             if (SolvePuzzle(moveX, moveY, ref delay)) {
+                isExecuting = false;
                 return true;
             }
             return false;
@@ -195,19 +168,6 @@ namespace Progetto_Bonetalli {
             }
 
             return indexOfMin;
-
-
-            /*int nextMin = int.MaxValue;
-            int indexToReturn = 0;
-            foreach ((int, int) nextOption in nextMoves) {
-                if (indexesOfMin.Contains(nextOption.Item2)) {
-                    if (nextOption.Item1 < nextMin) {
-                        nextMin = nextOption.Item1;
-                        indexToReturn = nextOption.Item2;
-                    }
-                }
-            }
-            return indexToReturn;*/
         }
 
         private void UpdateBoard(int x, int y) {
@@ -236,7 +196,7 @@ namespace Progetto_Bonetalli {
             foreach (Panel panel in panels) {
                 foreach (Control control in panel.Controls) {
                     if (control.GetType() == typeof(Label)) {
-                        control.Text = "0";
+                        control.Text = "";
                         control.BackColor = Color.White;
                     }
                 }
@@ -251,19 +211,12 @@ namespace Progetto_Bonetalli {
             delay = trackBar1.Value;
         }
 
-        private void button1_Click(object sender, EventArgs e) {
-            Benchmark();
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e) {
+            Application.Exit();
         }
 
-        private void Form1_Leave(object sender, EventArgs e) {
-            this.Close();
-        }
-
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e) {
-            ResetBoard();
-            startPosition = ((int, int))listBox1.SelectedItem;
-            UpdateBoard(startPosition.Item1, startPosition.Item2);
-            StartButton.Enabled = true;
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e) {
+            Application.Exit();
         }
     }
 }
