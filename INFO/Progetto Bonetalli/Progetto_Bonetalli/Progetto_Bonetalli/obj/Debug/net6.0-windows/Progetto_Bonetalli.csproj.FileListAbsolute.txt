@@ -1,0 +1,16 @@
+C:\C#\Manisco_Federico_2324\INFO\Progetto Bonetalli\Progetto_Bonetalli\Progetto_Bonetalli\bin\Debug\net6.0-windows\Progetto_Bonetalli.exe
+C:\C#\Manisco_Federico_2324\INFO\Progetto Bonetalli\Progetto_Bonetalli\Progetto_Bonetalli\bin\Debug\net6.0-windows\Progetto_Bonetalli.deps.json
+C:\C#\Manisco_Federico_2324\INFO\Progetto Bonetalli\Progetto_Bonetalli\Progetto_Bonetalli\bin\Debug\net6.0-windows\Progetto_Bonetalli.runtimeconfig.json
+C:\C#\Manisco_Federico_2324\INFO\Progetto Bonetalli\Progetto_Bonetalli\Progetto_Bonetalli\bin\Debug\net6.0-windows\Progetto_Bonetalli.dll
+C:\C#\Manisco_Federico_2324\INFO\Progetto Bonetalli\Progetto_Bonetalli\Progetto_Bonetalli\bin\Debug\net6.0-windows\Progetto_Bonetalli.pdb
+C:\C#\Manisco_Federico_2324\INFO\Progetto Bonetalli\Progetto_Bonetalli\Progetto_Bonetalli\obj\Debug\net6.0-windows\Progetto_Bonetalli.Form1.resources
+C:\C#\Manisco_Federico_2324\INFO\Progetto Bonetalli\Progetto_Bonetalli\Progetto_Bonetalli\obj\Debug\net6.0-windows\Progetto_Bonetalli.csproj.GenerateResource.cache
+C:\C#\Manisco_Federico_2324\INFO\Progetto Bonetalli\Progetto_Bonetalli\Progetto_Bonetalli\obj\Debug\net6.0-windows\Progetto_Bonetalli.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\Manisco_Federico_2324\INFO\Progetto Bonetalli\Progetto_Bonetalli\Progetto_Bonetalli\obj\Debug\net6.0-windows\Progetto_Bonetalli.AssemblyInfoInputs.cache
+C:\C#\Manisco_Federico_2324\INFO\Progetto Bonetalli\Progetto_Bonetalli\Progetto_Bonetalli\obj\Debug\net6.0-windows\Progetto_Bonetalli.AssemblyInfo.cs
+C:\C#\Manisco_Federico_2324\INFO\Progetto Bonetalli\Progetto_Bonetalli\Progetto_Bonetalli\obj\Debug\net6.0-windows\Progetto_Bonetalli.csproj.CoreCompileInputs.cache
+C:\C#\Manisco_Federico_2324\INFO\Progetto Bonetalli\Progetto_Bonetalli\Progetto_Bonetalli\obj\Debug\net6.0-windows\Progetto_Bonetalli.dll
+C:\C#\Manisco_Federico_2324\INFO\Progetto Bonetalli\Progetto_Bonetalli\Progetto_Bonetalli\obj\Debug\net6.0-windows\refint\Progetto_Bonetalli.dll
+C:\C#\Manisco_Federico_2324\INFO\Progetto Bonetalli\Progetto_Bonetalli\Progetto_Bonetalli\obj\Debug\net6.0-windows\Progetto_Bonetalli.pdb
+C:\C#\Manisco_Federico_2324\INFO\Progetto Bonetalli\Progetto_Bonetalli\Progetto_Bonetalli\obj\Debug\net6.0-windows\Progetto_Bonetalli.genruntimeconfig.cache
+C:\C#\Manisco_Federico_2324\INFO\Progetto Bonetalli\Progetto_Bonetalli\Progetto_Bonetalli\obj\Debug\net6.0-windows\ref\Progetto_Bonetalli.dll

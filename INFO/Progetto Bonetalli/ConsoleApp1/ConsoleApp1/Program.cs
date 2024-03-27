@@ -7,12 +7,24 @@ class Program {
 
     static void Main() {
         int startX = 5;
-        int startY = 5;
+        int startY = 4;
 
 
         PopulateBoard();
 
+        if (IsValidMove(startX, startY)) {
+            board[startY, startX] = currentNumber;
+            currentNumber++;
+        }
+
+
+        PrintSolution();
+        Thread.Sleep(1000);
+
+        
+
         if (SolvePuzzle(startX, startY)) {
+            Console.Clear();
             PrintSolution();
         } else {
             Console.WriteLine("Nessuna soluzione trovata.");
@@ -20,45 +32,76 @@ class Program {
     }
 
     static bool SolvePuzzle(int x, int y) {
-        if (currentNumber > size * size) {
+        if (currentNumber > (size * size)) {
             return true;
         }
 
-        int[,] possibleMoves = { { 2, 1 }, { 2, -1 }, { -2, 1 }, { -2, -1 }, { 2, 0 }, { 0, 2 }, { -2, 0 }, { 0, -2 } };
-        Random nextTry = new Random();
+
+        int[,] possibleMoves = { { 0, -3 }, { 2, -2 }, { 3, 0 }, { 2, 2 }, { 0, 3 }, { -2, 2 }, { -3, 0 }, { -2, -2 } };
+        List<(int, int)> moves = new List<(int, int)>();
 
         for (int i = 0; i < possibleMoves.GetLength(0); i++) {
-            int move = nextTry.Next(possibleMoves.GetLength(0) - 1);
-            int nextX = x + possibleMoves[move, 0];
-            int nextY = y + possibleMoves[move, 1];
-
+            int nextX = x + possibleMoves[i, 0];
+            int nextY = y + possibleMoves[i, 1];
             if (IsValidMove(nextX, nextY)) {
-                board[nextX, nextY] = currentNumber;
-                currentNumber++;
-                PrintSolution();
-                Thread.Sleep(2000);
-                Console.Clear();
+                int numberOfPossibleMoves = CountValidMoves(nextX, nextY, possibleMoves);
+                moves.Add((numberOfPossibleMoves, i));
+            }
+                      
+        }
 
-                if (SolvePuzzle(nextX, nextY)) {
-                    return true;
-                }
+        List<int> indexesOfMin = new List<int>();
+        int min = int.MaxValue;
+        int indexOfMin = -1;
+        foreach ((int, int) option in moves) {
+            if (option.Item1 < min) {
+                min = option.Item1;
+                indexOfMin = option.Item2;
+            }
 
-                board[nextX, nextY] = 0;
-                currentNumber--;
+            if (option.Item1 == min && min != 0) { 
+                indexesOfMin.Add(option.Item2);
             }
         }
 
+        int moveToMake = indexOfMin;
+
+        int moveX = x + possibleMoves[moveToMake, 0];
+        int moveY = y + possibleMoves[moveToMake, 1];
+
+        board[moveY, moveX] = currentNumber;
+        currentNumber++;
+        
+        Console.Clear();
+        PrintSolution();
+        Thread.Sleep(300);
+
+        if (SolvePuzzle(moveX, moveY)) {
+            return true;
+        }
         return false;
     }
 
+    static int CountValidMoves(int x, int y, int[,] possibleMoves) {
+        int validMoves = 0;
+        for (int i = 0; i < possibleMoves.GetLength(0); i++) {
+            int nextX = x + possibleMoves[i, 0];
+            int nextY = y + possibleMoves[i, 1];
+            if (IsValidMove(nextX, nextY)) {
+                validMoves++;
+            }
+        }
+        return validMoves;
+    }
+
     static bool IsValidMove(int x, int y) {
-        return x >= 0 && x < size && y >= 0 && y < size && board[x, y] == 0;
+        return x >= 0 && x < size && y >= 0 && y < size && board[y, x] == 0;
     }
 
     static void PrintSolution() {
         for (int i = 0; i < size; i++) {
             for (int j = 0; j < size; j++) {
-                Console.Write($"{board[i, j],3}");
+                Console.Write($"{board[i, j], 5}");
             }
             Console.WriteLine();
         }
