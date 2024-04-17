@@ -55,13 +55,15 @@ namespace _2024_04_10_1___Persistenza {
             sw.Close();
         }
 
-        private void button5_Click_1(object sender, EventArgs e) {
-            HttpWebRequest request = (HttpWebRequest)WebRequest.Create("https://api.weatherbit.io/v2.0/current?key=4b64d98fe4ee41239f17858c88c1dc14");
-            HttpWebResponse response = (HttpWebResponse)request.GetResponse();
-            string responseString = new StreamReader(response.GetResponseStream()).ReadToEnd();
-            CatFacts cf = JsonConvert.DeserializeObject<CatFacts>(responseString);
-            textBox4.Text = cf.text;
-
+        private async void button5_Click_1(object sender, EventArgs e) {
+            HttpClient httpClient = new HttpClient();
+            string url="https://cat-fact.herokuapp.com/facts/random";
+            HttpResponseMessage response = await httpClient.GetAsync(url);
+            if (response.IsSuccessStatusCode) {
+                string responseString = await response.Content.ReadAsStringAsync();
+                CatFacts cf = JsonConvert.DeserializeObject<CatFacts>(responseString);
+                textBox4.Text = cf.text;
+            }
         }
     }
 }

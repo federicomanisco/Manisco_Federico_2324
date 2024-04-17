@@ -1,32 +1,32 @@
 [
   {
-    "Citta": "",
+    "Citta": "asdad",
     "TempMedia": 0.0,
-    "mmPioggia": 0,
-    "Data": "2024-04-10T00:00:00+02:00",
+    "mmPioggia": 4,
+    "Data": "2024-04-17T00:00:00+02:00",
     "Temperature": [
       0,
-      1,
       3,
-      -4,
       1,
+      -2,
       -3,
-      3
+      -4,
+      -1
     ]
   },
   {
-    "Citta": "",
-    "TempMedia": 0.0,
-    "mmPioggia": 0,
-    "Data": "2024-04-10T00:00:00+02:00",
+    "Citta": "asfggfg",
+    "TempMedia": 0.6,
+    "mmPioggia": 4,
+    "Data": "2024-04-17T00:00:00+02:00",
     "Temperature": [
-      4,
-      3,
+      -1,
       0,
-      -2,
-      -3,
+      0,
+      -5,
+      -5,
       4,
-      -4
+      -5
     ]
   }
 ]
