@@ -91,12 +91,41 @@
             // label3
             // 
             label3.AutoSize = true;
+<<<<<<< Updated upstream
             label3.Location = new Point(852, 230);
             label3.Name = "label3";
             label3.Size = new Size(30, 15);
             label3.TabIndex = 5;
             label3.Text = "0.5s";
             label3.TextAlign = ContentAlignment.MiddleCenter;
+=======
+            label3.Location = new Point(847, 237);
+            label3.Name = "label3";
+            label3.Size = new Size(46, 23);
+            label3.TabIndex = 5;
+            label3.Text = "0.5s";
+            label3.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // listBox1
+            // 
+            listBox1.FormattingEnabled = true;
+            listBox1.ItemHeight = 23;
+            listBox1.Location = new Point(783, 263);
+            listBox1.Name = "listBox1";
+            listBox1.Size = new Size(180, 326);
+            listBox1.TabIndex = 7;
+            listBox1.SelectedIndexChanged += listBox1_SelectedIndexChanged;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(665, 293);
+            button1.Name = "button1";
+            button1.Size = new Size(112, 34);
+            button1.TabIndex = 8;
+            button1.Text = "button1";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+>>>>>>> Stashed changes
             // 
             // Form1
             // 
