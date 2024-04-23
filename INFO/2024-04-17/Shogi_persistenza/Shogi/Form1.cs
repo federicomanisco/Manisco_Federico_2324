@@ -142,7 +142,6 @@ namespace Shogi
 
         private void mostraCasella(Koma koma)
         {
-            //shogiban.rimuoviKoma(koma.Posizione);
             shogiban.aggiungiKoma(koma);
             Tiles[koma.Posizione.Item1, koma.Posizione.Item2].BackgroundImage = koma.Icona;
             Tiles[koma.Posizione.Item1, koma.Posizione.Item2].BackgroundImageLayout = ImageLayout.Center;
@@ -463,6 +462,8 @@ namespace Shogi
                 lbl_Sec2.Text = salvataggio.TempiGiocatori.Item2.Item2.ToString();
                 for (int i = 0; i < salvataggio.ShogibanState.GetLength(0); i++) {
                     for (int j = 0; j < salvataggio.ShogibanState.GetLength(1); j++) {
+                        shogiban.rimuoviKoma((i, j));
+                        Tiles[i, j].BackgroundImage = null;
                         Koma koma = salvataggio.ShogibanState[i, j];
                         if (koma != null) {
                             mostraCasella(koma);

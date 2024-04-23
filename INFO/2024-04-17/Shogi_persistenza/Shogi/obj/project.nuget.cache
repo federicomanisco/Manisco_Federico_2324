@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "j12VCj0ggbonnHSsNolT/u0Vz69hLALUdmfJWtcTth2PbA5LetOXbUoDe7oJhlmWocmquMJAVP7cRyzLnISA/A==",
+  "dgSpecHash": "1GbIoQ+MzWJfdnT2be6PyOp9Kro6OXit8uUcb2MScuU/3FpeS1WMLeTX8PH8cnN79UOQLKBmZZ8Ihsf5M4PXEA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\FEDERICOMANISCO\\Desktop\\Manisco_Federico_2324\\INFO\\2024-04-17\\Shogi_persistenza\\Shogi\\Shogi.csproj",
+  "projectFilePath": "D:\\C#\\Manisco_Federico_2324\\INFO\\2024-04-17\\Shogi_persistenza\\Shogi\\Shogi.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\FEDERICOMANISCO\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\marin\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }
