@@ -6,8 +6,14 @@ using System.Threading.Tasks;
 
 namespace Shogi {
     public class Osho: Koma {
+        private List<(int, int)> casellePericolose;
+        public List<(int, int)> CasellePericolose {
+            get { return casellePericolose; }
+            set { casellePericolose = value; }
+        }
 
         public Osho((int, int) posizione, bool colore) : base(posizione, colore) {
+            casellePericolose = new List<(int, int)>();
             mossePossibili = new int[8, 2] { 
                 {0, 1}, 
                 {1, 0}, 

@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.Drawing.Text;
 using Newtonsoft.Json;
 
@@ -30,6 +31,7 @@ namespace Shogi
         const int GRIDSIZE = 9;
         Color TileColor = Color.FromArgb(238, 182, 115);
         Shogiban shogiban = new Shogiban();
+        List<(Koma, List<(int, int)>)> attaccantiDelRe = new List<(Koma, List<(int, int)>)>();
         Kubomawashi kubomawashi_sfidante = new Kubomawashi(); //lo sfidante inizia sotto
         Kubomawashi kubomawashi_sfidato = new Kubomawashi();  //lo sfidato inizia sopra
         int kubomawashi_width = 300; //lunghezza lato kubomawashi, quadrato
@@ -329,6 +331,8 @@ namespace Shogi
                     panel.BackgroundImageLayout = ImageLayout.Center;
                     Tiles[posizioneChiamante.Item1, posizioneChiamante.Item2].BackgroundImage = null;
                     turno = !turno;
+                    List<(Koma, List<(int, int)>)> mossePossibiliTOT = calcolaTutteLeMossePossibili(turno);
+                    attaccantiDelRe = controllaScacco(turno, mossePossibiliTOT);
                     sound_muoviKoma.Play();
                 }
 
@@ -369,8 +373,53 @@ namespace Shogi
                         }
                     }
                 }
+
+                if (attaccantiDelRe.Count != 0) {
+                    foreach ((Koma, List<(int, int)>) attaccante in attaccantiDelRe) {
+
+                    }
+                }
             }
             return mosseRegolari;
+        }
+
+        public List<(Koma, List<(int, int)>)> controllaScacco(bool colore, List<(Koma, List<(int, int)>)> mossePossibili) {
+            Osho re = (Osho)shogiban.getKoma(trovaRe(colore, shogiban.Scacchiera));
+            List<(Koma, List<(int, int)>)> attaccanti = new List<(Koma, List<(int, int)>)>();
+            foreach ((Koma, List<(int, int)>) mosseRegolari in mossePossibili) {
+                Koma koma = mosseRegolari.Item1;
+                if (mosseRegolari.Item1.Colore == re.Colore) {
+                    List<(int, int)> mosse = mosseRegolari.Item2;
+                    foreach ((int, int) mossa in mosse) {
+                        (int, int) nuovaPosizione = (koma.Posizione.Item1 + mossa.Item1, koma.Posizione.Item2 + mossa.Item2);
+                        if (nuovaPosizione == re.Posizione) {
+                            attaccanti.Add((koma, mosse));
+                        }
+                    }
+                }
+            }
+            return attaccanti;
+        }
+
+        public List<(Koma, List<(int, int)>)> calcolaTutteLeMossePossibili(bool colore) {
+            List<(Koma, List<(int, int)>)> MossePossibiliTOT = new List<(Koma, List<(int, int)>)>();
+            foreach(Koma koma in shogiban.Scacchiera) {
+                if (koma.Colore == colore) {
+                    List<(int, int)> mosseRegolari = calcolaMosseRegolari(koma);
+                    MossePossibiliTOT.Add((koma, mosseRegolari));
+                }
+            }
+            return MossePossibiliTOT;
+        }
+
+        public (int, int) trovaRe(bool colore, Koma[,] scacchiera) {
+            foreach (Koma koma in scacchiera) {
+                if (koma.GetType() == typeof(Osho)) {
+                    if (koma.Colore == colore)
+                        return koma.Posizione;
+                }
+            }
+            throw new ArgumentException("Nessun Re trovato");
         }
 
         private void timer_tick(object sender, EventArgs e)
@@ -416,20 +465,15 @@ namespace Shogi
 
                 if (turno)
                 {
-                    lbl_Min1.Text = min.ToString();
-                    lbl_Sec1.Text = sec.ToString();
+                    lbl_Min1.Text = min.ToString("D2");
+                    lbl_Sec1.Text = sec.ToString("D2");
                 }
                 else
                 {
-                    lbl_Min2.Text = min.ToString();
-                    lbl_Sec2.Text = sec.ToString();
+                    lbl_Min2.Text = min.ToString("D2");
+                    lbl_Sec2.Text = sec.ToString("D2");
                 }
             }
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            turno = !turno;
         }
 
         private void SalvaPartita_Click(object sender, EventArgs e) {
@@ -456,10 +500,10 @@ namespace Shogi
 
             if (successo) {
                 turno = salvataggio.Turno;
-                lbl_Min1.Text = salvataggio.TempiGiocatori.Item1.Item1.ToString();
-                lbl_Sec1.Text = salvataggio.TempiGiocatori.Item1.Item2.ToString();
-                lbl_Min2.Text = salvataggio.TempiGiocatori.Item2.Item1.ToString();
-                lbl_Sec2.Text = salvataggio.TempiGiocatori.Item2.Item2.ToString();
+                lbl_Min1.Text = salvataggio.TempiGiocatori.Item1.Item1.ToString("D2");
+                lbl_Sec1.Text = salvataggio.TempiGiocatori.Item1.Item2.ToString("D2");
+                lbl_Min2.Text = salvataggio.TempiGiocatori.Item2.Item1.ToString("D2");
+                lbl_Sec2.Text = salvataggio.TempiGiocatori.Item2.Item2.ToString("D2");
                 for (int i = 0; i < salvataggio.ShogibanState.GetLength(0); i++) {
                     for (int j = 0; j < salvataggio.ShogibanState.GetLength(1); j++) {
                         shogiban.rimuoviKoma((i, j));
