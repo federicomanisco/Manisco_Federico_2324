@@ -9,10 +9,10 @@ namespace Shogi
 {
     internal class Keima:Koma //cavallo
     {
-        public Keima((int, int) posizione, bool colore) : base(posizione, colore)
+        public Keima((int, int) posizione, Giocatore colore) : base(posizione, colore)
         {
             Icona = Image.FromFile($"{PERCORSOIMMAGINE}/shogiPieces/cavallo.png");
-            if (colore) { 
+            if (colore == Giocatore.Sente) { 
                 mossePossibili = new int[2, 2] { { 1, -2 }, { -1, -2 } }; 
             } else { 
                 mossePossibili = new int[2, 2] { { 1, 2 }, { -1, 2 } };
@@ -21,7 +21,7 @@ namespace Shogi
         }
         public override void promuovi()
         {
-            if (colore)
+            if (colore == Giocatore.Sente)
             {
                 mossePossibili = new int[6, 2] 
                 {

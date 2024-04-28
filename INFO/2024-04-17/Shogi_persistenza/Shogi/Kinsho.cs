@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 namespace Shogi {
     public class Kinsho : Koma{
 
-        public Kinsho((int, int) posizione, bool colore) : base(posizione, colore) {
+        public Kinsho((int, int) posizione, Giocatore colore) : base(posizione, colore) {
             Icona = Image.FromFile($"{PERCORSOIMMAGINE}/shogiPieces/generaleOro.png");
-            if (colore) {
+            if (colore == Giocatore.Sente) {
                 mossePossibili = new int[6, 2] { 
                     {0, 1},
                     {1, 0}, 

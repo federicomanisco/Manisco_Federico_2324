@@ -12,7 +12,7 @@ namespace Shogi {
             set { casellePericolose = value; }
         }
 
-        public Osho((int, int) posizione, bool colore) : base(posizione, colore) {
+        public Osho((int, int) posizione, Giocatore colore) : base(posizione, colore) {
             casellePericolose = new List<(int, int)>();
             mossePossibili = new int[8, 2] { 
                 {0, 1}, 
@@ -26,7 +26,7 @@ namespace Shogi {
             };
             Icona = Image.FromFile($"{PERCORSOIMMAGINE}/shogiPieces/re.png");
 
-            if (!colore) {
+            if (colore == Giocatore.Gote) {
                 Icona.RotateFlip(RotateFlipType.Rotate180FlipX);
             }
         }

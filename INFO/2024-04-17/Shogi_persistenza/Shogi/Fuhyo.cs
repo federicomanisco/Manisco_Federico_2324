@@ -8,10 +8,10 @@ namespace Shogi
 {
     internal class Fuhyo:Koma //Pedone
     {
-        public Fuhyo((int, int) posizione, bool colore) : base(posizione, colore)
+        public Fuhyo((int, int) posizione, Giocatore colore) : base(posizione, colore)
         {
             Icona = Image.FromFile($"{PERCORSOIMMAGINE}/shogiPieces/pedone.png");
-            if (colore) {
+            if (colore == Giocatore.Sente) {
                 mossePossibili = new int[1, 2] { { 0, -1 } };
             } else { 
                 mossePossibili = new int[1, 2] { { 0, 1 } };
@@ -21,7 +21,7 @@ namespace Shogi
 
         public override void promuovi()
         {
-            if (colore)
+            if (colore == Giocatore.Sente)
             {
                 mossePossibili = new int[6, 2]
                 {
