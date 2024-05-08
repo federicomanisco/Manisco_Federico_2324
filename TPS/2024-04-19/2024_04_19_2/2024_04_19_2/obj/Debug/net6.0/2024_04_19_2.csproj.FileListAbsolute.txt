@@ -1,0 +1,14 @@
+C:\C#\Manisco_Federico_2324\TPS\2024-04-19\2024_04_19_2\2024_04_19_2\bin\Debug\net6.0\2024_04_19_2.exe
+C:\C#\Manisco_Federico_2324\TPS\2024-04-19\2024_04_19_2\2024_04_19_2\bin\Debug\net6.0\2024_04_19_2.deps.json
+C:\C#\Manisco_Federico_2324\TPS\2024-04-19\2024_04_19_2\2024_04_19_2\bin\Debug\net6.0\2024_04_19_2.runtimeconfig.json
+C:\C#\Manisco_Federico_2324\TPS\2024-04-19\2024_04_19_2\2024_04_19_2\bin\Debug\net6.0\2024_04_19_2.dll
+C:\C#\Manisco_Federico_2324\TPS\2024-04-19\2024_04_19_2\2024_04_19_2\bin\Debug\net6.0\2024_04_19_2.pdb
+C:\C#\Manisco_Federico_2324\TPS\2024-04-19\2024_04_19_2\2024_04_19_2\obj\Debug\net6.0\2024_04_19_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\Manisco_Federico_2324\TPS\2024-04-19\2024_04_19_2\2024_04_19_2\obj\Debug\net6.0\2024_04_19_2.AssemblyInfoInputs.cache
+C:\C#\Manisco_Federico_2324\TPS\2024-04-19\2024_04_19_2\2024_04_19_2\obj\Debug\net6.0\2024_04_19_2.AssemblyInfo.cs
+C:\C#\Manisco_Federico_2324\TPS\2024-04-19\2024_04_19_2\2024_04_19_2\obj\Debug\net6.0\2024_04_19_2.csproj.CoreCompileInputs.cache
+C:\C#\Manisco_Federico_2324\TPS\2024-04-19\2024_04_19_2\2024_04_19_2\obj\Debug\net6.0\2024_04_19_2.dll
+C:\C#\Manisco_Federico_2324\TPS\2024-04-19\2024_04_19_2\2024_04_19_2\obj\Debug\net6.0\refint\2024_04_19_2.dll
+C:\C#\Manisco_Federico_2324\TPS\2024-04-19\2024_04_19_2\2024_04_19_2\obj\Debug\net6.0\2024_04_19_2.pdb
+C:\C#\Manisco_Federico_2324\TPS\2024-04-19\2024_04_19_2\2024_04_19_2\obj\Debug\net6.0\2024_04_19_2.genruntimeconfig.cache
+C:\C#\Manisco_Federico_2324\TPS\2024-04-19\2024_04_19_2\2024_04_19_2\obj\Debug\net6.0\ref\2024_04_19_2.dll

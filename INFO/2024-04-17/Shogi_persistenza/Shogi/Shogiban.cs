@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata.Ecma335;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
@@ -81,6 +82,12 @@ namespace Shogi {
             }
         }
 
+        private void makeMove(Koma koma, (int, int) nuovaPosizione) {
+            rimuoviKoma(koma.Posizione);
+            koma.Posizione = nuovaPosizione;
+            aggiungiKoma(koma);
+        }
+
         public bool pedinaNelMezzo((int, int) posizioneIniziale, (int, int) posizioneFinale) {
             if (!controllaPosizioneOutOfBounds(posizioneIniziale)) {
                 throw new ArgumentException("Posizione iniziale fuori dai limiti della scacchiera.");
@@ -112,7 +119,7 @@ namespace Shogi {
             for (int passo = 1; passo <= numeroPassi; passo++) {
                 int riga = Xiniziale + (direzioneRiga * passo);
                 int colonna = Yiniziale + (direzioneColonna * passo);
-                if (scacchiera[riga, colonna] != null) {
+                if (scacchiera[riga, colonna] != null && getKoma(posizioneIniziale) != null) {
                     if (scacchiera[riga, colonna].Colore == getKoma(posizioneIniziale).Colore) {
                         return true;
                     } else {
@@ -121,6 +128,80 @@ namespace Shogi {
                     }
                 } else {
                     if (contaPedineNemiche == 1) return true;
+                }
+            }
+            return false;
+        }
+
+        public List<(int, int)> calcolaMosseLegali(Koma koma) {
+            List<(int, int)> mosseLegali = new List<(int, int)>();
+            List<(int, int)> mosseRegolari = calcolaMosseRegolari(koma);
+            Shogiban copia = Copy();
+            foreach ((int, int) mossa in mosseRegolari) {
+                (int, int) vecchiaPosizione = koma.Posizione;
+                copia.makeMove(koma, (koma.Posizione.Item1 + mossa.Item1, koma.Posizione.Item2 + mossa.Item2));
+                if (!ReSottoScacco(copia, koma.Colore)) {
+                    mosseLegali.Add(mossa);
+                }
+                copia.makeMove(koma, vecchiaPosizione);
+            }
+            return mosseLegali;
+        }
+
+        public List<(int, int)> calcolaMosseRegolari(Koma koma) {
+            List<(int, int)> mosseRegolari = new List<(int, int)>();
+            for (int i = 0; i < koma.MossePossibili.GetLength(0); i++) {
+                int mossaX = koma.MossePossibili[i, 0];
+                int mossaY = koma.MossePossibili[i, 1];
+                (int, int) posizioneDaControllare = (koma.Posizione.Item1 + mossaX, koma.Posizione.Item2 + mossaY);
+                if (controllaPosizioneOutOfBounds(posizioneDaControllare)) {
+                    if (koma.GetType() == typeof(Keima)) {
+                        if (controllaCasellaLibera(posizioneDaControllare, koma)) {
+                            (int, int) mossaRegolare = (mossaX, mossaY);
+                            mosseRegolari.Add(mossaRegolare);
+                        }
+                    } else {
+                        if (!pedinaNelMezzo(koma.Posizione, posizioneDaControllare)) {
+                            (int, int) mossaRegolare = (mossaX, mossaY);
+                            mosseRegolari.Add(mossaRegolare);
+                        }
+                    }
+                }
+
+
+            }
+            return mosseRegolari;
+        }
+
+        public (int, int) trovaReNemico(Koma.Giocatore colore) {
+            foreach (Koma koma in Scacchiera) {
+                if (koma != null) {
+                    if (koma.GetType() == typeof(Osho)) {
+                        if (koma.Colore != colore)
+                            return koma.Posizione;
+                    }
+                }
+            }
+            throw new ArgumentException("Nessun Re trovato");
+        }
+
+        public List<(Koma, List<(int, int)>)> calcolaTutteLeMossePossibili(Koma.Giocatore colore, Koma[,] Scacchiera) {
+            List<(Koma, List<(int, int)>)> MossePossibiliTOT = new List<(Koma, List<(int, int)>)>();
+            foreach (Koma koma in Scacchiera) {
+                if (koma != null && koma.Colore == colore) {
+                    List<(int, int)> mosseRegolari = calcolaMosseRegolari(koma);
+                    MossePossibiliTOT.Add((koma, mosseRegolari));
+                }
+            }
+            return MossePossibiliTOT;
+        }
+
+        public bool ReSottoScacco(Shogiban copia, Koma.Giocatore colore) {
+            foreach (Koma koma in copia.Scacchiera) {
+                if (koma != null) {
+                    if (koma.Colore != colore && koma.CanCaptureKing(copia)) {
+                        return true;
+                    }
                 }
             }
             return false;
@@ -151,6 +232,17 @@ namespace Shogi {
             };
             */
 
+        }
+
+        public Shogiban Copy() {
+            Shogiban copia = new Shogiban();
+
+            foreach (Koma koma in scacchiera) {
+                if (koma != null)
+                    copia.Scacchiera[koma.Posizione.Item1, koma.Posizione.Item2] = koma;
+            }
+
+            return copia;
         }
     }
 }

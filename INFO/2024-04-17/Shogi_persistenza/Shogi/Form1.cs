@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.Drawing.Text;
 using Newtonsoft.Json;
 
@@ -30,6 +31,7 @@ namespace Shogi
         const int GRIDSIZE = 9;
         Color TileColor = Color.FromArgb(238, 182, 115);
         Shogiban shogiban = new Shogiban();
+        List<(Koma, List<(int, int)>)> attaccantiDelRe = new List<(Koma, List<(int, int)>)>();
         Kubomawashi kubomawashi_sfidante = new Kubomawashi(); //lo sfidante inizia sotto
         Kubomawashi kubomawashi_sfidato = new Kubomawashi();  //lo sfidato inizia sopra
         int kubomawashi_width = 300; //lunghezza lato kubomawashi, quadrato
@@ -39,7 +41,7 @@ namespace Shogi
         int timer_height = 240;
         int tempoMin = 10; //tempo di gioco per giocatore, minuti
         int tempoSec = 30; //tempo di gioco per giocatore, secondi
-        bool turno = true;  //true Sente (muove x primo, generalmente lo sfidante), false Gote (lo sfidato)
+        Koma.Giocatore turno = Koma.Giocatore.Sente;  //true Sente (muove x primo, generalmente lo sfidante), false Gote (lo sfidato)
 
         (int, int) posizioneChiamante;
 
@@ -142,7 +144,6 @@ namespace Shogi
 
         private void mostraCasella(Koma koma)
         {
-            //shogiban.rimuoviKoma(koma.Posizione);
             shogiban.aggiungiKoma(koma);
             Tiles[koma.Posizione.Item1, koma.Posizione.Item2].BackgroundImage = koma.Icona;
             Tiles[koma.Posizione.Item1, koma.Posizione.Item2].BackgroundImageLayout = ImageLayout.Center;
@@ -153,71 +154,71 @@ namespace Shogi
             //pedoni
             for (int i = 0; i < 9; i++)
             {
-                Fuhyo fuhyo = new Fuhyo((i, 2), false);
+                Fuhyo fuhyo = new Fuhyo((i, 2), Koma.Giocatore.Gote);
                 mostraCasella(fuhyo);
             }
             for (int i = 0; i < 9; i++)
             {
-                Fuhyo fuhyo = new Fuhyo((i, 6), true);
+                Fuhyo fuhyo = new Fuhyo((i, 6), Koma.Giocatore.Sente);
                 mostraCasella(fuhyo);
             }
 
             //Re
-            Osho blackKing = new Osho((4, 0), false);
-            Osho whiteKing = new Osho((4, 8), true);
+            Osho blackKing = new Osho((4, 0), Koma.Giocatore.Gote);
+            Osho whiteKing = new Osho((4, 8), Koma.Giocatore.Sente);
             mostraCasella(blackKing);
             mostraCasella(whiteKing);
 
 
             //Lancieri
-            Kyosha lanciereNero1 = new Kyosha((0, 0), false);
-            Kyosha lanciereNero2 = new Kyosha((8, 0), false);
-            Kyosha lanciereBianco1 = new Kyosha((0, 8), true);
-            Kyosha lanciereBianco2 = new Kyosha((8, 8), true);
+            Kyosha lanciereNero1 = new Kyosha((0, 0), Koma.Giocatore.Gote);
+            Kyosha lanciereNero2 = new Kyosha((8, 0), Koma.Giocatore.Gote);
+            Kyosha lanciereBianco1 = new Kyosha((0, 8), Koma.Giocatore.Sente);
+            Kyosha lanciereBianco2 = new Kyosha((8, 8), Koma.Giocatore.Sente);
             mostraCasella(lanciereNero1);
             mostraCasella(lanciereNero2);
             mostraCasella(lanciereBianco1);
             mostraCasella(lanciereBianco2);
 
             //Cavalli
-            Keima cavalloNero1 = new Keima((1, 0), false);
-            Keima cavalloNero2 = new Keima((7, 0), false);
-            Keima cavalloBianco1 = new Keima((1, 8), true);
-            Keima cavalloBianco2 = new Keima((7, 8), true);
+            Keima cavalloNero1 = new Keima((1, 0), Koma.Giocatore.Gote);
+            Keima cavalloNero2 = new Keima((7, 0), Koma.Giocatore.Gote);
+            Keima cavalloBianco1 = new Keima((1, 8), Koma.Giocatore.Sente);
+            Keima cavalloBianco2 = new Keima((7, 8), Koma.Giocatore.Sente);
             mostraCasella(cavalloNero1);
             mostraCasella(cavalloNero2);
             mostraCasella(cavalloBianco1);
             mostraCasella(cavalloBianco2);
 
             //Generali Argento
-            Ginsho generaleArgentoNero1 = new Ginsho((2, 0), false);
-            Ginsho generaleArgentoNero2 = new Ginsho((6, 0), false);
-            Ginsho generaleArgentoBianco1 = new Ginsho((2, 8), true);
-            Ginsho generaleArgentoBianco2 = new Ginsho((6, 8), true);
+            Ginsho generaleArgentoNero1 = new Ginsho((2, 0), Koma.Giocatore.Gote);
+            Ginsho generaleArgentoNero2 = new Ginsho((6, 0), Koma.Giocatore.Gote);
+            Ginsho generaleArgentoBianco1 = new Ginsho((2, 8), Koma.Giocatore.Sente);
+            Ginsho generaleArgentoBianco2 = new Ginsho((6, 8), Koma.Giocatore.Sente);
             mostraCasella(generaleArgentoNero1);
             mostraCasella(generaleArgentoNero2);
             mostraCasella(generaleArgentoBianco1);
             mostraCasella(generaleArgentoBianco2);
 
             //Generali Oro
-            Kinsho generaleOroNero1 = new Kinsho((3, 0), false);
-            Kinsho generaleOroNero2 = new Kinsho((5, 0), false);
-            Kinsho generaleOroBianco1 = new Kinsho((3, 8), true);
-            Kinsho generaleOroBianco2 = new Kinsho((5, 8), true);
+            Kinsho generaleOroNero1 = new Kinsho((3, 0), Koma.Giocatore.Gote);
+            Kinsho generaleOroNero2 = new Kinsho((5, 0), Koma.Giocatore.Gote);
+            Kinsho generaleOroBianco1 = new Kinsho((3, 8), Koma.Giocatore.Sente);
+            Kinsho generaleOroBianco2 = new Kinsho((5, 8), Koma.Giocatore.Sente);
             mostraCasella(generaleOroNero1);
             mostraCasella(generaleOroNero2);
             mostraCasella(generaleOroBianco1);
             mostraCasella(generaleOroBianco2);
 
             //Alfieri
-            Kakugyo alfiereNero = new Kakugyo((7, 1), false);
-            Kakugyo alfiereBianco = new Kakugyo((1, 7), true);
+            Kakugyo alfiereNero = new Kakugyo((7, 1), Koma.Giocatore.Gote);
+            Kakugyo alfiereBianco = new Kakugyo((1, 7), Koma.Giocatore.Sente);
             mostraCasella(alfiereNero);
             mostraCasella(alfiereBianco);
 
             //Torri
-            Hisha torreNera = new Hisha((1, 1), false);
-            Hisha torreBianca = new Hisha((7, 7), true);
+            Hisha torreNera = new Hisha((1, 1), Koma.Giocatore.Gote);
+            Hisha torreBianca = new Hisha((7, 7), Koma.Giocatore.Sente);
             mostraCasella(torreNera);
             mostraCasella(torreBianca);
         }
@@ -306,11 +307,11 @@ namespace Shogi
                     if (koma.Colore == turno)
                     {
                         Tiles[posizioneChiamante.Item1, posizioneChiamante.Item2].BackColor = Color.Red;
-                        List<(int, int)> mosseRegolari = calcolaMosseRegolari(koma);
-                        foreach ((int, int) mossaRegolare in mosseRegolari)
+                        List<(int, int)> mosseLegali = shogiban.calcolaMosseLegali(koma);
+                        foreach ((int, int) mossaLegale in mosseLegali)
                         {
-                            int casellaDaEvidenziareX = koma.Posizione.Item1 + mossaRegolare.Item1;
-                            int casellaDaEvidenziareY = koma.Posizione.Item2 + mossaRegolare.Item2;
+                            int casellaDaEvidenziareX = koma.Posizione.Item1 + mossaLegale.Item1;
+                            int casellaDaEvidenziareY = koma.Posizione.Item2 + mossaLegale.Item2;
 
                             Tiles[casellaDaEvidenziareX, casellaDaEvidenziareY].BackColor = Color.Yellow;
                         }
@@ -329,7 +330,7 @@ namespace Shogi
                     panel.BackgroundImage = koma.Icona;
                     panel.BackgroundImageLayout = ImageLayout.Center;
                     Tiles[posizioneChiamante.Item1, posizioneChiamante.Item2].BackgroundImage = null;
-                    turno = !turno;
+                    turno = (turno == Koma.Giocatore.Sente) ? Koma.Giocatore.Gote : Koma.Giocatore.Sente;
                     sound_muoviKoma.Play();
                 }
 
@@ -343,36 +344,6 @@ namespace Shogi
             }
         }
 
-        private List<(int, int)> calcolaMosseRegolari(Koma koma)
-        {
-            List<(int, int)> mosseRegolari = new List<(int, int)>();
-            for (int i = 0; i < koma.MossePossibili.GetLength(0); i++)
-            {
-                int mossaX = koma.MossePossibili[i, 0];
-                int mossaY = koma.MossePossibili[i, 1];
-                (int, int) posizioneDaControllare = (koma.Posizione.Item1 + mossaX, koma.Posizione.Item2 + mossaY);
-                if (shogiban.controllaPosizioneOutOfBounds(posizioneDaControllare))
-                {
-                    if (koma.GetType() == typeof(Keima))
-                    {
-                        if (shogiban.controllaCasellaLibera(posizioneDaControllare, koma))
-                        {
-                            (int, int) mossaRegolare = (mossaX, mossaY);
-                            mosseRegolari.Add(mossaRegolare);
-                        }
-                    }
-                    else
-                    {
-                        if (!shogiban.pedinaNelMezzo(koma.Posizione, posizioneDaControllare))
-                        {
-                            (int, int) mossaRegolare = (mossaX, mossaY);
-                            mosseRegolari.Add(mossaRegolare);
-                        }
-                    }
-                }
-            }
-            return mosseRegolari;
-        }
 
         private void timer_tick(object sender, EventArgs e)
         {
@@ -382,10 +353,10 @@ namespace Shogi
                 int sec;
                 string player;
 
-                if (turno) player = "SFIDANTE";
+                if (turno == Koma.Giocatore.Sente) player = "SFIDANTE";
                 else player = "SFIDATO";
 
-                if (turno)
+                if (turno == Koma.Giocatore.Sente)
                 {
                     min = int.Parse(lbl_Min1.Text);
                     sec = int.Parse(lbl_Sec1.Text);
@@ -400,7 +371,7 @@ namespace Shogi
                 {
                     if (min == 0)
                     {
-                        if (turno) lbl_Sec1.Text = "0";
+                        if (turno == Koma.Giocatore.Sente) lbl_Sec1.Text = "0";
                         else lbl_Sec2.Text = "0";
                         timer1.Stop();
                         MessageBox.Show($"LO {player} PERDE PER TEMPO");
@@ -415,22 +386,25 @@ namespace Shogi
                 else sec--;
 
 
-                if (turno)
+                if (turno == Koma.Giocatore.Sente)
                 {
-                    lbl_Min1.Text = min.ToString();
-                    lbl_Sec1.Text = sec.ToString();
+                    try {
+                        lbl_Min1.Text = min.ToString("D2");
+                        lbl_Sec1.Text = sec.ToString("D2");
+                    } catch {
+
+                    }
                 }
                 else
                 {
-                    lbl_Min2.Text = min.ToString();
-                    lbl_Sec2.Text = sec.ToString();
+                    try {
+                        lbl_Min2.Text = min.ToString("D2");
+                        lbl_Sec2.Text = sec.ToString("D2");
+                    } catch {
+
+                    }
                 }
             }
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            turno = !turno;
         }
 
         private void SalvaPartita_Click(object sender, EventArgs e) {
@@ -457,12 +431,14 @@ namespace Shogi
 
             if (successo) {
                 turno = salvataggio.Turno;
-                lbl_Min1.Text = salvataggio.TempiGiocatori.Item1.Item1.ToString();
-                lbl_Sec1.Text = salvataggio.TempiGiocatori.Item1.Item2.ToString();
-                lbl_Min2.Text = salvataggio.TempiGiocatori.Item2.Item1.ToString();
-                lbl_Sec2.Text = salvataggio.TempiGiocatori.Item2.Item2.ToString();
+                lbl_Min1.Text = salvataggio.TempiGiocatori.Item1.Item1.ToString("D2");
+                lbl_Sec1.Text = salvataggio.TempiGiocatori.Item1.Item2.ToString("D2");
+                lbl_Min2.Text = salvataggio.TempiGiocatori.Item2.Item1.ToString("D2");
+                lbl_Sec2.Text = salvataggio.TempiGiocatori.Item2.Item2.ToString("D2");
                 for (int i = 0; i < salvataggio.ShogibanState.GetLength(0); i++) {
                     for (int j = 0; j < salvataggio.ShogibanState.GetLength(1); j++) {
+                        shogiban.rimuoviKoma((i, j));
+                        Tiles[i, j].BackgroundImage = null;
                         Koma koma = salvataggio.ShogibanState[i, j];
                         if (koma != null) {
                             mostraCasella(koma);

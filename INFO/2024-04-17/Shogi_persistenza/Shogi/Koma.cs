@@ -9,7 +9,11 @@ namespace Shogi {
     public abstract class Koma {
         protected string nomepedina;
         private (int, int) posizione;
-        protected bool colore; //true=Sente, false=Gote
+        public enum Giocatore {
+            Sente,
+            Gote
+        }
+        protected Giocatore colore; //true=Sente, false=Gote
         private bool promossa;
         protected int[,] mossePossibili;//prima della virgola ci sono le mosse possibili
         [JsonIgnore]
@@ -40,43 +44,29 @@ namespace Shogi {
             get { return promossa; }
         }
 
-        public bool Colore {
+        public Giocatore Colore {
             get { return colore; }
             set {
                 colore = value;
             }
         }
-
         
 
-        
-
-        public void muovi((int, int) spostamento) {
-            bool spostamentoValido = false;
-
-            for (int i = 0; i < MossePossibili.GetLength(0); i++) {
-                int spostamentoX = spostamento.Item1;
-                int spostamentoY = spostamento.Item2;
-                int mossaPossibileX = MossePossibili[i, 0];
-                int mossaPossibileY = MossePossibili[i, 1];
-                if (spostamentoX == mossaPossibileX && spostamentoY == mossaPossibileY) {
-                    spostamentoValido = true;
+        public bool CanCaptureKing(Shogiban shogiban) {
+            List<(int, int)> mosseRegolari = shogiban.calcolaMosseRegolari(this);
+            foreach ((int, int) mossaPossibile in mosseRegolari) {
+                (int, int) nuovaPosizione = (Posizione.Item1 + mossaPossibile.Item1, Posizione.Item2 + mossaPossibile.Item2);
+                if (nuovaPosizione == shogiban.trovaReNemico(Colore)) {
+                    return true;
                 }
             }
-
-            if (!spostamentoValido) {
-                throw new ArgumentException("La mossa inserita non è valida.");
-            } else {
-                (int, int) nuovaPosizione = (Posizione.Item1 + spostamento.Item1, Posizione.Item2 + spostamento.Item2);
-                Posizione = nuovaPosizione;
-            }
+            return false;
         }
-        
 
         public abstract void promuovi();
 
 
-        public Koma((int, int) posizione, bool colore) {
+        public Koma((int, int) posizione, Giocatore colore) {
             Posizione = posizione;
             Colore = colore;
         }
