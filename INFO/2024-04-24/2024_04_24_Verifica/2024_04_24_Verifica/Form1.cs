@@ -148,7 +148,7 @@ namespace _2024_04_24_Verifica {
                 numeroDomanda--;
             }
             MostraDomanda(numeroDomanda, variantiScelte);
-            //MostraRispostaData(numeroDomanda, risposteDate);
+            MostraRispostaData(numeroDomanda, risposteDate);
         }
 
         private void Successiva_Click(object sender, EventArgs e) {
@@ -159,11 +159,10 @@ namespace _2024_04_24_Verifica {
                 numeroDomanda++;
             }
             MostraDomanda(numeroDomanda, variantiScelte);
-            //MostraRispostaData(numeroDomanda, risposteDate);
+            MostraRispostaData(numeroDomanda, risposteDate);
         }
 
         private void SalvaRisposta_Click(object sender, EventArgs e) {
-            dataFine = DateTime.Now;
             if (comboBox1.SelectedIndex == -1) {
                 MessageBox.Show("Selezionare una risposta.");
                 return;
@@ -177,7 +176,6 @@ namespace _2024_04_24_Verifica {
             }
 
             Risposta risposta = new Risposta(rispostaData, variantiScelte[numeroDomanda].Risposta);
-            MessageBox.Show(risposta.ToString());
             risposteDate[numeroDomanda] = risposta;
         }
 
@@ -197,6 +195,7 @@ namespace _2024_04_24_Verifica {
         }
 
         private void ControllaRisposte_Click(object sender, EventArgs e) {
+            dataFine = DateTime.Now;
             int risposteCorrette = 0;
             int risposteSbagliate = 0;
             int counter = 0;
@@ -217,11 +216,11 @@ namespace _2024_04_24_Verifica {
             }
             MessageBox.Show($"Risposte corrette: {risposteCorrette}/5 {risposteSbagliateText}");
 
+            SalvaTentativoSuFile(risposteCorrette, risposteSbagliate);
             variantiScelte.Clear();
             risposteDate = new Risposta[5];
             Inizia.Enabled = true;
             Inizia.Visible = true;
-            SalvaTentativoSuFile(risposteCorrette, risposteSbagliate);
         }
 
         private void button1_Click(object sender, EventArgs e) {

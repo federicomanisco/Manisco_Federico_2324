@@ -50,10 +50,11 @@
             // 
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Location = new System.Drawing.Point(12, 12);
+            this.tabControl1.Location = new System.Drawing.Point(14, 16);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1073, 582);
+            this.tabControl1.Size = new System.Drawing.Size(1226, 776);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage1
@@ -69,10 +70,11 @@
             this.tabPage1.Controls.Add(this.numericUpDown1);
             this.tabPage1.Controls.Add(this.textBox1);
             this.tabPage1.Controls.Add(this.pictureBox1);
-            this.tabPage1.Location = new System.Drawing.Point(4, 24);
+            this.tabPage1.Location = new System.Drawing.Point(4, 29);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1065, 554);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.tabPage1.Size = new System.Drawing.Size(1218, 743);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Quiz";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -80,9 +82,10 @@
             // ControllaRisposte
             // 
             this.ControllaRisposte.Enabled = false;
-            this.ControllaRisposte.Location = new System.Drawing.Point(816, 393);
+            this.ControllaRisposte.Location = new System.Drawing.Point(933, 523);
+            this.ControllaRisposte.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ControllaRisposte.Name = "ControllaRisposte";
-            this.ControllaRisposte.Size = new System.Drawing.Size(113, 46);
+            this.ControllaRisposte.Size = new System.Drawing.Size(129, 61);
             this.ControllaRisposte.TabIndex = 21;
             this.ControllaRisposte.Text = "Consegna e controlla risposte";
             this.ControllaRisposte.UseVisualStyleBackColor = true;
@@ -92,9 +95,10 @@
             // SalvaRisposta
             // 
             this.SalvaRisposta.Enabled = false;
-            this.SalvaRisposta.Location = new System.Drawing.Point(672, 392);
+            this.SalvaRisposta.Location = new System.Drawing.Point(768, 523);
+            this.SalvaRisposta.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.SalvaRisposta.Name = "SalvaRisposta";
-            this.SalvaRisposta.Size = new System.Drawing.Size(85, 47);
+            this.SalvaRisposta.Size = new System.Drawing.Size(97, 63);
             this.SalvaRisposta.TabIndex = 20;
             this.SalvaRisposta.Text = "Salva Risposta";
             this.SalvaRisposta.UseVisualStyleBackColor = true;
@@ -108,18 +112,20 @@
             this.comboBox1.Items.AddRange(new object[] {
             "Vero",
             "Falso"});
-            this.comboBox1.Location = new System.Drawing.Point(502, 393);
+            this.comboBox1.Location = new System.Drawing.Point(574, 524);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 23);
+            this.comboBox1.Size = new System.Drawing.Size(138, 28);
             this.comboBox1.TabIndex = 19;
             this.comboBox1.Visible = false;
             // 
             // Successiva
             // 
             this.Successiva.Enabled = false;
-            this.Successiva.Location = new System.Drawing.Point(672, 166);
+            this.Successiva.Location = new System.Drawing.Point(805, 221);
+            this.Successiva.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Successiva.Name = "Successiva";
-            this.Successiva.Size = new System.Drawing.Size(85, 23);
+            this.Successiva.Size = new System.Drawing.Size(97, 31);
             this.Successiva.TabIndex = 18;
             this.Successiva.Text = "Successiva";
             this.Successiva.UseVisualStyleBackColor = true;
@@ -129,9 +135,10 @@
             // Precedente
             // 
             this.Precedente.Enabled = false;
-            this.Precedente.Location = new System.Drawing.Point(299, 166);
+            this.Precedente.Location = new System.Drawing.Point(295, 221);
+            this.Precedente.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Precedente.Name = "Precedente";
-            this.Precedente.Size = new System.Drawing.Size(90, 23);
+            this.Precedente.Size = new System.Drawing.Size(103, 31);
             this.Precedente.TabIndex = 17;
             this.Precedente.Text = "Precedente";
             this.Precedente.UseVisualStyleBackColor = true;
@@ -141,17 +148,16 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(315, 217);
+            this.label2.Location = new System.Drawing.Point(304, 285);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(0, 15);
+            this.label2.Size = new System.Drawing.Size(0, 20);
             this.label2.TabIndex = 16;
             // 
             // Inizia
             // 
-            this.Inizia.Location = new System.Drawing.Point(827, 53);
-            this.Inizia.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Inizia.Location = new System.Drawing.Point(945, 95);
             this.Inizia.Name = "Inizia";
-            this.Inizia.Size = new System.Drawing.Size(102, 33);
+            this.Inizia.Size = new System.Drawing.Size(117, 42);
             this.Inizia.TabIndex = 15;
             this.Inizia.Text = "Inizia";
             this.Inizia.UseVisualStyleBackColor = true;
@@ -160,42 +166,39 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(126, 71);
+            this.label1.Location = new System.Drawing.Point(144, 95);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(104, 15);
+            this.label1.Size = new System.Drawing.Size(130, 20);
             this.label1.TabIndex = 14;
             this.label1.Text = "Gruppo domande:";
             // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(126, 96);
-            this.numericUpDown1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.numericUpDown1.Location = new System.Drawing.Point(144, 128);
             this.numericUpDown1.Maximum = new decimal(new int[] {
             8,
             0,
             0,
             0});
             this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(131, 23);
+            this.numericUpDown1.Size = new System.Drawing.Size(150, 27);
             this.numericUpDown1.TabIndex = 13;
             // 
             // textBox1
             // 
             this.textBox1.Enabled = false;
-            this.textBox1.Location = new System.Drawing.Point(126, 393);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBox1.Location = new System.Drawing.Point(144, 524);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(298, 94);
+            this.textBox1.Size = new System.Drawing.Size(340, 124);
             this.textBox1.TabIndex = 12;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(395, 55);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox1.Location = new System.Drawing.Point(451, 73);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(271, 244);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox1.Size = new System.Drawing.Size(310, 325);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 11;
             this.pictureBox1.TabStop = false;
             // 
@@ -203,19 +206,21 @@
             // 
             this.tabPage2.Controls.Add(this.button1);
             this.tabPage2.Controls.Add(this.listBox1);
-            this.tabPage2.Location = new System.Drawing.Point(4, 24);
+            this.tabPage2.Location = new System.Drawing.Point(4, 29);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1065, 554);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.tabPage2.Size = new System.Drawing.Size(1218, 743);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Tentativi Precedenti";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(479, 481);
+            this.button1.Location = new System.Drawing.Point(547, 641);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(154, 44);
+            this.button1.Size = new System.Drawing.Size(176, 59);
             this.button1.TabIndex = 1;
             this.button1.Text = "Cancella tentativi precedenti";
             this.button1.UseVisualStyleBackColor = true;
@@ -224,19 +229,19 @@
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 15;
-            this.listBox1.Location = new System.Drawing.Point(6, 6);
+            this.listBox1.ItemHeight = 20;
+            this.listBox1.Location = new System.Drawing.Point(7, 8);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(1053, 469);
+            this.listBox1.Size = new System.Drawing.Size(1203, 624);
             this.listBox1.TabIndex = 0;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1097, 606);
+            this.ClientSize = new System.Drawing.Size(1254, 808);
             this.Controls.Add(this.tabControl1);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
