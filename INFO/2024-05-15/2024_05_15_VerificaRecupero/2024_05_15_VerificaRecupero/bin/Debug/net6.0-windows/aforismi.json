@@ -1,0 +1,1235 @@
+[
+    {
+      "autore": "Leonardo da Vinci",
+      "anno_di_nascita": 1452,
+      "aforisma": "La semplicità è l'ultima sofisticazione.",
+      "divertente": false,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Galileo Galilei",
+      "anno_di_nascita": 1564,
+      "aforisma": "Non si può insegnare nulla a un uomo; si può solo aiutarlo a scoprire ciò che ha già dentro di sé.",
+      "divertente": false,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Dante Alighieri",
+      "anno_di_nascita": 1265,
+      "aforisma": "Fatti non foste a viver come bruti, ma per seguir virtute e canoscenza.",
+      "divertente": false,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Michelangelo Buonarroti",
+      "anno_di_nascita": 1475,
+      "aforisma": "Il pericolo più grande per la maggior parte di noi non è che il nostro obiettivo sia troppo alto e che manchiamo, ma che sia troppo basso e lo raggiungiamo.",
+      "divertente": false,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Sofocle",
+      "anno_di nascita": -496,
+      "aforisma": "Meglio fallire nell'originalità che riuscire nell'imitazione.",
+      "divertente": false,
+      "nazionalità": "GRC"
+    },
+    {
+      "autore": "Confucio",
+      "anno_di_nascita": -551,
+      "aforisma": "Non importa quanto vai piano, finché non ti fermi.",
+      "divertente": false,
+      "nazionalità": "CHN"
+    },
+    {
+      "autore": "Lucio Anneo Seneca",
+      "anno_di_nascita": -4,
+      "aforisma": "Non è perché le cose sono difficili che non osiamo; è perché non osiamo che sono difficili.",
+      "divertente": false,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Oscar Wilde",
+      "anno_di_nascita": 1854,
+      "aforisma": "Sii te stesso; tutti gli altri sono già stati presi.",
+      "divertente": true,
+      "nazionalità": "IRL"
+    },
+    {
+      "autore": "Albert Einstein",
+      "anno_di_nascita": 1879,
+      "aforisma": "Due cose sono infinite: l'universo e la stupidità umana; e non sono sicuro riguardo l'universo.",
+      "divertente": true,
+      "nazionalità": "DEU"
+    },
+    {
+      "autore": "Mark Twain",
+      "anno_di_nascita": 1835,
+      "aforisma": "Il meglio è il nemico del bene.",
+      "divertente": false,
+      "nazionalità": "USA"
+    },
+    {
+      "autore": "Friedrich Nietzsche",
+      "anno_di_nascita": 1844,
+      "aforisma": "Ciò che non mi uccide, mi rende più forte.",
+      "divertente": false,
+      "nazionalità": "DEU"
+    },
+    {
+      "autore": "Groucho Marx",
+      "anno_di_nascita": 1890,
+      "aforisma": "Non voglio appartenere a nessun club che accetterebbe me come membro.",
+      "divertente": true,
+      "nazionalità": "USA"
+    },
+    {
+      "autore": "Italo Calvino",
+      "anno_di_nascita": 1923,
+      "aforisma": "La leggerezza è una sfida alla gravità.",
+      "divertente": false,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Umberto Eco",
+      "anno_di_nascita": 1932,
+      "aforisma": "I libri non si esauriscono mai, non finiscono mai di dire quello che hanno da dire.",
+      "divertente": false,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Antonio Gramsci",
+      "anno_di_nascita": 1891,
+      "aforisma": "Odio gli indifferenti.",
+      "divertente": false,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Pitagora",
+      "anno_di_nascita": -570,
+      "aforisma": "Educare non è riempire un vaso, ma accendere un fuoco.",
+      "divertente": false,
+      "nazionalità": "GRC"
+    },
+    {
+      "autore": "Aristotele",
+      "anno_di_nascita": -384,
+      "aforisma": "Siamo ciò che facciamo ripetutamente. L'eccellenza, quindi, non è un atto ma un'abitudine.",
+      "divertente": false,
+      "nazionalità": "GRC"
+    },
+    {
+      "autore": "Platone",
+      "anno_di_nascita": -427,
+      "aforisma": "La musica è un'arte morale. Dà un'anima all'universo, ali alla mente, volo all'immaginazione, un fascino alla tristezza e la vita a ogni cosa.",
+      "divertente": false,
+      "nazionalità": "GRC"
+    },
+    {
+      "autore": "Leonardo Sciascia",
+      "anno_di_nascita": 1921,
+      "aforisma": "La verità non è sempre in un solo sogno, ma nei molti sogni di molte persone.",
+      "divertente": false,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Primo Levi",
+      "anno_di_nascita": 1919,
+      "aforisma": "Se comprendere è impossibile, conoscere è necessario.",
+      "divertente": false,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Lucrezio",
+      "anno_di_nascita": -99,
+      "aforisma": "Nulla può essere creato dal nulla.",
+      "divertente": false,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Giacomo Leopardi",
+      "anno_di_nascita": 1798,
+      "aforisma": "Il sorriso della bellezza ha bisogno dell'ombra della tristezza.",
+      "divertente": false,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Italo Svevo",
+      "anno_di_nascita": 1861,
+      "aforisma": "Ogni fallimento è il condimento che dà sapore al successo.",
+      "divertente": false,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Elsa Morante",
+      "anno_di_nascita": 1912,
+      "aforisma": "La verità è sempre quella, ma l'amore la colora ogni volta di un colore diverso.",
+      "divertente": false,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Carlo Goldoni",
+      "anno_di_nascita": 1707,
+      "aforisma": "La vera amicizia è come la salute: il suo valore è raramente conosciuto fino a quando non viene persa.",
+      "divertente": false,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Giovanni Pascoli",
+      "anno_di_nascita": 1855,
+      "aforisma": "La patria è dove si trova il maggior numero di cose che non si odiano.",
+      "divertente": false,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Alda Merini",
+      "anno_di_nascita": 1931,
+      "aforisma": "La poesia è un disturbo dell'immortalità.",
+      "divertente": false,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Giuseppe Verdi",
+      "anno_di_nascita": 1813,
+      "aforisma": "La musica è un cielo stellato, un cielo di note e di pause.",
+      "divertente": false,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Vittorio Alfieri",
+      "anno_di_nascita": 1749,
+      "aforisma": "L'uomo saggio è colui che si stupisce di tutto.",
+      "divertente": false,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Luigi Pirandello",
+      "anno_di_nascita": 1867,
+      "aforisma": "Così è (se vi pare).",
+      "divertente": false,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Giacomo Casanova",
+      "anno_di_nascita": 1725,
+      "aforisma": "L'amore è la forza più umile, ma la più potente di cui dispone il mondo.",
+      "divertente": false,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Francesco Petrarca",
+      "anno_di_nascita": 1304,
+      "aforisma": "Raramente si trovano grandi talenti senza una scintilla di pazzia.",
+      "divertente": false,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Ugo Foscolo",
+      "anno_di_nascita": 1778,
+      "aforisma": "I monumenti sono i gradi con cui misuriamo la civiltà degli uomini.",
+      "divertente": false,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Giovanni Boccaccio",
+      "anno_di_nascita": 1313,
+      "aforisma": "La pazienza è virtù di chi governa.",
+      "divertente": false,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Dante Alighieri",
+      "anno_di_nascita": 1265,
+      "aforisma": "Considerate la vostra semenza: fatti non foste a viver come bruti, ma per seguir virtute e conoscenza.",
+      "divertente": false,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Leonardo da Vinci",
+      "anno_di_nascita": 1452,
+      "aforisma": "Chi non stima la vita non la merita.",
+      "divertente": false,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Galileo Galilei",
+      "anno_di_nascita": 1564,
+      "aforisma": "Non si può insegnare nulla a un uomo; si può solo aiutarlo a scoprire ciò che ha già dentro di sé.",
+      "divertente": false,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Michelangelo Buonarroti",
+      "anno_di_nascita": 1475,
+      "aforisma": "Il pericolo più grande per la maggior parte di noi non è che il nostro obiettivo sia troppo alto e che manchiamo, ma che sia troppo basso e lo raggiungiamo.",
+      "divertente": false,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Sofocle",
+      "anno_di_nascita": -496,
+      "aforisma": "Meglio fallire nell'originalità che riuscire nell'imitazione.",
+      "divertente": false,
+      "nazionalità": "GRC"
+    },
+    {
+      "autore": "Seneca",
+      "anno_di_nascita": -4,
+      "aforisma": "Non è perché le cose sono difficili che non osiamo; è perché non osiamo che sono difficili.",
+      "divertente": false,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Cicerone",
+      "anno_di_nascita": -106,
+      "aforisma": "Una stanza senza libri è come un corpo senza anima.",
+      "divertente": false,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Matilde Serao",
+      "anno_di_nascita": 1856,
+      "aforisma": "La vita è un'illusione, ma un'illusione necessaria.",
+      "divertente": false,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Giosuè Carducci",
+      "anno_di_nascita": 1835,
+      "aforisma": "Il tempo è un grande maestro, ma sfortunatamente uccide tutti i suoi allievi.",
+      "divertente": false,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Giovanni Verga",
+      "anno_di_nascita": 1840,
+      "aforisma": "La perfezione è una montagna che si scala senza fine.",
+      "divertente": false,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Salvatore Quasimodo",
+      "anno_di_nascita": 1901,
+      "aforisma": "Ogni poeta è un soldato nell'eterna battaglia contro l'indifferenza del mondo.",
+      "divertente": false,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Eugenio Montale",
+      "anno_di_nascita": 1896,
+      "aforisma": "Non chiederci la parola che squadri da ogni lato l'animo nostro informe, e a lettere di fuoco lo dichiari.",
+      "divertente": false,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Cesare Pavese",
+      "anno_di_nascita": 1908,
+      "aforisma": "Se vuoi essere universale, parla di te stesso.",
+      "divertente": false,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Dario Fo",
+      "anno_di_nascita": 1926,
+      "aforisma": "La risata spezza il timore e aiuta a pensare liberamente.",
+      "divertente": true,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Oriana Fallaci",
+      "anno_di_nascita": 1929,
+      "aforisma": "La vita è un dovere, compierlo è dignità; conoscerla è saggezza.",
+      "divertente": false,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Italo Calvino",
+      "anno_di_nascita": 1923,
+      "aforisma": "Chi è fedele al modello e non alla realtà tradisce entrambi.",
+      "divertente": false,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Alberto Moravia",
+      "anno_di_nascita": 1907,
+      "aforisma": "La verità è sempre quella, ma la finzione la colora ogni volta di un colore diverso.",
+      "divertente": false,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Giorgio Gaber",
+      "anno_di_nascita": 1939,
+      "aforisma": "La libertà non è star sopra un albero, non è neanche il volo di un moscone, la libertà non è uno spazio libero, libertà è partecipazione.",
+      "divertente": false,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Fabrizio De André",
+      "anno_di_nascita": 1940,
+      "aforisma": "La guerra di tutti contro tutti è solo un'invenzione della televisione.",
+      "divertente": false,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Luciano Ligabue",
+      "anno_di_nascita": 1960,
+      "aforisma": "I sogni non sono mai troppo grandi, sono le persone che sono troppo piccole.",
+      "divertente": false,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Vasco Rossi",
+      "anno_di_nascita": 1952,
+      "aforisma": "La vita è un brivido che vola via, è tutto un equilibrio sopra la follia.",
+      "divertente": false,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Franco Battiato",
+      "anno_di_nascita": 1945,
+      "aforisma": "Le tue verità sono illusioni che dimentichi di essere tali.",
+      "divertente": false,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Roberto Benigni",
+      "anno_di_nascita": 1952,
+      "aforisma": "La vita è bella, soprattutto se ci si mette del proprio per renderla tale.",
+      "divertente": true,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Antonio Tabucchi",
+      "anno_di_nascita": 1943,
+      "aforisma": "La memoria è un cane che si sdraia dove vuole.",
+      "divertente": false,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Erri De Luca",
+      "anno_di_nascita": 1950,
+      "aforisma": "La parola è il mio quinto elemento preferito dopo acqua, terra, fuoco e aria.",
+      "divertente": false,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Andrea Camilleri",
+      "anno_di_nascita": 1925,
+      "aforisma": "La pazienza è la virtù dei forti.",
+      "divertente": false,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Alessandro Baricco",
+      "anno_di_nascita": 1958,
+      "aforisma": "La storia è sempre scritta dai vincitori. Quando due culture si scontrano, il perdente viene cancellato e il vincitore scrive i libri di storia, libri che glorificano le loro azioni e demonizzano gli sconfitti.",
+      "divertente": false,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "William Shakespeare",
+      "anno_di nascita": 1564,
+      "aforisma": "Siamo fatti della stessa sostanza dei sogni.",
+      "divertente": false,
+      "nazionalità": "GBR"
+    },
+    {
+      "autore": "Jane Austen",
+      "anno_di nascita": 1775,
+      "aforisma": "Non c'è niente come restare a casa per il vero comfort.",
+      "divertente": false,
+      "nazionalità": "GBR"
+    },
+    {
+      "autore": "Mark Twain",
+      "anno_di nascita": 1835,
+      "aforisma": "Il segreto per andare avanti è iniziare.",
+      "divertente": false,
+      "nazionalità": "USA"
+    },
+    {
+      "autore": "Friedrich Nietzsche",
+      "anno_di nascita": 1844,
+      "aforisma": "Senza musica, la vita sarebbe un errore.",
+      "divertente": false,
+      "nazionalità": "DEU"
+    },
+    {
+      "autore": "Oscar Wilde",
+      "anno_di nascita": 1854,
+      "aforisma": "Essere naturali è una posa molto difficile da mantenere.",
+      "divertente": true,
+      "nazionalità": "IRL"
+    },
+    {
+      "autore": "Gabriel García Márquez",
+      "anno_di nascita": 1927,
+      "aforisma": "Nessuno merita le tue lacrime, ma chi le merita non ti farà piangere.",
+      "divertente": false,
+      "nazionalità": "COL"
+    },
+    {
+      "autore": "Virginia Woolf",
+      "anno_di nascita": 1882,
+      "aforisma": "La vita è un sogno, è il risveglio che ci uccide.",
+      "divertente": false,
+      "nazionalità": "GBR"
+    },
+    {
+      "autore": "Jorge Luis Borges",
+      "anno_di nascita": 1899,
+      "aforisma": "Sono sempre immaginato che il Paradiso sarà una specie di biblioteca.",
+      "divertente": false,
+      "nazionalità": "ARG"
+    },
+    {
+      "autore": "Franz Kafka",
+      "anno_di nascita": 1883,
+      "aforisma": "Un libro deve essere l'ascia per il mare ghiacciato dentro di noi.",
+      "divertente": false,
+      "nazionalità": "CZE"
+    },
+    {
+      "autore": "Haruki Murakami",
+      "anno_di nascita": 1949,
+      "aforisma": "Se hai il coraggio di dire addio, la vita ti ricompenserà con un nuovo ciao.",
+      "divertente": false,
+      "nazionalità": "JPN"
+    },
+    {
+      "autore": "Pablo Neruda",
+      "anno_di nascita": 1904,
+      "aforisma": "Puoi tagliare tutti i fiori ma non puoi fermare la primavera.",
+      "divertente": false,
+      "nazionalità": "CHL"
+    },
+    {
+      "autore": "Leo Tolstoy",
+      "anno_di nascita": 1828,
+      "aforisma": "Tutti pensano a cambiare il mondo, ma nessuno pensa a cambiare se stesso.",
+      "divertente": false,
+      "nazionalità": "RUS"
+    },
+    {
+      "autore": "Maya Angelou",
+      "anno_di nascita": 1928,
+      "aforisma": "La gente dimenticherà ciò che hai detto, la gente dimenticherà ciò che hai fatto, ma la gente non dimenticherà mai come li hai fatti sentire.",
+      "divertente": false,
+      "nazionalità": "USA"
+    },
+    {
+      "autore": "Khalil Gibran",
+      "anno_di nascita": 1883,
+      "aforisma": "Il dolore è il rompere della guscio che racchiude la tua comprensione.",
+      "divertente": false,
+      "nazionalità": "LBN"
+    },
+    {
+      "autore": "Simone de Beauvoir",
+      "anno_di nascita": 1908,
+      "aforisma": "Non si nasce donna: si diventa.",
+      "divertente": false,
+      "nazionalità": "FRA"
+    },
+    {
+      "autore": "Victor Hugo",
+      "anno_di nascita": 1802,
+      "aforisma": "Non c'è niente di più potente di un'idea il cui tempo è arrivato.",
+      "divertente": false,
+      "nazionalità": "FRA"
+    },
+    {
+      "autore": "Antoine de Saint-Exupéry",
+      "anno_di nascita": 1900,
+      "aforisma": "E' solo con il cuore che si può vedere bene; l'essenziale è invisibile agli occhi.",
+      "divertente": false,
+      "nazionalità": "FRA"
+    },
+    {
+      "autore": "Confucio",
+      "anno_di_nascita": -551,
+      "aforisma": "La nostra più grande gloria non sta nel non cadere mai, ma nel rialzarci ogni volta che cadiamo.",
+      "divertente": false,
+      "nazionalità": "CHN"
+    },
+    {
+      "autore": "Laozi",
+      "anno_di nascita": -571,
+      "aforisma": "Un viaggio di mille miglia inizia sempre con un passo.",
+      "divertente": false,
+      "nazionalità": "CHN"
+    },
+    {
+      "autore": "Rumi",
+      "anno_di nascita": 1207,
+      "aforisma": "Danza, quando sei rotto aperto. Danza, se hai strappato la benda. Danza nel mezzo della lotta. Danza nella tua dissanguazione.",
+      "divertente": false,
+      "nazionalità": "IRN"
+    },
+    {
+      "autore": "Emily Dickinson",
+      "anno_di nascita": 1830,
+      "aforisma": "La speranza è quella cosa con le piume che si posa sull'anima e canta la melodia senza parole, e non si ferma mai.",
+      "divertente": false,
+      "nazionalità": "USA"
+    },
+    {
+      "autore": "Ernest Hemingway",
+      "anno_di nascita": 1899,
+      "aforisma": "Il modo migliore per scoprire se ti puoi fidare di qualcuno è fidarti.",
+      "divertente": false,
+      "nazionalità": "USA"
+    },
+    {
+      "autore": "Helen Keller",
+      "anno_di nascita": 1880,
+      "aforisma": "La vita è o un'avventura audace o niente.",
+      "divertente": false,
+      "nazionalità": "USA"
+    },
+    {
+      "autore": "Nelson Mandela",
+      "anno_di nascita": 1918,
+      "aforisma": "Io non perdo mai. O vinco o imparo.",
+      "divertente": false,
+      "nazionalità": "ZAF"
+    },
+    {
+      "autore": "Marie Curie",
+      "anno_di nascita": 1867,
+      "aforisma": "Niente nella vita va temuto, tutto va solo capito. Ora è il momento di capire di più, così da temere di meno.",
+      "divertente": false,
+      "nazionalità": "POL"
+    },
+    {
+      "autore": "Albert Camus",
+      "anno_di nascita": 1913,
+      "aforisma": "Nel profondo dell'inverno, ho finalmente imparato che dentro di me c'è un'estate invincibile.",
+      "divertente": false,
+      "nazionalità": "FRA"
+    },
+    {
+      "autore": "Anne Frank",
+      "anno_di nascita": 1929,
+      "aforisma": "Quanto è meraviglioso che nessuno debba aspettare un solo momento prima di iniziare a migliorare il mondo.",
+      "divertente": false,
+      "nazionalità": "DEU"
+    },
+    {
+      "autore": "Vincent Van Gogh",
+      "anno_di nascita": 1853,
+      "aforisma": "Ho messo il mio cuore e la mia anima nella mia opera e ho perso la mia mente nel processo.",
+      "divertente": false,
+      "nazionalità": "NLD"
+    },
+    {
+      "autore": "Fyodor Dostoevsky",
+      "anno_di nascita": 1821,
+      "aforisma": "La bellezza salverà il mondo.",
+      "divertente": false,
+      "nazionalità": "RUS"
+    },
+    {
+      "autore": "Charles Dickens",
+      "anno_di nascita": 1812,
+      "aforisma": "Non c'è niente al mondo così irresistibilmente contagioso come il riso e il buon umore.",
+      "divertente": true,
+      "nazionalità": "GBR"
+    },
+    {
+      "autore": "Leo Tolstoy",
+      "anno_di nascita": 1828,
+      "aforisma": "Se vuoi essere felice, sii.",
+      "divertente": false,
+      "nazionalità": "RUS"
+    },
+    {
+      "autore": "Marilyn Monroe",
+      "anno_di nascita": 1926,
+      "aforisma": "Tieni la testa alta, tieni il mento alto e, soprattutto, sorridi.",
+      "divertente": true,
+      "nazionalità": "USA"
+    },
+    {
+      "autore": "Winston Churchill",
+      "anno_di nascita": 1874,
+      "aforisma": "Il successo non è definitivo, il fallimento non è fatale: è il coraggio di continuare che conta.",
+      "divertente": false,
+      "nazionalità": "GBR"
+    },
+    {
+      "autore": "Sigmund Freud",
+      "anno_di nascita": 1856,
+      "aforisma": "Uno giorno, in retrospect, gli anni di lotta ti sembreranno i più belli.",
+      "divertente": false,
+      "nazionalità": "AUT"
+    },
+    {
+      "autore": "Mahatma Gandhi",
+      "anno_di nascita": 1869,
+      "aforisma": "Sii il cambiamento che vuoi vedere nel mondo.",
+      "divertente": false,
+      "nazionalità": "IND"
+    },
+    {
+      "autore": "Martin Luther King Jr.",
+      "anno_di nascita": 1929,
+      "aforisma": "Il buio non può scacciare il buio; solo la luce può farlo. L'odio non può scacciare l'odio; solo l'amore può farlo.",
+      "divertente": false,
+      "nazionalità": "USA"
+    },
+    {
+      "autore": "Mother Teresa",
+      "anno_di nascita": 1910,
+      "aforisma": "Non tutti noi possiamo fare grandi cose. Ma possiamo fare piccole cose con grande amore.",
+      "divertente": false,
+      "nazionalità": "IND"
+    },
+    {
+      "autore": "Dalai Lama",
+      "anno_di nascita": 1935,
+      "aforisma": "La felicità non è qualcosa di già fatto. Viene dalle tue azioni.",
+      "divertente": false,
+      "nazionalità": "TIB"
+    },
+    {
+      "autore": "Stephen Hawking",
+      "anno_di nascita": 1942,
+      "aforisma": "L'intelligenza è la capacità di adattarsi al cambiamento.",
+      "divertente": false,
+      "nazionalità": "GBR"
+    },
+    {
+      "autore": "Jane Goodall",
+      "anno_di nascita": 1934,
+      "aforisma": "Quello che fai fa la differenza e devi decidere che tipo di differenza vuoi fare.",
+      "divertente": false,
+      "nazionalità": "GBR"
+    },
+    {
+      "autore": "Isaac Newton",
+      "anno_di nascita": 1643,
+      "aforisma": "Ciò che sappiamo è una goccia, ciò che ignoriamo è un oceano.",
+      "divertente": false,
+      "nazionalità": "GBR"
+    },
+    {
+      "autore": "Marie Curie",
+      "anno_di nascita": 1867,
+      "aforisma": "Niente nella vita va temuto, tutto va solo capito. Ora è il momento di capire di più, così da temere di meno.",
+      "divertente": false,
+      "nazionalità": "POL"
+    },
+    {
+      "autore": "Albert Einstein",
+      "anno_di nascita": 1879,
+      "aforisma": "La vita è come andare in bicicletta. Per mantenere l'equilibrio devi muoverti.",
+      "divertente": false,
+      "nazionalità": "DEU"
+    },
+    {
+      "autore": "Charles Darwin",
+      "anno_di nascita": 1809,
+      "aforisma": "Non è la specie più forte che sopravvive, né la più intelligente, ma quella più reattiva ai cambiamenti.",
+      "divertente": false,
+      "nazionalità": "GBR"
+    },
+    {
+      "autore": "Nikola Tesla",
+      "anno_di nascita": 1856,
+      "aforisma": "Se vuoi trovare i segreti dell'universo, pensa in termini di energia, frequenza e vibrazione.",
+      "divertente": false,
+      "nazionalità": "USA"
+    },
+    {
+      "autore": "Galileo Galilei",
+      "anno_di nascita": 1564,
+      "aforisma": "Non si può insegnare nulla a un uomo; si può solo aiutarlo a scoprire ciò che ha già dentro di sé.",
+      "divertente": false,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Leonardo da Vinci",
+      "anno_di nascita": 1452,
+      "aforisma": "Chi non stima la vita non la merita.",
+      "divertente": false,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Thomas Edison",
+      "anno_di nascita": 1847,
+      "aforisma": "Non ho fallito. Ho solo trovato 10.000 modi che non funzionano.",
+      "divertente": false,
+      "nazionalità": "USA"
+    },
+    {
+      "autore": "Stephen Hawking",
+      "anno_di nascita": 1942,
+      "aforisma": "L'intelligenza è la capacità di adattarsi al cambiamento.",
+      "divertente": false,
+      "nazionalità": "GBR"
+    },
+    {
+      "autore": "Carl Sagan",
+      "anno_di nascita": 1934,
+      "aforisma": "Siamo fatti di materia stellare.",
+      "divertente": false,
+      "nazionalità": "USA"
+    },
+    {
+      "autore": "Richard Feynman",
+      "anno_di nascita": 1918,
+      "aforisma": "Ciò che non posso creare, non lo capisco.",
+      "divertente": false,
+      "nazionalità": "USA"
+    },
+    {
+      "autore": "Jane Goodall",
+      "anno_di nascita": 1934,
+      "aforisma": "Quello che fai fa la differenza e devi decidere che tipo di differenza vuoi fare.",
+      "divertente": false,
+      "nazionalità": "GBR"
+    },
+    {
+      "autore": "Ada Lovelace",
+      "anno_di nascita": 1815,
+      "aforisma": "La matematica è il linguaggio con cui Dio ha scritto l'universo.",
+      "divertente": false,
+      "nazionalità": "GBR"
+    },
+    {
+      "autore": "Alexander Fleming",
+      "anno_di nascita": 1881,
+      "aforisma": "La penicillina cura gli uomini, ma è il vino a renderli felici.",
+      "divertente": true,
+      "nazionalità": "GBR"
+    },
+    {
+      "autore": "Rosalind Franklin",
+      "anno_di nascita": 1920,
+      "aforisma": "La scienza e la vita quotidiana non possono e non devono essere separate.",
+      "divertente": false,
+      "nazionalità": "GBR"
+    },
+    {
+      "autore": "Gregor Mendel",
+      "anno_di nascita": 1822,
+      "aforisma": "Le mie piante e i miei esperimenti sono i miei insegnanti.",
+      "divertente": false,
+      "nazionalità": "AUT"
+    },
+    {
+      "autore": "Louis Pasteur",
+      "anno_di nascita": 1822,
+      "aforisma": "La fortuna favorisce la mente preparata.",
+      "divertente": false,
+      "nazionalità": "FRA"
+    },
+    {
+      "autore": "James Watson",
+      "anno_di nascita": 1928,
+      "aforisma": "Abbiamo scoperto il segreto della vita.",
+      "divertente": false,
+      "nazionalità": "USA"
+    },
+    {
+      "autore": "Francis Crick",
+      "anno_di nascita": 1916,
+      "aforisma": "La biologia è oggi dove era la fisica all'inizio del ventesimo secolo.",
+      "divertente": false,
+      "nazionalità": "GBR"
+    },
+    {
+      "autore": "Max Planck",
+      "anno_di nascita": 1858,
+      "aforisma": "Una nuova verità scientifica non trionfa convincendo i suoi oppositori e facendoli vedere la luce, ma piuttosto perché i suoi oppositori alla fine muoiono e cresce una nuova generazione a cui è familiare.",
+      "divertente": false,
+      "nazionalità": "DEU"
+    },
+    {
+      "autore": "Isaac Newton",
+      "anno_di nascita": 1643,
+      "aforisma": "Ciò che sappiamo è una goccia, ciò che ignoriamo è un oceano.",
+      "divertente": false,
+      "nazionalità": "GBR"
+    },
+    {
+      "autore": "Marie Curie",
+      "anno_di nascita": 1867,
+      "aforisma": "Niente nella vita va temuto, tutto va solo capito. Ora è il momento di capire di più, così da temere di meno.",
+      "divertente": false,
+      "nazionalità": "POL"
+    },
+    {
+      "autore": "Albert Einstein",
+      "anno_di nascita": 1879,
+      "aforisma": "La vita è come andare in bicicletta. Per mantenere l'equilibrio devi muoverti.",
+      "divertente": false,
+      "nazionalità": "DEU"
+    },
+    {
+      "autore": "Charles Darwin",
+      "anno_di nascita": 1809,
+      "aforisma": "Non è la specie più forte che sopravvive, né la più intelligente, ma quella più reattiva ai cambiamenti.",
+      "divertente": false,
+      "nazionalità": "GBR"
+    },
+    {
+      "autore": "Nikola Tesla",
+      "anno_di nascita": 1856,
+      "aforisma": "Se vuoi trovare i segreti dell'universo, pensa in termini di energia, frequenza e vibrazione.",
+      "divertente": false,
+      "nazionalità": "USA"
+    },
+    {
+      "autore": "Galileo Galilei",
+      "anno_di nascita": 1564,
+      "aforisma": "Non si può insegnare nulla a un uomo; si può solo aiutarlo a scoprire ciò che ha già dentro di sé.",
+      "divertente": false,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Leonardo da Vinci",
+      "anno_di nascita": 1452,
+      "aforisma": "Chi non stima la vita non la merita.",
+      "divertente": false,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Thomas Edison",
+      "anno_di nascita": 1847,
+      "aforisma": "Non ho fallito. Ho solo trovato 10.000 modi che non funzionano.",
+      "divertente": false,
+      "nazionalità": "USA"
+    },
+    {
+      "autore": "Stephen Hawking",
+      "anno_di nascita": 1942,
+      "aforisma": "L'intelligenza è la capacità di adattarsi al cambiamento.",
+      "divertente": false,
+      "nazionalità": "GBR"
+    },
+    {
+      "autore": "Carl Sagan",
+      "anno_di nascita": 1934,
+      "aforisma": "Siamo fatti di materia stellare.",
+      "divertente": false,
+      "nazionalità": "USA"
+    },
+    {
+      "autore": "Isaac Newton",
+      "anno_di nascita": 1643,
+      "aforisma": "Ciò che sappiamo è una goccia, ciò che ignoriamo è un oceano.",
+      "divertente": false,
+      "nazionalità": "GBR"
+    },
+    {
+      "autore": "Marie Curie",
+      "anno_di nascita": 1867,
+      "aforisma": "Niente nella vita va temuto, tutto va solo capito. Ora è il momento di capire di più, così da temere di meno.",
+      "divertente": false,
+      "nazionalità": "POL"
+    },
+    {
+      "autore": "Albert Einstein",
+      "anno_di nascita": 1879,
+      "aforisma": "La vita è come andare in bicicletta. Per mantenere l'equilibrio devi muoverti.",
+      "divertente": false,
+      "nazionalità": "DEU"
+    },
+    {
+      "autore": "Charles Darwin",
+      "anno_di nascita": 1809,
+      "aforisma": "Non è la specie più forte che sopravvive, né la più intelligente, ma quella più reattiva ai cambiamenti.",
+      "divertente": false,
+      "nazionalità": "GBR"
+    },
+    {
+      "autore": "Nikola Tesla",
+      "anno_di nascita": 1856,
+      "aforisma": "Se vuoi trovare i segreti dell'universo, pensa in termini di energia, frequenza e vibrazione.",
+      "divertente": false,
+      "nazionalità": "USA"
+    },
+    {
+      "autore": "Galileo Galilei",
+      "anno_di nascita": 1564,
+      "aforisma": "Non si può insegnare nulla a un uomo; si può solo aiutarlo a scoprire ciò che ha già dentro di sé.",
+      "divertente": false,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Leonardo da Vinci",
+      "anno_di nascita": 1452,
+      "aforisma": "Chi non stima la vita non la merita.",
+      "divertente": false,
+      "nazionalità": "ITA"
+    },
+    {
+      "autore": "Thomas Edison",
+      "anno_di nascita": 1847,
+      "aforisma": "Non ho fallito. Ho solo trovato 10.000 modi che non funzionano.",
+      "divertente": false,
+      "nazionalità": "USA"
+    },
+    {
+      "autore": "Stephen Hawking",
+      "anno_di nascita": 1942,
+      "aforisma": "L'intelligenza è la capacità di adattarsi al cambiamento.",
+      "divertente": false,
+      "nazionalità": "GBR"
+    },
+    {
+      "autore": "Carl Sagan",
+      "anno_di nascita": 1934,
+      "aforisma": "Siamo fatti di materia stellare.",
+      "divertente": false,
+      "nazionalità": "USA"
+    },
+    {
+      "autore": "Richard Feynman",
+      "anno_di nascita": 1918,
+      "aforisma": "Ciò che non posso creare, non lo capisco.",
+      "divertente": false,
+      "nazionalità": "USA"
+    },
+    {
+      "autore": "Jane Goodall",
+      "anno_di nascita": 1934,
+      "aforisma": "Quello che fai fa la differenza e devi decidere che tipo di differenza vuoi fare.",
+      "divertente": false,
+      "nazionalità": "GBR"
+    },
+    {
+      "autore": "Ada Lovelace",
+      "anno_di nascita": 1815,
+      "aforisma": "La matematica è il linguaggio con cui Dio ha scritto l'universo.",
+      "divertente": false,
+      "nazionalità": "GBR"
+    },
+    {
+      "autore": "Alexander Fleming",
+      "anno_di nascita": 1881,
+      "aforisma": "La penicillina cura gli uomini, ma è il vino a renderli felici.",
+      "divertente": true,
+      "nazionalità": "GBR"
+    },
+    {
+      "autore": "Rosalind Franklin",
+      "anno_di nascita": 1920,
+      "aforisma": "La scienza e la vita quotidiana non possono e non devono essere separate.",
+      "divertente": false,
+      "nazionalità": "GBR"
+    },
+    {
+      "autore": "Gregor Mendel",
+      "anno_di nascita": 1822,
+      "aforisma": "Le mie piante e i miei esperimenti sono i miei insegnanti.",
+      "divertente": false,
+      "nazionalità": "AUT"
+    },
+    {
+      "autore": "Louis Pasteur",
+      "anno_di nascita": 1822,
+      "aforisma": "La fortuna favorisce la mente preparata.",
+      "divertente": false,
+      "nazionalità": "FRA"
+    },
+    {
+      "autore": "James Watson",
+      "anno_di nascita": 1928,
+      "aforisma": "Abbiamo scoperto il segreto della vita.",
+      "divertente": false,
+      "nazionalità": "USA"
+    },
+    {
+      "autore": "Francis Crick",
+      "anno_di nascita": 1916,
+      "aforisma": "La biologia è oggi dove era la fisica all'inizio del ventesimo secolo.",
+      "divertente": false,
+      "nazionalità": "GBR"
+    },
+    {
+      "autore": "Max Planck",
+      "anno_di nascita": 1858,
+      "aforisma": "Una nuova verità scientifica non trionfa convincendo i suoi oppositori e facendoli vedere la luce, ma piuttosto perché i suoi oppositori alla fine muoiono e cresce una nuova generazione a cui è familiare.",
+      "divertente": false,
+      "nazionalità": "DEU"
+    },
+    {
+      "autore": "Marie von Ebner-Eschenbach",
+      "anno_di nascita": 1830,
+      "aforisma": "Anche il pensiero più profondo ha bisogno di essere pronunciato con chiarezza per essere compreso.",
+      "divertente": false,
+      "nazionalità": "AUT"
+    },
+    {
+      "autore": "Anton Chekhov",
+      "anno_di nascita": 1860,
+      "aforisma": "La brevità è sorella del talento.",
+      "divertente": false,
+      "nazionalità": "RUS"
+    },
+    {
+      "autore": "Hans Christian Andersen",
+      "anno_di nascita": 1805,
+      "aforisma": "La vita stessa è la più meravigliosa favola.",
+      "divertente": false,
+      "nazionalità": "DNK"
+    },
+    {
+      "autore": "Johann Wolfgang von Goethe",
+      "anno_di nascita": 1749,
+      "aforisma": "Il coraggio è la magia che trasforma i sogni in realtà.",
+      "divertente": false,
+      "nazionalità": "DEU"
+    },
+    {
+      "autore": "Frida Kahlo",
+      "anno_di nascita": 1907,
+      "aforisma": "Piedi, per che cosa vi ho, se ho ali per volare?",
+      "divertente": false,
+      "nazionalità": "MEX"
+    },
+    {
+      "autore": "Mark Twain",
+      "anno_di nascita": 1835,
+      "aforisma": "Compra terra, non la fanno più.",
+      "divertente": true,
+      "nazionalità": "USA"
+    },
+    {
+      "autore": "Oscar Wilde",
+      "anno_di nascita": 1854,
+      "aforisma": "Ho gusti semplicissimi: mi accontento sempre del meglio.",
+      "divertente": true,
+      "nazionalità": "IRL"
+    },
+    {
+      "autore": "Woody Allen",
+      "anno_di nascita": 1935,
+      "aforisma": "Non temo la morte, solo che non vorrei essere lì quando accade.",
+      "divertente": true,
+      "nazionalità": "USA"
+    },
+    {
+      "autore": "Groucho Marx",
+      "anno_di nascita": 1890,
+      "aforisma": "Questi sono i miei principi. Se non ti piacciono, ne ho altri.",
+      "divertente": true,
+      "nazionalità": "USA"
+    },
+    {
+      "autore": "Steven Wright",
+      "anno_di nascita": 1955,
+      "aforisma": "Ho intenzione di vivere in eterno. Fino ad ora, tutto bene.",
+      "divertente": true,
+      "nazionalità": "USA"
+    },
+    {
+      "autore": "Dorothy Parker",
+      "anno_di nascita": 1893,
+      "aforisma": "La cura per l'annoiamento è la curiosità. Non c'è cura per la curiosità.",
+      "divertente": true,
+      "nazionalità": "USA"
+    },
+    {
+      "autore": "Yogi Berra",
+      "anno_di nascita": 1925,
+      "aforisma": "Quando arrivi a un bivio, prendilo.",
+      "divertente": true,
+      "nazionalità": "USA"
+    },
+    {
+      "autore": "George Bernard Shaw",
+      "anno_di nascita": 1856,
+      "aforisma": "Il matrimonio è un'istituzione meravigliosa, ma chi vorrebbe vivere in un'istituzione?",
+      "divertente": true,
+      "nazionalità": "IRL"
+    },
+    {
+      "autore": "Mae West",
+      "anno_di nascita": 1893,
+      "aforisma": "Tra due mali, scelgo sempre quello che non ho mai provato prima.",
+      "divertente": true,
+      "nazionalità": "USA"
+    },
+    {
+      "autore": "Phyllis Diller",
+      "anno_di nascita": 1917,
+      "aforisma": "Pulire la casa mentre i tuoi figli sono ancora in crescita è come spalare il vialetto prima che smetta di nevicare.",
+      "divertente": true,
+      "nazionalità": "USA"
+    },
+    {
+      "autore": "Mitch Hedberg",
+      "anno_di_nascita": 1968,
+      "aforisma": "Ho comprato una casa, ma è una casa 'mobile'. Ora non so dove metterla.",
+      "divertente": true,
+      "nazionalità": "USA"
+    },
+    {
+      "autore": "Ellen DeGeneres",
+      "anno_di_nascita": 1958,
+      "aforisma": "La mia nonna ha iniziato a camminare cinque miglia al giorno quando aveva sessanta anni. Ora ha novantasette anni e non abbiamo la più pallida idea di dove sia.",
+      "divertente": true,
+      "nazionalità": "USA"
+    },
+    {
+      "autore": "Jerry Seinfeld",
+      "anno_di_nascita": 1954,
+      "aforisma": "Un cane che ha un cartello 'Beware of Dog' vive in una casa con un cartello 'Beware of Owner'.",
+      "divertente": true,
+      "nazionalità": "USA"
+    },
+    {
+      "autore": "Rodney Dangerfield",
+      "anno_di_nascita": 1921,
+      "aforisma": "Ho detto a mia moglie che la casa era la sua. Lei ha detto 'Prenditi la spazzatura e vai via'.",
+      "divertente": true,
+      "nazionalità": "USA"
+    },
+    {
+      "autore": "Steven Wright",
+      "anno_di_nascita": 1955,
+      "aforisma": "Ho messo un umidificatore e un deumidificatore nella stessa stanza. Si sono sfidati a duello.",
+      "divertente": true,
+      "nazionalità": "USA"
+    },
+    {
+      "autore": "Dave Barry",
+      "anno_di_nascita": 1947,
+      "aforisma": "Il modo migliore per ricordarsi il compleanno della propria moglie è dimenticarlo una volta.",
+      "divertente": true,
+      "nazionalità": "USA"
+    },
+    {
+      "autore": "Jim Gaffigan",
+      "anno_di_nascita": 1966,
+      "aforisma": "Hai mai letto le istruzioni per riscaldare i burritos? Girare il burrito a metà cottura. Il tempo che ci vuole per cucinare un burrito, non dovrei dover essere coinvolto.",
+      "divertente": true,
+      "nazionalità": "USA"
+    },
+    {
+      "autore": "Phyllis Diller",
+      "anno_di_nascita": 1917,
+      "aforisma": "Il mio metodo di pulizia della casa è semplice: usa la stanza finché non è sporca, poi chiudi la porta.",
+      "divertente": true,
+      "nazionalità": "USA"
+    },
+    {
+      "autore": "Robin Williams",
+      "anno_di_nascita": 1951,
+      "aforisma": "Perché si chiama corsa all'armamento se tutti corrono nella stessa direzione?",
+      "divertente": true,
+      "nazionalità": "USA"
+    },
+    {
+      "autore": "Billy Connolly",
+      "anno_di_nascita": 1942,
+      "aforisma": "Non ho paura di morire. Solo che non voglio esserci quando succederà.",
+      "divertente": true,
+      "nazionalità": "GBR"
+    }
+  ]
+  
