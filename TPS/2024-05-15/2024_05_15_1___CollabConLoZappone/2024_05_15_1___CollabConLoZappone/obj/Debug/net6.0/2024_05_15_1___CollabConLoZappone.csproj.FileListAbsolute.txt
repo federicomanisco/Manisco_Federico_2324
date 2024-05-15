@@ -1,0 +1,15 @@
+D:\C#\Manisco_Federico_2324\TPS\2024-05-15\2024_05_15_1___CollabConLoZappone\2024_05_15_1___CollabConLoZappone\bin\Debug\net6.0\2024_05_15_1___CollabConLoZappone.exe
+D:\C#\Manisco_Federico_2324\TPS\2024-05-15\2024_05_15_1___CollabConLoZappone\2024_05_15_1___CollabConLoZappone\bin\Debug\net6.0\2024_05_15_1___CollabConLoZappone.deps.json
+D:\C#\Manisco_Federico_2324\TPS\2024-05-15\2024_05_15_1___CollabConLoZappone\2024_05_15_1___CollabConLoZappone\bin\Debug\net6.0\2024_05_15_1___CollabConLoZappone.runtimeconfig.json
+D:\C#\Manisco_Federico_2324\TPS\2024-05-15\2024_05_15_1___CollabConLoZappone\2024_05_15_1___CollabConLoZappone\bin\Debug\net6.0\2024_05_15_1___CollabConLoZappone.dll
+D:\C#\Manisco_Federico_2324\TPS\2024-05-15\2024_05_15_1___CollabConLoZappone\2024_05_15_1___CollabConLoZappone\bin\Debug\net6.0\2024_05_15_1___CollabConLoZappone.pdb
+D:\C#\Manisco_Federico_2324\TPS\2024-05-15\2024_05_15_1___CollabConLoZappone\2024_05_15_1___CollabConLoZappone\obj\Debug\net6.0\2024_05_15_1___CollabConLoZappone.csproj.AssemblyReference.cache
+D:\C#\Manisco_Federico_2324\TPS\2024-05-15\2024_05_15_1___CollabConLoZappone\2024_05_15_1___CollabConLoZappone\obj\Debug\net6.0\2024_05_15_1___CollabConLoZappone.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\Manisco_Federico_2324\TPS\2024-05-15\2024_05_15_1___CollabConLoZappone\2024_05_15_1___CollabConLoZappone\obj\Debug\net6.0\2024_05_15_1___CollabConLoZappone.AssemblyInfoInputs.cache
+D:\C#\Manisco_Federico_2324\TPS\2024-05-15\2024_05_15_1___CollabConLoZappone\2024_05_15_1___CollabConLoZappone\obj\Debug\net6.0\2024_05_15_1___CollabConLoZappone.AssemblyInfo.cs
+D:\C#\Manisco_Federico_2324\TPS\2024-05-15\2024_05_15_1___CollabConLoZappone\2024_05_15_1___CollabConLoZappone\obj\Debug\net6.0\2024_05_15_1___CollabConLoZappone.csproj.CoreCompileInputs.cache
+D:\C#\Manisco_Federico_2324\TPS\2024-05-15\2024_05_15_1___CollabConLoZappone\2024_05_15_1___CollabConLoZappone\obj\Debug\net6.0\2024_05_15_1___CollabConLoZappone.dll
+D:\C#\Manisco_Federico_2324\TPS\2024-05-15\2024_05_15_1___CollabConLoZappone\2024_05_15_1___CollabConLoZappone\obj\Debug\net6.0\refint\2024_05_15_1___CollabConLoZappone.dll
+D:\C#\Manisco_Federico_2324\TPS\2024-05-15\2024_05_15_1___CollabConLoZappone\2024_05_15_1___CollabConLoZappone\obj\Debug\net6.0\2024_05_15_1___CollabConLoZappone.pdb
+D:\C#\Manisco_Federico_2324\TPS\2024-05-15\2024_05_15_1___CollabConLoZappone\2024_05_15_1___CollabConLoZappone\obj\Debug\net6.0\2024_05_15_1___CollabConLoZappone.genruntimeconfig.cache
+D:\C#\Manisco_Federico_2324\TPS\2024-05-15\2024_05_15_1___CollabConLoZappone\2024_05_15_1___CollabConLoZappone\obj\Debug\net6.0\ref\2024_05_15_1___CollabConLoZappone.dll
