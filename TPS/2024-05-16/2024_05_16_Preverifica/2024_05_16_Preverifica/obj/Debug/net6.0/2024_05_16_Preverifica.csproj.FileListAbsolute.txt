@@ -1,0 +1,14 @@
+C:\C#\Manisco_Federico_2324\TPS\2024-05-16\2024_05_16_Preverifica\2024_05_16_Preverifica\obj\Debug\net6.0\2024_05_16_Preverifica.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\Manisco_Federico_2324\TPS\2024-05-16\2024_05_16_Preverifica\2024_05_16_Preverifica\obj\Debug\net6.0\2024_05_16_Preverifica.AssemblyInfoInputs.cache
+C:\C#\Manisco_Federico_2324\TPS\2024-05-16\2024_05_16_Preverifica\2024_05_16_Preverifica\obj\Debug\net6.0\2024_05_16_Preverifica.AssemblyInfo.cs
+C:\C#\Manisco_Federico_2324\TPS\2024-05-16\2024_05_16_Preverifica\2024_05_16_Preverifica\obj\Debug\net6.0\2024_05_16_Preverifica.csproj.CoreCompileInputs.cache
+C:\C#\Manisco_Federico_2324\TPS\2024-05-16\2024_05_16_Preverifica\2024_05_16_Preverifica\bin\Debug\net6.0\2024_05_16_Preverifica.exe
+C:\C#\Manisco_Federico_2324\TPS\2024-05-16\2024_05_16_Preverifica\2024_05_16_Preverifica\bin\Debug\net6.0\2024_05_16_Preverifica.deps.json
+C:\C#\Manisco_Federico_2324\TPS\2024-05-16\2024_05_16_Preverifica\2024_05_16_Preverifica\bin\Debug\net6.0\2024_05_16_Preverifica.runtimeconfig.json
+C:\C#\Manisco_Federico_2324\TPS\2024-05-16\2024_05_16_Preverifica\2024_05_16_Preverifica\bin\Debug\net6.0\2024_05_16_Preverifica.dll
+C:\C#\Manisco_Federico_2324\TPS\2024-05-16\2024_05_16_Preverifica\2024_05_16_Preverifica\bin\Debug\net6.0\2024_05_16_Preverifica.pdb
+C:\C#\Manisco_Federico_2324\TPS\2024-05-16\2024_05_16_Preverifica\2024_05_16_Preverifica\obj\Debug\net6.0\2024_05_16_Preverifica.dll
+C:\C#\Manisco_Federico_2324\TPS\2024-05-16\2024_05_16_Preverifica\2024_05_16_Preverifica\obj\Debug\net6.0\refint\2024_05_16_Preverifica.dll
+C:\C#\Manisco_Federico_2324\TPS\2024-05-16\2024_05_16_Preverifica\2024_05_16_Preverifica\obj\Debug\net6.0\2024_05_16_Preverifica.pdb
+C:\C#\Manisco_Federico_2324\TPS\2024-05-16\2024_05_16_Preverifica\2024_05_16_Preverifica\obj\Debug\net6.0\2024_05_16_Preverifica.genruntimeconfig.cache
+C:\C#\Manisco_Federico_2324\TPS\2024-05-16\2024_05_16_Preverifica\2024_05_16_Preverifica\obj\Debug\net6.0\ref\2024_05_16_Preverifica.dll

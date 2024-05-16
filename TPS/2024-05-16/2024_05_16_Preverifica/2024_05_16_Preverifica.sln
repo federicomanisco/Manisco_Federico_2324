@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2024_05_16_Preverifica", "2024_05_16_Preverifica\2024_05_16_Preverifica.csproj", "{94B7B0D3-5F4B-47CA-8923-201653DD3ECD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94B7B0D3-5F4B-47CA-8923-201653DD3ECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94B7B0D3-5F4B-47CA-8923-201653DD3ECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94B7B0D3-5F4B-47CA-8923-201653DD3ECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94B7B0D3-5F4B-47CA-8923-201653DD3ECD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E69C12A-8FA0-4267-8D3B-2B996C944551}
+	EndGlobalSection
+EndGlobal
