@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\FEDERICOMANISCO\\Desktop\\Manisco_Federico_2324\\INFO\\2024-05-22\\2024_05_22_1_LazySingleton\\2024_05_22_1_Singleton\\2024_05_22_1_LazySingleton.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\FEDERICOMANISCO\\Desktop\\Manisco_Federico_2324\\INFO\\2024-05-22\\2024_05_22_1_LazySingleton\\2024_05_22_1_Singleton\\2024_05_22_1_LazySingleton.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\FEDERICOMANISCO\\Desktop\\Manisco_Federico_2324\\INFO\\2024-05-22\\2024_05_22_1_LazySingleton\\2024_05_22_1_Singleton\\2024_05_22_1_LazySingleton.csproj",
+        "projectName": "2024_05_22_1_LazySingleton",
+        "projectPath": "C:\\Users\\FEDERICOMANISCO\\Desktop\\Manisco_Federico_2324\\INFO\\2024-05-22\\2024_05_22_1_LazySingleton\\2024_05_22_1_Singleton\\2024_05_22_1_LazySingleton.csproj",
+        "packagesPath": "C:\\Users\\FEDERICOMANISCO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FEDERICOMANISCO\\Desktop\\Manisco_Federico_2324\\INFO\\2024-05-22\\2024_05_22_1_LazySingleton\\2024_05_22_1_Singleton\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\FEDERICOMANISCO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

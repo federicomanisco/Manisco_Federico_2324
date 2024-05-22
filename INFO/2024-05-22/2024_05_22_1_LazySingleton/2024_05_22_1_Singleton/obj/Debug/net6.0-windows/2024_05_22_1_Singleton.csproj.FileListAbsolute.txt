@@ -1,0 +1,17 @@
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico_2324\INFO\2024-05-22\2024_05_22_1_Singleton\2024_05_22_1_Singleton\bin\Debug\net6.0-windows\2024_05_22_1_Singleton.exe
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico_2324\INFO\2024-05-22\2024_05_22_1_Singleton\2024_05_22_1_Singleton\bin\Debug\net6.0-windows\2024_05_22_1_Singleton.deps.json
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico_2324\INFO\2024-05-22\2024_05_22_1_Singleton\2024_05_22_1_Singleton\bin\Debug\net6.0-windows\2024_05_22_1_Singleton.runtimeconfig.json
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico_2324\INFO\2024-05-22\2024_05_22_1_Singleton\2024_05_22_1_Singleton\bin\Debug\net6.0-windows\2024_05_22_1_Singleton.dll
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico_2324\INFO\2024-05-22\2024_05_22_1_Singleton\2024_05_22_1_Singleton\bin\Debug\net6.0-windows\2024_05_22_1_Singleton.pdb
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico_2324\INFO\2024-05-22\2024_05_22_1_Singleton\2024_05_22_1_Singleton\obj\Debug\net6.0-windows\_2024_05_22_1_Singleton.Form1.resources
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico_2324\INFO\2024-05-22\2024_05_22_1_Singleton\2024_05_22_1_Singleton\obj\Debug\net6.0-windows\2024_05_22_1_Singleton.csproj.GenerateResource.cache
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico_2324\INFO\2024-05-22\2024_05_22_1_Singleton\2024_05_22_1_Singleton\obj\Debug\net6.0-windows\2024_05_22_1_Singleton.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico_2324\INFO\2024-05-22\2024_05_22_1_Singleton\2024_05_22_1_Singleton\obj\Debug\net6.0-windows\2024_05_22_1_Singleton.AssemblyInfoInputs.cache
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico_2324\INFO\2024-05-22\2024_05_22_1_Singleton\2024_05_22_1_Singleton\obj\Debug\net6.0-windows\2024_05_22_1_Singleton.AssemblyInfo.cs
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico_2324\INFO\2024-05-22\2024_05_22_1_Singleton\2024_05_22_1_Singleton\obj\Debug\net6.0-windows\2024_05_22_1_Singleton.csproj.CoreCompileInputs.cache
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico_2324\INFO\2024-05-22\2024_05_22_1_Singleton\2024_05_22_1_Singleton\obj\Debug\net6.0-windows\2024_05_22_1_Singleton.sourcelink.json
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico_2324\INFO\2024-05-22\2024_05_22_1_Singleton\2024_05_22_1_Singleton\obj\Debug\net6.0-windows\2024_05_22_1_Singleton.dll
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico_2324\INFO\2024-05-22\2024_05_22_1_Singleton\2024_05_22_1_Singleton\obj\Debug\net6.0-windows\refint\2024_05_22_1_Singleton.dll
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico_2324\INFO\2024-05-22\2024_05_22_1_Singleton\2024_05_22_1_Singleton\obj\Debug\net6.0-windows\2024_05_22_1_Singleton.pdb
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico_2324\INFO\2024-05-22\2024_05_22_1_Singleton\2024_05_22_1_Singleton\obj\Debug\net6.0-windows\2024_05_22_1_Singleton.genruntimeconfig.cache
+C:\Users\FEDERICOMANISCO\Desktop\Manisco_Federico_2324\INFO\2024-05-22\2024_05_22_1_Singleton\2024_05_22_1_Singleton\obj\Debug\net6.0-windows\ref\2024_05_22_1_Singleton.dll
