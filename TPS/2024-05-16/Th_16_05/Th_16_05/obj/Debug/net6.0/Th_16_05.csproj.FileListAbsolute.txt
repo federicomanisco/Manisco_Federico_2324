@@ -1,0 +1,43 @@
+C:\Users\utente\Downloads\Th_16_05\Th_16_05\bin\Debug\net6.0\Th_16_05.exe
+C:\Users\utente\Downloads\Th_16_05\Th_16_05\bin\Debug\net6.0\Th_16_05.deps.json
+C:\Users\utente\Downloads\Th_16_05\Th_16_05\bin\Debug\net6.0\Th_16_05.runtimeconfig.json
+C:\Users\utente\Downloads\Th_16_05\Th_16_05\bin\Debug\net6.0\Th_16_05.dll
+C:\Users\utente\Downloads\Th_16_05\Th_16_05\bin\Debug\net6.0\Th_16_05.pdb
+C:\Users\utente\Downloads\Th_16_05\Th_16_05\obj\Debug\net6.0\Th_16_05.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\utente\Downloads\Th_16_05\Th_16_05\obj\Debug\net6.0\Th_16_05.AssemblyInfoInputs.cache
+C:\Users\utente\Downloads\Th_16_05\Th_16_05\obj\Debug\net6.0\Th_16_05.AssemblyInfo.cs
+C:\Users\utente\Downloads\Th_16_05\Th_16_05\obj\Debug\net6.0\Th_16_05.csproj.CoreCompileInputs.cache
+C:\Users\utente\Downloads\Th_16_05\Th_16_05\obj\Debug\net6.0\Th_16_05.dll
+C:\Users\utente\Downloads\Th_16_05\Th_16_05\obj\Debug\net6.0\refint\Th_16_05.dll
+C:\Users\utente\Downloads\Th_16_05\Th_16_05\obj\Debug\net6.0\Th_16_05.pdb
+C:\Users\utente\Downloads\Th_16_05\Th_16_05\obj\Debug\net6.0\Th_16_05.genruntimeconfig.cache
+C:\Users\utente\Downloads\Th_16_05\Th_16_05\obj\Debug\net6.0\ref\Th_16_05.dll
+C:\Users\utente\Desktop\LORENZO\ITIS Marconi\4\Th_16_05\Th_16_05\bin\Debug\net6.0\Th_16_05.exe
+C:\Users\utente\Desktop\LORENZO\ITIS Marconi\4\Th_16_05\Th_16_05\bin\Debug\net6.0\Th_16_05.deps.json
+C:\Users\utente\Desktop\LORENZO\ITIS Marconi\4\Th_16_05\Th_16_05\bin\Debug\net6.0\Th_16_05.runtimeconfig.json
+C:\Users\utente\Desktop\LORENZO\ITIS Marconi\4\Th_16_05\Th_16_05\bin\Debug\net6.0\Th_16_05.dll
+C:\Users\utente\Desktop\LORENZO\ITIS Marconi\4\Th_16_05\Th_16_05\bin\Debug\net6.0\Th_16_05.pdb
+C:\Users\utente\Desktop\LORENZO\ITIS Marconi\4\Th_16_05\Th_16_05\obj\Debug\net6.0\Th_16_05.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\utente\Desktop\LORENZO\ITIS Marconi\4\Th_16_05\Th_16_05\obj\Debug\net6.0\Th_16_05.AssemblyInfoInputs.cache
+C:\Users\utente\Desktop\LORENZO\ITIS Marconi\4\Th_16_05\Th_16_05\obj\Debug\net6.0\Th_16_05.AssemblyInfo.cs
+C:\Users\utente\Desktop\LORENZO\ITIS Marconi\4\Th_16_05\Th_16_05\obj\Debug\net6.0\Th_16_05.csproj.CoreCompileInputs.cache
+C:\Users\utente\Desktop\LORENZO\ITIS Marconi\4\Th_16_05\Th_16_05\obj\Debug\net6.0\Th_16_05.dll
+C:\Users\utente\Desktop\LORENZO\ITIS Marconi\4\Th_16_05\Th_16_05\obj\Debug\net6.0\refint\Th_16_05.dll
+C:\Users\utente\Desktop\LORENZO\ITIS Marconi\4\Th_16_05\Th_16_05\obj\Debug\net6.0\Th_16_05.pdb
+C:\Users\utente\Desktop\LORENZO\ITIS Marconi\4\Th_16_05\Th_16_05\obj\Debug\net6.0\Th_16_05.genruntimeconfig.cache
+C:\Users\utente\Desktop\LORENZO\ITIS Marconi\4\Th_16_05\Th_16_05\obj\Debug\net6.0\ref\Th_16_05.dll
+D:\C#\Manisco_Federico_2324\TPS\2024-05-16\Th_16_05\Th_16_05\bin\Debug\net6.0\Th_16_05.exe
+D:\C#\Manisco_Federico_2324\TPS\2024-05-16\Th_16_05\Th_16_05\bin\Debug\net6.0\Th_16_05.deps.json
+D:\C#\Manisco_Federico_2324\TPS\2024-05-16\Th_16_05\Th_16_05\bin\Debug\net6.0\Th_16_05.runtimeconfig.json
+D:\C#\Manisco_Federico_2324\TPS\2024-05-16\Th_16_05\Th_16_05\bin\Debug\net6.0\Th_16_05.dll
+D:\C#\Manisco_Federico_2324\TPS\2024-05-16\Th_16_05\Th_16_05\bin\Debug\net6.0\Th_16_05.pdb
+D:\C#\Manisco_Federico_2324\TPS\2024-05-16\Th_16_05\Th_16_05\obj\Debug\net6.0\Th_16_05.csproj.AssemblyReference.cache
+D:\C#\Manisco_Federico_2324\TPS\2024-05-16\Th_16_05\Th_16_05\obj\Debug\net6.0\Th_16_05.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\Manisco_Federico_2324\TPS\2024-05-16\Th_16_05\Th_16_05\obj\Debug\net6.0\Th_16_05.AssemblyInfoInputs.cache
+D:\C#\Manisco_Federico_2324\TPS\2024-05-16\Th_16_05\Th_16_05\obj\Debug\net6.0\Th_16_05.AssemblyInfo.cs
+D:\C#\Manisco_Federico_2324\TPS\2024-05-16\Th_16_05\Th_16_05\obj\Debug\net6.0\Th_16_05.csproj.CoreCompileInputs.cache
+D:\C#\Manisco_Federico_2324\TPS\2024-05-16\Th_16_05\Th_16_05\obj\Debug\net6.0\Th_16_05.dll
+D:\C#\Manisco_Federico_2324\TPS\2024-05-16\Th_16_05\Th_16_05\obj\Debug\net6.0\refint\Th_16_05.dll
+D:\C#\Manisco_Federico_2324\TPS\2024-05-16\Th_16_05\Th_16_05\obj\Debug\net6.0\Th_16_05.pdb
+D:\C#\Manisco_Federico_2324\TPS\2024-05-16\Th_16_05\Th_16_05\obj\Debug\net6.0\Th_16_05.genruntimeconfig.cache
+D:\C#\Manisco_Federico_2324\TPS\2024-05-16\Th_16_05\Th_16_05\obj\Debug\net6.0\ref\Th_16_05.dll

@@ -1,0 +1,15 @@
+D:\C#\Manisco_Federico_2324\TPS\2024-05-16\2024_05_16_Ripasso\2024_05_16_Ripasso\bin\Debug\net6.0\2024_05_16_Ripasso.exe
+D:\C#\Manisco_Federico_2324\TPS\2024-05-16\2024_05_16_Ripasso\2024_05_16_Ripasso\bin\Debug\net6.0\2024_05_16_Ripasso.deps.json
+D:\C#\Manisco_Federico_2324\TPS\2024-05-16\2024_05_16_Ripasso\2024_05_16_Ripasso\bin\Debug\net6.0\2024_05_16_Ripasso.runtimeconfig.json
+D:\C#\Manisco_Federico_2324\TPS\2024-05-16\2024_05_16_Ripasso\2024_05_16_Ripasso\bin\Debug\net6.0\2024_05_16_Ripasso.dll
+D:\C#\Manisco_Federico_2324\TPS\2024-05-16\2024_05_16_Ripasso\2024_05_16_Ripasso\bin\Debug\net6.0\2024_05_16_Ripasso.pdb
+D:\C#\Manisco_Federico_2324\TPS\2024-05-16\2024_05_16_Ripasso\2024_05_16_Ripasso\obj\Debug\net6.0\2024_05_16_Ripasso.csproj.AssemblyReference.cache
+D:\C#\Manisco_Federico_2324\TPS\2024-05-16\2024_05_16_Ripasso\2024_05_16_Ripasso\obj\Debug\net6.0\2024_05_16_Ripasso.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\Manisco_Federico_2324\TPS\2024-05-16\2024_05_16_Ripasso\2024_05_16_Ripasso\obj\Debug\net6.0\2024_05_16_Ripasso.AssemblyInfoInputs.cache
+D:\C#\Manisco_Federico_2324\TPS\2024-05-16\2024_05_16_Ripasso\2024_05_16_Ripasso\obj\Debug\net6.0\2024_05_16_Ripasso.AssemblyInfo.cs
+D:\C#\Manisco_Federico_2324\TPS\2024-05-16\2024_05_16_Ripasso\2024_05_16_Ripasso\obj\Debug\net6.0\2024_05_16_Ripasso.csproj.CoreCompileInputs.cache
+D:\C#\Manisco_Federico_2324\TPS\2024-05-16\2024_05_16_Ripasso\2024_05_16_Ripasso\obj\Debug\net6.0\2024_05_16_Ripasso.dll
+D:\C#\Manisco_Federico_2324\TPS\2024-05-16\2024_05_16_Ripasso\2024_05_16_Ripasso\obj\Debug\net6.0\refint\2024_05_16_Ripasso.dll
+D:\C#\Manisco_Federico_2324\TPS\2024-05-16\2024_05_16_Ripasso\2024_05_16_Ripasso\obj\Debug\net6.0\2024_05_16_Ripasso.pdb
+D:\C#\Manisco_Federico_2324\TPS\2024-05-16\2024_05_16_Ripasso\2024_05_16_Ripasso\obj\Debug\net6.0\2024_05_16_Ripasso.genruntimeconfig.cache
+D:\C#\Manisco_Federico_2324\TPS\2024-05-16\2024_05_16_Ripasso\2024_05_16_Ripasso\obj\Debug\net6.0\ref\2024_05_16_Ripasso.dll
