@@ -1,0 +1,17 @@
+D:\C#\Manisco_Federico_2324\INFO\2024-05-22\2024_05_22_3_AbstractFactory\2024_05_22_3_AbstractFactory\obj\Debug\net6.0-windows\2024_05_22_3_AbstractFactory.csproj.AssemblyReference.cache
+D:\C#\Manisco_Federico_2324\INFO\2024-05-22\2024_05_22_3_AbstractFactory\2024_05_22_3_AbstractFactory\obj\Debug\net6.0-windows\_2024_05_22_3_AbstractFactory.Form1.resources
+D:\C#\Manisco_Federico_2324\INFO\2024-05-22\2024_05_22_3_AbstractFactory\2024_05_22_3_AbstractFactory\obj\Debug\net6.0-windows\2024_05_22_3_AbstractFactory.csproj.GenerateResource.cache
+D:\C#\Manisco_Federico_2324\INFO\2024-05-22\2024_05_22_3_AbstractFactory\2024_05_22_3_AbstractFactory\obj\Debug\net6.0-windows\2024_05_22_3_AbstractFactory.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\Manisco_Federico_2324\INFO\2024-05-22\2024_05_22_3_AbstractFactory\2024_05_22_3_AbstractFactory\obj\Debug\net6.0-windows\2024_05_22_3_AbstractFactory.AssemblyInfoInputs.cache
+D:\C#\Manisco_Federico_2324\INFO\2024-05-22\2024_05_22_3_AbstractFactory\2024_05_22_3_AbstractFactory\obj\Debug\net6.0-windows\2024_05_22_3_AbstractFactory.AssemblyInfo.cs
+D:\C#\Manisco_Federico_2324\INFO\2024-05-22\2024_05_22_3_AbstractFactory\2024_05_22_3_AbstractFactory\obj\Debug\net6.0-windows\2024_05_22_3_AbstractFactory.csproj.CoreCompileInputs.cache
+D:\C#\Manisco_Federico_2324\INFO\2024-05-22\2024_05_22_3_AbstractFactory\2024_05_22_3_AbstractFactory\bin\Debug\net6.0-windows\2024_05_22_3_AbstractFactory.exe
+D:\C#\Manisco_Federico_2324\INFO\2024-05-22\2024_05_22_3_AbstractFactory\2024_05_22_3_AbstractFactory\bin\Debug\net6.0-windows\2024_05_22_3_AbstractFactory.deps.json
+D:\C#\Manisco_Federico_2324\INFO\2024-05-22\2024_05_22_3_AbstractFactory\2024_05_22_3_AbstractFactory\bin\Debug\net6.0-windows\2024_05_22_3_AbstractFactory.runtimeconfig.json
+D:\C#\Manisco_Federico_2324\INFO\2024-05-22\2024_05_22_3_AbstractFactory\2024_05_22_3_AbstractFactory\bin\Debug\net6.0-windows\2024_05_22_3_AbstractFactory.dll
+D:\C#\Manisco_Federico_2324\INFO\2024-05-22\2024_05_22_3_AbstractFactory\2024_05_22_3_AbstractFactory\bin\Debug\net6.0-windows\2024_05_22_3_AbstractFactory.pdb
+D:\C#\Manisco_Federico_2324\INFO\2024-05-22\2024_05_22_3_AbstractFactory\2024_05_22_3_AbstractFactory\obj\Debug\net6.0-windows\2024_05_22_3_AbstractFactory.dll
+D:\C#\Manisco_Federico_2324\INFO\2024-05-22\2024_05_22_3_AbstractFactory\2024_05_22_3_AbstractFactory\obj\Debug\net6.0-windows\refint\2024_05_22_3_AbstractFactory.dll
+D:\C#\Manisco_Federico_2324\INFO\2024-05-22\2024_05_22_3_AbstractFactory\2024_05_22_3_AbstractFactory\obj\Debug\net6.0-windows\2024_05_22_3_AbstractFactory.pdb
+D:\C#\Manisco_Federico_2324\INFO\2024-05-22\2024_05_22_3_AbstractFactory\2024_05_22_3_AbstractFactory\obj\Debug\net6.0-windows\2024_05_22_3_AbstractFactory.genruntimeconfig.cache
+D:\C#\Manisco_Federico_2324\INFO\2024-05-22\2024_05_22_3_AbstractFactory\2024_05_22_3_AbstractFactory\obj\Debug\net6.0-windows\ref\2024_05_22_3_AbstractFactory.dll

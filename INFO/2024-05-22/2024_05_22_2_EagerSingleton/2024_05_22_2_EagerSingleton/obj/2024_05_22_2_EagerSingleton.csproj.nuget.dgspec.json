@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\FEDERICOMANISCO\\Desktop\\Manisco_Federico_2324\\INFO\\2024-05-22\\2024_05_22_2_EagerSingleton\\2024_05_22_2_EagerSingleton\\2024_05_22_2_EagerSingleton.csproj": {}
+    "D:\\C#\\Manisco_Federico_2324\\INFO\\2024-05-22\\2024_05_22_2_EagerSingleton\\2024_05_22_2_EagerSingleton\\2024_05_22_2_EagerSingleton.csproj": {}
   },
   "projects": {
-    "C:\\Users\\FEDERICOMANISCO\\Desktop\\Manisco_Federico_2324\\INFO\\2024-05-22\\2024_05_22_2_EagerSingleton\\2024_05_22_2_EagerSingleton\\2024_05_22_2_EagerSingleton.csproj": {
+    "D:\\C#\\Manisco_Federico_2324\\INFO\\2024-05-22\\2024_05_22_2_EagerSingleton\\2024_05_22_2_EagerSingleton\\2024_05_22_2_EagerSingleton.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FEDERICOMANISCO\\Desktop\\Manisco_Federico_2324\\INFO\\2024-05-22\\2024_05_22_2_EagerSingleton\\2024_05_22_2_EagerSingleton\\2024_05_22_2_EagerSingleton.csproj",
+        "projectUniqueName": "D:\\C#\\Manisco_Federico_2324\\INFO\\2024-05-22\\2024_05_22_2_EagerSingleton\\2024_05_22_2_EagerSingleton\\2024_05_22_2_EagerSingleton.csproj",
         "projectName": "2024_05_22_2_EagerSingleton",
-        "projectPath": "C:\\Users\\FEDERICOMANISCO\\Desktop\\Manisco_Federico_2324\\INFO\\2024-05-22\\2024_05_22_2_EagerSingleton\\2024_05_22_2_EagerSingleton\\2024_05_22_2_EagerSingleton.csproj",
-        "packagesPath": "C:\\Users\\FEDERICOMANISCO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FEDERICOMANISCO\\Desktop\\Manisco_Federico_2324\\INFO\\2024-05-22\\2024_05_22_2_EagerSingleton\\2024_05_22_2_EagerSingleton\\obj\\",
+        "projectPath": "D:\\C#\\Manisco_Federico_2324\\INFO\\2024-05-22\\2024_05_22_2_EagerSingleton\\2024_05_22_2_EagerSingleton\\2024_05_22_2_EagerSingleton.csproj",
+        "packagesPath": "C:\\Users\\marin\\.nuget\\packages\\",
+        "outputPath": "D:\\C#\\Manisco_Federico_2324\\INFO\\2024-05-22\\2024_05_22_2_EagerSingleton\\2024_05_22_2_EagerSingleton\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\FEDERICOMANISCO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\marin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,11 +39,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -63,7 +63,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

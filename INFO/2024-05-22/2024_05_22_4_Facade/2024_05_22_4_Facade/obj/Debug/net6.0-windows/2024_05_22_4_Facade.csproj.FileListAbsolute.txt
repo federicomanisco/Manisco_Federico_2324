@@ -1,0 +1,17 @@
+D:\C#\Manisco_Federico_2324\INFO\2024-05-22\2024_05_22_4_Facade\2024_05_22_4_Facade\bin\Debug\net6.0-windows\2024_05_22_4_Facade.exe
+D:\C#\Manisco_Federico_2324\INFO\2024-05-22\2024_05_22_4_Facade\2024_05_22_4_Facade\bin\Debug\net6.0-windows\2024_05_22_4_Facade.deps.json
+D:\C#\Manisco_Federico_2324\INFO\2024-05-22\2024_05_22_4_Facade\2024_05_22_4_Facade\bin\Debug\net6.0-windows\2024_05_22_4_Facade.runtimeconfig.json
+D:\C#\Manisco_Federico_2324\INFO\2024-05-22\2024_05_22_4_Facade\2024_05_22_4_Facade\bin\Debug\net6.0-windows\2024_05_22_4_Facade.dll
+D:\C#\Manisco_Federico_2324\INFO\2024-05-22\2024_05_22_4_Facade\2024_05_22_4_Facade\bin\Debug\net6.0-windows\2024_05_22_4_Facade.pdb
+D:\C#\Manisco_Federico_2324\INFO\2024-05-22\2024_05_22_4_Facade\2024_05_22_4_Facade\obj\Debug\net6.0-windows\2024_05_22_4_Facade.csproj.AssemblyReference.cache
+D:\C#\Manisco_Federico_2324\INFO\2024-05-22\2024_05_22_4_Facade\2024_05_22_4_Facade\obj\Debug\net6.0-windows\_2024_05_22_4_Facade.Form1.resources
+D:\C#\Manisco_Federico_2324\INFO\2024-05-22\2024_05_22_4_Facade\2024_05_22_4_Facade\obj\Debug\net6.0-windows\2024_05_22_4_Facade.csproj.GenerateResource.cache
+D:\C#\Manisco_Federico_2324\INFO\2024-05-22\2024_05_22_4_Facade\2024_05_22_4_Facade\obj\Debug\net6.0-windows\2024_05_22_4_Facade.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\Manisco_Federico_2324\INFO\2024-05-22\2024_05_22_4_Facade\2024_05_22_4_Facade\obj\Debug\net6.0-windows\2024_05_22_4_Facade.AssemblyInfoInputs.cache
+D:\C#\Manisco_Federico_2324\INFO\2024-05-22\2024_05_22_4_Facade\2024_05_22_4_Facade\obj\Debug\net6.0-windows\2024_05_22_4_Facade.AssemblyInfo.cs
+D:\C#\Manisco_Federico_2324\INFO\2024-05-22\2024_05_22_4_Facade\2024_05_22_4_Facade\obj\Debug\net6.0-windows\2024_05_22_4_Facade.csproj.CoreCompileInputs.cache
+D:\C#\Manisco_Federico_2324\INFO\2024-05-22\2024_05_22_4_Facade\2024_05_22_4_Facade\obj\Debug\net6.0-windows\2024_05_22_4_Facade.dll
+D:\C#\Manisco_Federico_2324\INFO\2024-05-22\2024_05_22_4_Facade\2024_05_22_4_Facade\obj\Debug\net6.0-windows\refint\2024_05_22_4_Facade.dll
+D:\C#\Manisco_Federico_2324\INFO\2024-05-22\2024_05_22_4_Facade\2024_05_22_4_Facade\obj\Debug\net6.0-windows\2024_05_22_4_Facade.pdb
+D:\C#\Manisco_Federico_2324\INFO\2024-05-22\2024_05_22_4_Facade\2024_05_22_4_Facade\obj\Debug\net6.0-windows\2024_05_22_4_Facade.genruntimeconfig.cache
+D:\C#\Manisco_Federico_2324\INFO\2024-05-22\2024_05_22_4_Facade\2024_05_22_4_Facade\obj\Debug\net6.0-windows\ref\2024_05_22_4_Facade.dll
