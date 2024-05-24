@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="_2024_05_22_3_AbstractFactory.Car" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAACAQAAAgEgAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Car.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="_2024_05_22_3_AbstractFactory.CombustionCar" Collapsed="true">
+    <Position X="10.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAIAAAAAAAAAAA=</HashCode>
+      <FileName>CombustionCar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_2024_05_22_3_AbstractFactory.CombustionMotorcycle" Collapsed="true">
+    <Position X="5.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAgAA=</HashCode>
+      <FileName>CombustionMotorcycle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_2024_05_22_3_AbstractFactory.CombustionVechicleFactory" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>CombustionVechicleFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_2024_05_22_3_AbstractFactory.ElectricCar" Collapsed="true">
+    <Position X="8" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAIAAAAAAAAAAA=</HashCode>
+      <FileName>ElectricCar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_2024_05_22_3_AbstractFactory.ElectricMotorcycle" Collapsed="true">
+    <Position X="3" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAgAA=</HashCode>
+      <FileName>ElectricMotorcycle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_2024_05_22_3_AbstractFactory.ElectricVehicleFactory" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>ElectricVehicleFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_2024_05_22_3_AbstractFactory.Form1" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQACAEIASIABhEAIBCAAAACQAAAIAAAEAQAAAkAAAA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_2024_05_22_3_AbstractFactory.Motorcycle" Collapsed="true">
+    <Position X="4.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAIQAAACEgAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Motorcycle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="_2024_05_22_3_AbstractFactory.Program" Collapsed="true">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_2024_05_22_3_AbstractFactory.VehicleFactory" Collapsed="true">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>VehicleFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="_2024_05_22_3_AbstractFactory.ICar" Collapsed="true">
+    <Position X="12.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAIAAAAAAAAAAA=</HashCode>
+      <FileName>ICar.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="_2024_05_22_3_AbstractFactory.IMotorcycle" Collapsed="true">
+    <Position X="14.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAgAA=</HashCode>
+      <FileName>IMotorcycle.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="_2024_05_22_3_AbstractFactory.IVehicleFactory" Collapsed="true">
+    <Position X="12.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>IVehicleFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

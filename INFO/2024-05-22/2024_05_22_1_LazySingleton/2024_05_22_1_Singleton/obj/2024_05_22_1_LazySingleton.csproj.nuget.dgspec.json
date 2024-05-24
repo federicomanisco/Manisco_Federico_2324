@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\FEDERICOMANISCO\\Desktop\\Manisco_Federico_2324\\INFO\\2024-05-22\\2024_05_22_1_LazySingleton\\2024_05_22_1_Singleton\\2024_05_22_1_LazySingleton.csproj": {}
+    "C:\\C#\\Manisco_Federico_2324\\INFO\\2024-05-22\\2024_05_22_1_LazySingleton\\2024_05_22_1_Singleton\\2024_05_22_1_LazySingleton.csproj": {}
   },
   "projects": {
-    "C:\\Users\\FEDERICOMANISCO\\Desktop\\Manisco_Federico_2324\\INFO\\2024-05-22\\2024_05_22_1_LazySingleton\\2024_05_22_1_Singleton\\2024_05_22_1_LazySingleton.csproj": {
+    "C:\\C#\\Manisco_Federico_2324\\INFO\\2024-05-22\\2024_05_22_1_LazySingleton\\2024_05_22_1_Singleton\\2024_05_22_1_LazySingleton.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FEDERICOMANISCO\\Desktop\\Manisco_Federico_2324\\INFO\\2024-05-22\\2024_05_22_1_LazySingleton\\2024_05_22_1_Singleton\\2024_05_22_1_LazySingleton.csproj",
+        "projectUniqueName": "C:\\C#\\Manisco_Federico_2324\\INFO\\2024-05-22\\2024_05_22_1_LazySingleton\\2024_05_22_1_Singleton\\2024_05_22_1_LazySingleton.csproj",
         "projectName": "2024_05_22_1_LazySingleton",
-        "projectPath": "C:\\Users\\FEDERICOMANISCO\\Desktop\\Manisco_Federico_2324\\INFO\\2024-05-22\\2024_05_22_1_LazySingleton\\2024_05_22_1_Singleton\\2024_05_22_1_LazySingleton.csproj",
-        "packagesPath": "C:\\Users\\FEDERICOMANISCO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FEDERICOMANISCO\\Desktop\\Manisco_Federico_2324\\INFO\\2024-05-22\\2024_05_22_1_LazySingleton\\2024_05_22_1_Singleton\\obj\\",
+        "projectPath": "C:\\C#\\Manisco_Federico_2324\\INFO\\2024-05-22\\2024_05_22_1_LazySingleton\\2024_05_22_1_Singleton\\2024_05_22_1_LazySingleton.csproj",
+        "packagesPath": "C:\\Users\\feder\\.nuget\\packages\\",
+        "outputPath": "C:\\C#\\Manisco_Federico_2324\\INFO\\2024-05-22\\2024_05_22_1_LazySingleton\\2024_05_22_1_Singleton\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\FEDERICOMANISCO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\feder\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,11 +34,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -63,7 +58,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
